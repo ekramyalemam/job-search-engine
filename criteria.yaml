@@ -37,9 +37,11 @@ employment_types:
 
 remote_only: false
 
+# MAIN FILTER: a job is kept if these words appear in its
+# title, description or industry.
 industries:
   - telecom
-  - networking
+  - network
   - cloud
 
 seniority_keywords:
@@ -54,14 +56,31 @@ job_functions:
   - incident
   - project
 
-# Set to true to keep ONLY jobs from the companies below.
-# Set to false to see jobs from every company.
-only_these_companies: false
-
-companies:
+# BONUS list: jobs from these companies will be marked
+# as priority and shown first. Nothing is removed.
+priority_companies:
   - Verizon
   - Comcast
   - AT&T
   - T-Mobile
   - Salesforce
-  - Char
+  - Charter Communications
+  - America Movil
+  - Cisco
+  - HPE
+  - Bell
+  - Rogers
+  - TELUS
+  - Lumen
+  - Cox Communications
+  - Motorola Solutions
+  - Palo Alto Networks
+  - Arista Networks
+  - Fortinet
+  - Altice USA
+  - Ciena
+  - CommScope
+
+days_back: 7
+results_per_search: 20
+min_match_percent: 75
