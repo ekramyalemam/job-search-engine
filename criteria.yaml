@@ -1,9 +1,17 @@
 # JOB SEARCH SETTINGS - edit anytime
 
+# Boards we trust (tested by others, work best)
 sites:
   - linkedin
   - indeed
   - google
+
+# Boards that may fail or be blocked. The script tries them
+# and skips any that don't work.
+optional_sites:
+  - bayt
+  - glassdoor
+  - zip_recruiter
 
 search_terms:
   - "operations manager telecom"
@@ -46,6 +54,14 @@ job_functions:
   - incident
   - project
 
-days_back: 7
-results_per_search: 20
-min_match_percent: 75
+# Set to true to keep ONLY jobs from the companies below.
+# Set to false to see jobs from every company.
+only_these_companies: false
+
+companies:
+  - Verizon
+  - Comcast
+  - AT&T
+  - T-Mobile
+  - Salesforce
+  - Char
