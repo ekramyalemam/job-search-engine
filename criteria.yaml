@@ -1,0 +1,51 @@
+# JOB SEARCH SETTINGS - edit anytime
+
+sites:
+  - linkedin
+  - indeed
+  - google
+
+search_terms:
+  - "operations manager telecom"
+  - "NOC manager"
+  - "delivery manager telecom"
+  - "incident manager"
+  - "project manager network"
+
+locations:
+  - name: "Dubai, UAE"
+    country: "United Arab Emirates"
+  - name: "Doha, Qatar"
+    country: "Qatar"
+  - name: "Riyadh, Saudi Arabia"
+    country: "Saudi Arabia"
+  - name: "Toronto, Canada"
+    country: "Canada"
+  - name: "United States"
+    country: "USA"
+
+employment_types:
+  - fulltime
+
+remote_only: false
+
+industries:
+  - telecom
+  - networking
+  - cloud
+
+seniority_keywords:
+  - senior
+  - manager
+  - head
+  - lead
+
+job_functions:
+  - operations
+  - delivery
+  - incident
+  - project
+
+days_back: 7
+results_per_search: 20
+min_match_percent: 75
