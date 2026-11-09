@@ -1,4 +1,5 @@
-"""Phase 1 (v3): search job boards and rank jobs by relevance (criteria.yaml)."""
+"""Phase 1 (v4): search job boards, rank by relevance, keep a 'maybe' list,
+and write a small summary file that is cheap to share."""
 import os
 import random
 import re
@@ -44,8 +45,11 @@ def word_start(text, keywords):
     return ""
 
 
-def is_priority(company, names):
+def is_priority(company, names, not_names):
     company = clean(company)
+    for bad in not_names:
+        if clean(bad) in company:
+            return False
     for n in names:
         if re.search(rf"\b{re.escape(clean(n))}\b", company):
             return True
@@ -59,6 +63,58 @@ def join_unique(values, sep):
         if v and v not in seen:
             seen.append(v)
     return sep.join(seen)
+
+
+def region(location):
+    s = clean(location)
+    for key, name in [
+        ("united arab", "UAE"), ("uae", "UAE"), ("dubai", "UAE"), ("abu dhabi", "UAE"),
+        ("qatar", "Qatar"), ("doha", "Qatar"),
+        ("saudi", "KSA"), ("riyadh", "KSA"), ("jeddah", "KSA"),
+        ("canada", "Canada"), ("ontario", "Canada"),
+    ]:
+        if key in s:
+            return name
+    return "US/Other"
+
+
+def tidy(d):
+    """Sort, then merge repeats (same title + company) into one row."""
+    d = d.drop(columns=["_tier"]).sort_values(["Score", "_date"], ascending=[False, False])
+    if d.empty:
+        d = d.drop(columns=["_key", "_date"])
+        d["Other links"] = ""
+        return d.reset_index(drop=True), 0
+    grp = d.groupby("_key", sort=False)
+    merged = grp.agg(
+        {
+            "Score": "max",
+            "Priority": "first",
+            "Title": "first",
+            "Company": "first",
+            "Location": lambda s: join_unique(s, " | "),
+            "Employment type": "first",
+            "Industry": "first",
+            "Industry check": "first",
+            "Job function": "first",
+            "Seniority level": "first",
+            "Site": lambda s: join_unique(s, ", "),
+            "Date posted": "first",
+            "Job link": "first",
+            "Reason": "first",
+            "_date": "first",
+        }
+    )
+    merged["Other links"] = grp["Job link"].apply(lambda s: " ".join(list(s)[1:]))
+    merged = merged.reset_index(drop=True)
+    merged = merged.sort_values(["Score", "_date"], ascending=[False, False])
+    merged = merged.drop(columns=["_date"]).reset_index(drop=True)
+    return merged, len(d) - len(merged)
+
+
+def short(text, n):
+    text = str(text).replace("\n", " ").strip()
+    return text if len(text) <= n else text[: n - 1] + "…"
 
 
 def main():
@@ -114,12 +170,15 @@ def main():
                 time.sleep(random.uniform(3, 7))
 
     os.makedirs("results", exist_ok=True)
+    today = date.today().isoformat()
 
-    log.append("")
-    log.append("=== SITE SUMMARY ===")
+    site_lines = []
     for s in sites:
         state = "skipped" if s in skipped else "used"
-        log.append(f"{s}: {found[s]} jobs from {wins[s]}/{tries[s]} searches ({state})")
+        site_lines.append(f"{s}: {found[s]} jobs from {wins[s]}/{tries[s]} searches ({state})")
+    log.append("")
+    log.append("=== SITE SUMMARY ===")
+    log.extend(site_lines)
 
     if not frames:
         log.append("No jobs found from any site.")
@@ -130,9 +189,7 @@ def main():
 
     jobs = pd.concat(frames, ignore_index=True)
     jobs = jobs.drop_duplicates(subset="job_url").reset_index(drop=True)
-    log.append("")
-    log.append("=== FILTERS ===")
-    log.append(f"Total after removing duplicates: {len(jobs)}")
+    total = len(jobs)
 
     title = col(jobs, "title")
     desc = col(jobs, "description")
@@ -140,53 +197,57 @@ def main():
     industry_col = col(jobs, "company_industry")
     level_col = col(jobs, "job_level")
     type_col = col(jobs, "job_type")
+    idx = jobs.index
 
-    # 1. Seniority: the title must contain a seniority word
-    sen_words = c.get("seniority_keywords", [])
-    sen_found = title.apply(lambda t: whole_word(t, sen_words))
-    keep = sen_found != ""
+    # --- Hard rules: seniority, employment type, exclude words ---
+    sen_found = title.apply(lambda t: whole_word(t, c.get("seniority_keywords", [])))
     seniority = sen_found.where(level_col == "", level_col)
-    log.append(f"Dropped for seniority: {int((~keep).sum())}")
 
-    # 2. Employment type: keep a match, or when the site gave no type
     types = [clean(t) for t in c.get("employment_types", [])]
     if types:
         type_keep = type_col.apply(
             lambda v: clean(v) == "" or any(t in clean(v) for t in types)
         )
-        log.append(f"Dropped for employment type: {int((keep & ~type_keep).sum())}")
-        keep = keep & type_keep
+    else:
+        type_keep = pd.Series(True, index=idx)
 
-    # 3. Exclude words in the title
-    ex_words = c.get("exclude_title_words", [])
-    excluded = title.apply(lambda t: whole_word(t, ex_words) != "")
-    log.append(f"Dropped for exclude words: {int((keep & excluded).sum())}")
-    keep = keep & ~excluded
+    ex_hit = title.apply(lambda t: whole_word(t, c.get("exclude_title_words", [])))
 
-    # 4. Relevance score
+    # --- Relevance score ---
     pri_names = c.get("priority_companies", [])
-    is_pri = company.apply(lambda v: is_priority(v, pri_names))
+    not_pri = c.get("not_priority_companies", [])
+    is_pri = company.apply(lambda v: is_priority(v, pri_names, not_pri))
 
-    ind_words = c.get("industries", [])
     blob = title + " " + company + " " + desc + " " + industry_col
-    ind_found = blob.apply(lambda t: word_start(t, ind_words))
+    ind_found = blob.apply(lambda t: word_start(t, c.get("industries", [])))
     ind_ok = (ind_found != "") | is_pri
     has_info = (desc != "") | (industry_col != "")
 
-    title_hit = title.apply(lambda t: whole_word(t, c.get("title_keywords", [])) != "")
+    title_kws = list(c.get("title_keywords", [])) + list(c.get("more_title_keywords", []))
+    title_hit = title.apply(lambda t: whole_word(t, title_kws) != "")
     func_title = title.apply(lambda t: whole_word(t, c.get("job_functions", [])))
 
     score = (
         title_hit.astype(int) * 3
         + ind_ok.astype(int) * 2
-        + (func_title != "").astype(int) * 1
+        + (func_title != "").astype(int)
     )
     min_score = c.get("min_relevance_score", 3)
-    low = score < min_score
-    log.append(f"Dropped for low relevance score (< {min_score}): {int((keep & low).sum())}")
-    keep = keep & ~low
 
-    industry_status = pd.Series("Unverified", index=jobs.index)
+    # --- Decide the tier and the reason for every job ---
+    reason = pd.Series("", index=idx)
+    reason = reason.mask((reason == "") & (sen_found == ""), "no seniority word in title")
+    reason = reason.mask((reason == "") & ~type_keep, "employment type: " + type_col)
+    reason = reason.mask((reason == "") & (ex_hit != ""), "exclude word: " + ex_hit)
+    passed = reason == ""
+    tier = pd.Series("rejected", index=idx)
+    tier[passed & (score >= min_score)] = "main"
+    tier[passed & (score < min_score) & (score >= 1)] = "maybe"
+    reason[tier == "maybe"] = "score " + score.astype(str) + " below " + str(min_score)
+    reason[tier == "main"] = ""
+    reason[passed & (tier == "rejected")] = "score 0: no role or industry evidence"
+
+    industry_status = pd.Series("Unverified", index=idx)
     industry_status[ind_found != ""] = "Verified"
     industry_status[(ind_found == "") & is_pri] = "Priority company"
     industry_status[(ind_found == "") & ~is_pri & has_info] = "No match in text"
@@ -198,11 +259,9 @@ def main():
     )
     func = func.where(func != "", "Other")
 
-    rank_score = score + is_pri.astype(int)
-
-    out = pd.DataFrame(
+    full = pd.DataFrame(
         {
-            "Score": rank_score,
+            "Score": score + is_pri.astype(int),
             "Priority": is_pri.map({True: "Yes", False: ""}),
             "Title": title,
             "Company": company,
@@ -215,53 +274,98 @@ def main():
             "Site": col(jobs, "site"),
             "Date posted": col(jobs, "date_posted"),
             "Job link": col(jobs, "job_url"),
-        }
-    )[keep]
-
-    # Sort by score, then newest
-    out["_date"] = pd.to_datetime(out["Date posted"], errors="coerce")
-    out = out.sort_values(["Score", "_date"], ascending=[False, False])
-    out["_key"] = out["Title"].apply(clean) + "|" + out["Company"].apply(clean)
-
-    # 5. Merge repeats (same title + company) into one row
-    before = len(out)
-    merged = out.groupby("_key", sort=False).agg(
-        {
-            "Score": "max",
-            "Priority": "first",
-            "Title": "first",
-            "Company": "first",
-            "Location": lambda s: join_unique(s, " | "),
-            "Employment type": "first",
-            "Industry": "first",
-            "Industry check": "first",
-            "Job function": "first",
-            "Seniority level": "first",
-            "Site": lambda s: join_unique(s, ", "),
-            "Date posted": "first",
-            "Job link": "first",
-            "_date": "first",
+            "Reason": reason,
+            "_tier": tier,
         }
     )
-    others = out.groupby("_key", sort=False)["Job link"].apply(
-        lambda s: " ".join(list(s)[1:])
-    )
-    merged["Other links"] = others
-    out = merged.reset_index(drop=True)
-    out = out.sort_values(["Score", "_date"], ascending=[False, False])
-    out = out.drop(columns=["_date"]).reset_index(drop=True)
-    log.append(f"Merged repeated jobs: {before - len(out)}")
+    full["_date"] = pd.to_datetime(full["Date posted"], errors="coerce")
+    full["_key"] = full["Title"].apply(clean) + "|" + full["Company"].apply(clean)
 
-    log.append(f"Final jobs kept: {len(out)}")
-    log.append(f"  Priority companies: {int((out['Priority'] == 'Yes').sum())}")
-    log.append(f"  Industry verified: {int((out['Industry check'] == 'Verified').sum())}")
-    log.append(f"  Score 5 or more: {int((out['Score'] >= 5).sum())}")
+    main_df, merged_main = tidy(full[full["_tier"] == "main"])
+    maybe_df, merged_maybe = tidy(full[full["_tier"] == "maybe"])
+    main_df = main_df.drop(columns=["Reason"])
+    cols = [x for x in maybe_df.columns if x not in ("Other links", "Reason")]
+    maybe_df = maybe_df[cols + ["Other links", "Reason"]]
 
-    today = date.today().isoformat()
-    out.to_csv(f"results/jobs_{today}.csv", index=False, encoding="utf-8-sig")
-    out.to_csv("results/latest.csv", index=False, encoding="utf-8-sig")
+    rej = full[full["_tier"] == "rejected"].drop_duplicates("Job link")
+    rej_df = rej[["Reason", "Title", "Company", "Location", "Site", "Job link"]]
+    rej_df = rej_df.sort_values(["Reason", "Company"]).reset_index(drop=True)
+
+    # --- Log ---
+    r = reason
+    n_sen = int(r.str.startswith("no seniority").sum())
+    n_emp = int(r.str.startswith("employment").sum())
+    n_exc = int(r.str.startswith("exclude").sum())
+    n_zero = int(r.str.startswith("score 0").sum())
+    filt = [
+        f"Total after removing duplicates: {total}",
+        f"Dropped for seniority: {n_sen}",
+        f"Dropped for employment type: {n_emp}",
+        f"Dropped for exclude words: {n_exc}",
+        f"Dropped, score 0 (no evidence): {n_zero}",
+        f"Moved to MAYBE list (score 1-{min_score - 1}): {int((tier == 'maybe').sum())}",
+        f"Strong matches before merging repeats: {int((tier == 'main').sum())}",
+        f"Merged repeated jobs: {merged_main}",
+        f"Final strong matches: {len(main_df)}",
+        f"Final maybe list: {len(maybe_df)}",
+        f"  Priority companies: {int((main_df['Priority'] == 'Yes').sum())}",
+        f"  Industry verified: {int((main_df['Industry check'] == 'Verified').sum())}",
+        f"  Score 5 or more: {int((main_df['Score'] >= 5).sum())}",
+    ]
+    log.append("")
+    log.append("=== FILTERS ===")
+    log.extend(filt)
+
+    # --- Write files ---
+    main_df.to_csv(f"results/jobs_{today}.csv", index=False, encoding="utf-8-sig")
+    main_df.to_csv("results/latest.csv", index=False, encoding="utf-8-sig")
+    maybe_df.to_csv("results/maybe_latest.csv", index=False, encoding="utf-8-sig")
+    rej_df.to_csv("results/rejected_latest.csv", index=False, encoding="utf-8-sig")
     with open("results/run_log.txt", "w", encoding="utf-8") as f:
         f.write("\n".join(log))
+
+    # --- Small summary that is cheap to share ---
+    reg = main_df["Location"].apply(region).value_counts().to_dict()
+    sc = main_df["Score"].value_counts().sort_index(ascending=False).to_dict()
+    lines = [f"RUN SUMMARY {today}", "", "SITES"]
+    lines += site_lines
+    lines += ["", "FILTERS"] + filt
+    lines += ["", "REGIONS (strong matches): " + ", ".join(f"{k} {v}" for k, v in reg.items())]
+    lines += ["SCORES: " + ", ".join(f"{k}:{v}" for k, v in sc.items())]
+    lines += ["", "TOP 15 (score | title | company | location)"]
+    for _, row in main_df.head(15).iterrows():
+        lines.append(
+            f"{row['Score']} | {short(row['Title'], 48)} | {short(row['Company'], 26)} | {short(row['Location'], 28)}"
+        )
+    lines += ["", "LOWEST 8 STRONG MATCHES"]
+    for _, row in main_df.tail(8).iterrows():
+        lines.append(
+            f"{row['Score']} | {short(row['Title'], 48)} | {short(row['Company'], 26)} | {row['Industry check']}"
+        )
+    lines += ["", "TOP 10 MAYBE (score | title | company | why)"]
+    for _, row in maybe_df.head(10).iterrows():
+        lines.append(
+            f"{row['Score']} | {short(row['Title'], 48)} | {short(row['Company'], 26)} | {row['Reason']}"
+        )
+    lines += ["", "DROPPED SAMPLES (to check nothing good is lost)"]
+    for label, key in [
+        ("seniority", "no seniority"),
+        ("exclude word", "exclude"),
+        ("score 0", "score 0"),
+    ]:
+        sub = rej_df[rej_df["Reason"].str.startswith(key)]
+        lines.append(f"- {label}: {len(sub)} total; examples:")
+        for _, row in sub.sample(min(6, len(sub)), random_state=1).iterrows():
+            lines.append(f"    {short(row['Title'], 50)} | {short(row['Company'], 24)} | {short(row['Reason'], 24)}")
+    text = "\n".join(lines)
+    with open("results/share_me.txt", "w", encoding="utf-8") as f:
+        f.write(text)
+
+    summary_path = os.environ.get("GITHUB_STEP_SUMMARY")
+    if summary_path:
+        with open(summary_path, "a", encoding="utf-8") as f:
+            f.write("```\n" + text + "\n```\n")
+
     print("\n".join(log))
 
 
