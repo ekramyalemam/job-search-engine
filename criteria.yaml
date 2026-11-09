@@ -84,3 +84,10 @@ priority_companies:
 days_back: 7
 results_per_search: 20
 min_match_percent: 75
+
+# Fetch full job text from LinkedIn so the industry filter can read it.
+# Slower, and LinkedIn may block more. Set to false to go back to fast mode.
+linkedin_fetch_description: true
+
+# Skip a site that finds nothing after this many searches.
+skip_site_after_failures: 4
