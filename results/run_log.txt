@@ -1,140 +1,88 @@
 OK     linkedin | operations manager telecom | Dubai, UAE -> 20 jobs
-EMPTY  indeed | operations manager telecom | Dubai, UAE
+OK     indeed | operations manager telecom | Dubai, UAE -> 3 jobs
 EMPTY  google | operations manager telecom | Dubai, UAE
 EMPTY  bayt | operations manager telecom | Dubai, UAE
 EMPTY  glassdoor | operations manager telecom | Dubai, UAE
-OK     linkedin | NOC manager | Dubai, UAE -> 10 jobs
-OK     indeed | NOC manager | Dubai, UAE -> 5 jobs
+OK     linkedin | NOC manager | Dubai, UAE -> 20 jobs
+OK     indeed | NOC manager | Dubai, UAE -> 6 jobs
 EMPTY  google | NOC manager | Dubai, UAE
 EMPTY  bayt | NOC manager | Dubai, UAE
 EMPTY  glassdoor | NOC manager | Dubai, UAE
 OK     linkedin | delivery manager telecom | Dubai, UAE -> 10 jobs
-OK     indeed | delivery manager telecom | Dubai, UAE -> 1 jobs
+OK     indeed | delivery manager telecom | Dubai, UAE -> 2 jobs
 EMPTY  google | delivery manager telecom | Dubai, UAE
 EMPTY  bayt | delivery manager telecom | Dubai, UAE
 EMPTY  glassdoor | delivery manager telecom | Dubai, UAE
 OK     linkedin | incident manager | Dubai, UAE -> 20 jobs
 OK     indeed | incident manager | Dubai, UAE -> 20 jobs
 EMPTY  google | incident manager | Dubai, UAE
+SKIPPED google: no jobs after 4 tries
 EMPTY  bayt | incident manager | Dubai, UAE
+SKIPPED bayt: no jobs after 4 tries
 EMPTY  glassdoor | incident manager | Dubai, UAE
+SKIPPED glassdoor: no jobs after 4 tries
 OK     linkedin | project manager network | Dubai, UAE -> 20 jobs
 OK     indeed | project manager network | Dubai, UAE -> 20 jobs
-EMPTY  google | project manager network | Dubai, UAE
-EMPTY  bayt | project manager network | Dubai, UAE
-EMPTY  glassdoor | project manager network | Dubai, UAE
 OK     linkedin | operations manager telecom | Doha, Qatar -> 20 jobs
 OK     indeed | operations manager telecom | Doha, Qatar -> 1 jobs
-EMPTY  google | operations manager telecom | Doha, Qatar
-EMPTY  bayt | operations manager telecom | Doha, Qatar
-EMPTY  glassdoor | operations manager telecom | Doha, Qatar
-OK     linkedin | NOC manager | Doha, Qatar -> 9 jobs
-EMPTY  indeed | NOC manager | Doha, Qatar
-EMPTY  google | NOC manager | Doha, Qatar
-EMPTY  bayt | NOC manager | Doha, Qatar
-EMPTY  glassdoor | NOC manager | Doha, Qatar
+EMPTY  linkedin | NOC manager | Doha, Qatar
+OK     indeed | NOC manager | Doha, Qatar -> 6 jobs
 OK     linkedin | delivery manager telecom | Doha, Qatar -> 20 jobs
 EMPTY  indeed | delivery manager telecom | Doha, Qatar
-EMPTY  google | delivery manager telecom | Doha, Qatar
-EMPTY  bayt | delivery manager telecom | Doha, Qatar
-EMPTY  glassdoor | delivery manager telecom | Doha, Qatar
 OK     linkedin | incident manager | Doha, Qatar -> 20 jobs
-OK     indeed | incident manager | Doha, Qatar -> 11 jobs
-EMPTY  google | incident manager | Doha, Qatar
-EMPTY  bayt | incident manager | Doha, Qatar
-EMPTY  glassdoor | incident manager | Doha, Qatar
-EMPTY  linkedin | project manager network | Doha, Qatar
-OK     indeed | project manager network | Doha, Qatar -> 9 jobs
-EMPTY  google | project manager network | Doha, Qatar
-EMPTY  bayt | project manager network | Doha, Qatar
-EMPTY  glassdoor | project manager network | Doha, Qatar
-OK     linkedin | operations manager telecom | Riyadh, Saudi Arabia -> 10 jobs
+OK     indeed | incident manager | Doha, Qatar -> 15 jobs
+OK     linkedin | project manager network | Doha, Qatar -> 20 jobs
+OK     indeed | project manager network | Doha, Qatar -> 8 jobs
+OK     linkedin | operations manager telecom | Riyadh, Saudi Arabia -> 20 jobs
 OK     indeed | operations manager telecom | Riyadh, Saudi Arabia -> 2 jobs
-EMPTY  google | operations manager telecom | Riyadh, Saudi Arabia
-EMPTY  bayt | operations manager telecom | Riyadh, Saudi Arabia
-EMPTY  glassdoor | operations manager telecom | Riyadh, Saudi Arabia
-OK     linkedin | NOC manager | Riyadh, Saudi Arabia -> 13 jobs
+OK     linkedin | NOC manager | Riyadh, Saudi Arabia -> 12 jobs
 OK     indeed | NOC manager | Riyadh, Saudi Arabia -> 1 jobs
-EMPTY  google | NOC manager | Riyadh, Saudi Arabia
-EMPTY  bayt | NOC manager | Riyadh, Saudi Arabia
-EMPTY  glassdoor | NOC manager | Riyadh, Saudi Arabia
 OK     linkedin | delivery manager telecom | Riyadh, Saudi Arabia -> 20 jobs
 OK     indeed | delivery manager telecom | Riyadh, Saudi Arabia -> 2 jobs
-EMPTY  google | delivery manager telecom | Riyadh, Saudi Arabia
-EMPTY  bayt | delivery manager telecom | Riyadh, Saudi Arabia
-EMPTY  glassdoor | delivery manager telecom | Riyadh, Saudi Arabia
-OK     linkedin | incident manager | Riyadh, Saudi Arabia -> 10 jobs
+EMPTY  linkedin | incident manager | Riyadh, Saudi Arabia
 OK     indeed | incident manager | Riyadh, Saudi Arabia -> 13 jobs
-EMPTY  google | incident manager | Riyadh, Saudi Arabia
-EMPTY  bayt | incident manager | Riyadh, Saudi Arabia
-EMPTY  glassdoor | incident manager | Riyadh, Saudi Arabia
 OK     linkedin | project manager network | Riyadh, Saudi Arabia -> 20 jobs
 OK     indeed | project manager network | Riyadh, Saudi Arabia -> 20 jobs
-EMPTY  google | project manager network | Riyadh, Saudi Arabia
-EMPTY  bayt | project manager network | Riyadh, Saudi Arabia
-EMPTY  glassdoor | project manager network | Riyadh, Saudi Arabia
 OK     linkedin | operations manager telecom | Toronto, Canada -> 20 jobs
 EMPTY  indeed | operations manager telecom | Toronto, Canada
-EMPTY  google | operations manager telecom | Toronto, Canada
-EMPTY  bayt | operations manager telecom | Toronto, Canada
-EMPTY  glassdoor | operations manager telecom | Toronto, Canada
 EMPTY  zip_recruiter | operations manager telecom | Toronto, Canada
 OK     linkedin | NOC manager | Toronto, Canada -> 20 jobs
-OK     indeed | NOC manager | Toronto, Canada -> 4 jobs
-EMPTY  google | NOC manager | Toronto, Canada
-EMPTY  bayt | NOC manager | Toronto, Canada
-EMPTY  glassdoor | NOC manager | Toronto, Canada
+OK     indeed | NOC manager | Toronto, Canada -> 5 jobs
 EMPTY  zip_recruiter | NOC manager | Toronto, Canada
-EMPTY  linkedin | delivery manager telecom | Toronto, Canada
+OK     linkedin | delivery manager telecom | Toronto, Canada -> 20 jobs
 OK     indeed | delivery manager telecom | Toronto, Canada -> 1 jobs
-EMPTY  google | delivery manager telecom | Toronto, Canada
-EMPTY  bayt | delivery manager telecom | Toronto, Canada
-EMPTY  glassdoor | delivery manager telecom | Toronto, Canada
 EMPTY  zip_recruiter | delivery manager telecom | Toronto, Canada
 OK     linkedin | incident manager | Toronto, Canada -> 20 jobs
 OK     indeed | incident manager | Toronto, Canada -> 20 jobs
-EMPTY  google | incident manager | Toronto, Canada
-EMPTY  bayt | incident manager | Toronto, Canada
-EMPTY  glassdoor | incident manager | Toronto, Canada
 EMPTY  zip_recruiter | incident manager | Toronto, Canada
+SKIPPED zip_recruiter: no jobs after 4 tries
 OK     linkedin | project manager network | Toronto, Canada -> 20 jobs
 OK     indeed | project manager network | Toronto, Canada -> 20 jobs
-EMPTY  google | project manager network | Toronto, Canada
-EMPTY  bayt | project manager network | Toronto, Canada
-EMPTY  glassdoor | project manager network | Toronto, Canada
-EMPTY  zip_recruiter | project manager network | Toronto, Canada
 OK     linkedin | operations manager telecom | United States -> 20 jobs
-OK     indeed | operations manager telecom | United States -> 15 jobs
-EMPTY  google | operations manager telecom | United States
-EMPTY  bayt | operations manager telecom | United States
-EMPTY  glassdoor | operations manager telecom | United States
-EMPTY  zip_recruiter | operations manager telecom | United States
+OK     indeed | operations manager telecom | United States -> 14 jobs
 OK     linkedin | NOC manager | United States -> 20 jobs
 OK     indeed | NOC manager | United States -> 20 jobs
-EMPTY  google | NOC manager | United States
-EMPTY  bayt | NOC manager | United States
-EMPTY  glassdoor | NOC manager | United States
-EMPTY  zip_recruiter | NOC manager | United States
-EMPTY  linkedin | delivery manager telecom | United States
+OK     linkedin | delivery manager telecom | United States -> 20 jobs
 OK     indeed | delivery manager telecom | United States -> 20 jobs
-EMPTY  google | delivery manager telecom | United States
-EMPTY  bayt | delivery manager telecom | United States
-EMPTY  glassdoor | delivery manager telecom | United States
-EMPTY  zip_recruiter | delivery manager telecom | United States
-OK     linkedin | incident manager | United States -> 20 jobs
+OK     linkedin | incident manager | United States -> 10 jobs
 OK     indeed | incident manager | United States -> 20 jobs
-EMPTY  google | incident manager | United States
-EMPTY  bayt | incident manager | United States
-EMPTY  glassdoor | incident manager | United States
-EMPTY  zip_recruiter | incident manager | United States
-EMPTY  linkedin | project manager network | United States
+OK     linkedin | project manager network | United States -> 20 jobs
 EMPTY  indeed | project manager network | United States
-EMPTY  google | project manager network | United States
-EMPTY  bayt | project manager network | United States
-EMPTY  glassdoor | project manager network | United States
-EMPTY  zip_recruiter | project manager network | United States
-Total after removing duplicates: 502
-Dropped for seniority: 134
-Dropped for industry: 22
-Dropped for employment type: 5
-Final jobs kept: 341
+
+=== SITE SUMMARY ===
+linkedin: 432 jobs from 23/25 searches (used)
+indeed: 239 jobs from 22/25 searches (used)
+google: 0 jobs from 0/4 searches (skipped)
+bayt: 0 jobs from 0/4 searches (skipped)
+glassdoor: 0 jobs from 0/4 searches (skipped)
+zip_recruiter: 0 jobs from 0/4 searches (skipped)
+
+=== FILTERS ===
+Total after removing duplicates: 566
+Dropped for seniority: 157
+Dropped for industry: 117
+Dropped for employment type: 11
+Final jobs kept: 281
+  Priority companies: 16
+  Industry verified: 233
+  Industry unverified: 48
