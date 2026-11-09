@@ -171,3 +171,19 @@ linkedin_fetch_description: true
 
 # Skip a site that finds nothing after this many searches.
 skip_site_after_failures: 4
+
+# ---- ADDED IN v4 ----
+
+# More title words that earn +3 (added to title_keywords above).
+more_title_keywords:
+  - escalation
+  - reliability
+
+# Companies whose name starts like a priority company but are a different
+# business. They are never marked as priority.
+not_priority_companies:
+  - Bell Techlogix
+  - Bell Textron
+  - Bell Flight
+  - Bell Bank
+  - Bell Helicopter
