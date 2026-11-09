@@ -1,24 +1,26 @@
 # JOB SEARCH SETTINGS - edit anytime
 
-# Boards we trust (tested by others, work best)
+# Boards that work (tested)
 sites:
   - linkedin
   - indeed
-  - google
 
-# Boards that may fail or be blocked. The script tries them
-# and skips any that don't work.
+# Boards that returned nothing so far. The script tries them a few
+# times and skips them if they find nothing.
 optional_sites:
   - bayt
+  - google
   - glassdoor
   - zip_recruiter
 
 search_terms:
-  - "operations manager telecom"
+  - "network operations manager"
   - "NOC manager"
-  - "delivery manager telecom"
-  - "incident manager"
-  - "project manager network"
+  - "service delivery manager telecom"
+  - "major incident manager"
+  - "cloud operations manager"
+  - "IT infrastructure manager"
+  - "telecom project manager"
 
 locations:
   - name: "Dubai, UAE"
@@ -37,27 +39,106 @@ employment_types:
 
 remote_only: false
 
-# MAIN FILTER: a job is kept if these words appear in its
-# title, description or industry.
-industries:
-  - telecom
-  - network
-  - cloud
-
+# SENIORITY: the job title must contain one of these words.
 seniority_keywords:
   - senior
   - manager
   - head
   - lead
 
+# INDUSTRY: words that show a job is telecom / IT networking / cloud.
+# Searched in the title, company name, job text and industry field.
+industries:
+  - telecom
+  - telecommunications
+  - networking
+  - network operations
+  - network infrastructure
+  - IT infrastructure
+  - cloud
+  - data center
+  - wireless
+  - 5G
+  - fiber
+  - broadband
+  - managed services
+
+# JOB FUNCTION: used for the Job function column and for scoring.
 job_functions:
   - operations
   - delivery
   - incident
   - project
+  - program
 
-# BONUS list: jobs from these companies will be marked
-# as priority and shown first. Nothing is removed.
+# SCORING: how a job earns points.
+#   +3  title contains a word from title_keywords
+#   +2  industry words found (or the company is on your priority list)
+#   +1  title contains a job function word
+# A job is kept only if its score is at least min_relevance_score.
+# Priority companies get +1 for ranking only, never to get in.
+min_relevance_score: 3
+
+title_keywords:
+  - network
+  - NOC
+  - telecom
+  - telecommunications
+  - cloud
+  - infrastructure
+  - incident
+  - IT
+  - technology
+  - technical
+  - wireless
+  - fiber
+  - 5G
+  - data center
+  - service delivery
+  - service management
+  - transmission
+  - OSS
+  - BSS
+  - systems
+  - managed services
+
+# EXCLUDE: a job is dropped if its title contains any of these words.
+exclude_title_words:
+  - store
+  - retail
+  - sales
+  - marketing
+  - recruiter
+  - recruitment
+  - human resources
+  - HR
+  - customer success
+  - customer support
+  - customer service
+  - finance
+  - accounting
+  - legal
+  - procurement
+  - warehouse
+  - restaurant
+  - hotel
+  - hospitality
+  - construction
+  - civil
+  - highways
+  - QA/QC
+  - safety
+  - HSE
+  - clinical
+  - pharmacy
+  - driver
+  - logistics
+  - supply chain
+  - food
+  - property
+  - real estate
+
+# BONUS list: these companies rank higher. Nothing is removed.
 priority_companies:
   - Verizon
   - Comcast
@@ -85,8 +166,7 @@ days_back: 7
 results_per_search: 20
 min_match_percent: 75
 
-# Fetch full job text from LinkedIn so the industry filter can read it.
-# Slower, and LinkedIn may block more. Set to false to go back to fast mode.
+# Fetch full job text from LinkedIn (slower). Set to false if LinkedIn starts failing.
 linkedin_fetch_description: true
 
 # Skip a site that finds nothing after this many searches.
