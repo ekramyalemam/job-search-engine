@@ -217,3 +217,12 @@ not_priority_companies:
   - Bell Flight
   - Bell Bank
   - Bell Helicopter
+
+# Extra priority companies (added to priority_companies above).
+more_priority_companies:
+  - Ericsson
+  - Nokia
+
+# Ranking bonus for priority companies (ranking only, never lets a job in).
+# 2 = moderate, 3 = strong.
+priority_bonus: 2
