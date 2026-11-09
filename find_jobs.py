@@ -1,4 +1,4 @@
-"""Phase 1 (v4): search job boards, rank by relevance, keep a 'maybe' list,
+"""Phase 1 (v5): search job boards, rank by relevance, keep a 'maybe' list,
 and write a small summary file that is cheap to share."""
 import os
 import random
@@ -200,7 +200,8 @@ def main():
     idx = jobs.index
 
     # --- Hard rules: seniority, employment type, exclude words ---
-    sen_found = title.apply(lambda t: whole_word(t, c.get("seniority_keywords", [])))
+    sen_words = list(c.get("seniority_keywords", [])) + list(c.get("more_seniority_keywords", []))
+    sen_found = title.apply(lambda t: whole_word(t, sen_words))
     seniority = sen_found.where(level_col == "", level_col)
 
     types = [clean(t) for t in c.get("employment_types", [])]
@@ -212,6 +213,8 @@ def main():
         type_keep = pd.Series(True, index=idx)
 
     ex_hit = title.apply(lambda t: whole_word(t, c.get("exclude_title_words", [])))
+    title_kws = list(c.get("title_keywords", [])) + list(c.get("more_title_keywords", []))
+    title_hit = title.apply(lambda t: whole_word(t, title_kws) != "")
 
     # --- Relevance score ---
     pri_names = c.get("priority_companies", [])
@@ -223,14 +226,16 @@ def main():
     ind_ok = (ind_found != "") | is_pri
     has_info = (desc != "") | (industry_col != "")
 
-    title_kws = list(c.get("title_keywords", [])) + list(c.get("more_title_keywords", []))
-    title_hit = title.apply(lambda t: whole_word(t, title_kws) != "")
     func_title = title.apply(lambda t: whole_word(t, c.get("job_functions", [])))
+
+    adj_words = c.get("adjacent_title_keywords", []) or []
+    adj_hit = title.apply(lambda t: whole_word(t, adj_words) != "") & ~title_hit
 
     score = (
         title_hit.astype(int) * 3
         + ind_ok.astype(int) * 2
         + (func_title != "").astype(int)
+        + adj_hit.astype(int)
     )
     min_score = c.get("min_relevance_score", 3)
 
@@ -238,12 +243,19 @@ def main():
     reason = pd.Series("", index=idx)
     reason = reason.mask((reason == "") & (sen_found == ""), "no seniority word in title")
     reason = reason.mask((reason == "") & ~type_keep, "employment type: " + type_col)
-    reason = reason.mask((reason == "") & (ex_hit != ""), "exclude word: " + ex_hit)
+    # An exclude word blocks a job, unless the title also has a tech word
+    # (then the job goes to the maybe list instead of being dropped).
+    reason = reason.mask(
+        (reason == "") & (ex_hit != "") & ~title_hit, "exclude word: " + ex_hit
+    )
     passed = reason == ""
+    rescued = passed & (ex_hit != "")
     tier = pd.Series("rejected", index=idx)
     tier[passed & (score >= min_score)] = "main"
     tier[passed & (score < min_score) & (score >= 1)] = "maybe"
+    tier[rescued] = "maybe"
     reason[tier == "maybe"] = "score " + score.astype(str) + " below " + str(min_score)
+    reason[rescued] = "exclude word '" + ex_hit + "' but title has a tech word"
     reason[tier == "main"] = ""
     reason[passed & (tier == "rejected")] = "score 0: no role or industry evidence"
 
@@ -259,9 +271,14 @@ def main():
     )
     func = func.where(func != "", "Other")
 
+    pref = c.get("preferred_locations", []) or []
+    loc_bonus = col(jobs, "location").apply(
+        lambda v: 1 if word_start(v, pref) != "" else 0
+    )
+
     full = pd.DataFrame(
         {
-            "Score": score + is_pri.astype(int),
+            "Score": score + is_pri.astype(int) + loc_bonus,
             "Priority": is_pri.map({True: "Yes", False: ""}),
             "Title": title,
             "Company": company,
@@ -295,13 +312,15 @@ def main():
     r = reason
     n_sen = int(r.str.startswith("no seniority").sum())
     n_emp = int(r.str.startswith("employment").sum())
-    n_exc = int(r.str.startswith("exclude").sum())
+    n_exc = int(r.str.startswith("exclude word:").sum())
+    n_resc = int(rescued.sum())
     n_zero = int(r.str.startswith("score 0").sum())
     filt = [
         f"Total after removing duplicates: {total}",
         f"Dropped for seniority: {n_sen}",
         f"Dropped for employment type: {n_emp}",
         f"Dropped for exclude words: {n_exc}",
+        f"Rescued to MAYBE (exclude word but tech title): {n_resc}",
         f"Dropped, score 0 (no evidence): {n_zero}",
         f"Moved to MAYBE list (score 1-{min_score - 1}): {int((tier == 'maybe').sum())}",
         f"Strong matches before merging repeats: {int((tier == 'main').sum())}",
@@ -350,7 +369,7 @@ def main():
     lines += ["", "DROPPED SAMPLES (to check nothing good is lost)"]
     for label, key in [
         ("seniority", "no seniority"),
-        ("exclude word", "exclude"),
+        ("exclude word", "exclude word:"),
         ("score 0", "score 0"),
     ]:
         sub = rej_df[rej_df["Reason"].str.startswith(key)]
