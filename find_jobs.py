@@ -1,5 +1,6 @@
-"""Phase 1 (v2): search job boards using the settings in criteria.yaml."""
+"""Phase 1 (v3): search job boards and rank jobs by relevance (criteria.yaml)."""
 import os
+import random
 import re
 import time
 import unicodedata
@@ -34,7 +35,7 @@ def whole_word(text, keywords):
 
 
 def word_start(text, keywords):
-    """First keyword found at the start of a word ('network' finds 'networking')."""
+    """First keyword found at the start of a word ('cloud' finds 'cloudflare')."""
     text = clean(text)
     for word in keywords:
         w = re.escape(clean(word))
@@ -49,6 +50,15 @@ def is_priority(company, names):
         if re.search(rf"\b{re.escape(clean(n))}\b", company):
             return True
     return False
+
+
+def join_unique(values, sep):
+    seen = []
+    for v in values:
+        v = str(v).strip()
+        if v and v not in seen:
+            seen.append(v)
+    return sep.join(seen)
 
 
 def main():
@@ -101,7 +111,7 @@ def main():
                 if wins[site] == 0 and tries[site] >= give_up_after:
                     skipped.add(site)
                     log.append(f"SKIPPED {site}: no jobs after {tries[site]} tries")
-                time.sleep(2)
+                time.sleep(random.uniform(3, 7))
 
     os.makedirs("results", exist_ok=True)
 
@@ -131,27 +141,14 @@ def main():
     level_col = col(jobs, "job_level")
     type_col = col(jobs, "job_type")
 
-    # Seniority: the title must contain a seniority word (whole words only)
+    # 1. Seniority: the title must contain a seniority word
     sen_words = c.get("seniority_keywords", [])
     sen_found = title.apply(lambda t: whole_word(t, sen_words))
     keep = sen_found != ""
     seniority = sen_found.where(level_col == "", level_col)
     log.append(f"Dropped for seniority: {int((~keep).sum())}")
 
-    # Industry: Verified / Unverified / dropped
-    ind_words = c.get("industries", [])
-    blob = title + " " + desc + " " + industry_col
-    ind_found = blob.apply(lambda t: word_start(t, ind_words))
-    has_info = (desc != "") | (industry_col != "")
-    verified = ind_found != ""
-    ind_keep = verified | ~has_info
-    industry_status = pd.Series("Unverified", index=jobs.index)
-    industry_status[verified] = "Verified"
-    industry = industry_col.where(industry_col != "", ind_found)
-    log.append(f"Dropped for industry: {int((keep & ~ind_keep).sum())}")
-    keep = keep & ind_keep
-
-    # Employment type: keep a match, or when the site gave no type
+    # 2. Employment type: keep a match, or when the site gave no type
     types = [clean(t) for t in c.get("employment_types", [])]
     if types:
         type_keep = type_col.apply(
@@ -160,17 +157,53 @@ def main():
         log.append(f"Dropped for employment type: {int((keep & ~type_keep).sum())}")
         keep = keep & type_keep
 
-    # Job function label
-    func = (title + " " + desc).apply(lambda t: whole_word(t, c.get("job_functions", [])))
+    # 3. Exclude words in the title
+    ex_words = c.get("exclude_title_words", [])
+    excluded = title.apply(lambda t: whole_word(t, ex_words) != "")
+    log.append(f"Dropped for exclude words: {int((keep & excluded).sum())}")
+    keep = keep & ~excluded
+
+    # 4. Relevance score
+    pri_names = c.get("priority_companies", [])
+    is_pri = company.apply(lambda v: is_priority(v, pri_names))
+
+    ind_words = c.get("industries", [])
+    blob = title + " " + company + " " + desc + " " + industry_col
+    ind_found = blob.apply(lambda t: word_start(t, ind_words))
+    ind_ok = (ind_found != "") | is_pri
+    has_info = (desc != "") | (industry_col != "")
+
+    title_hit = title.apply(lambda t: whole_word(t, c.get("title_keywords", [])) != "")
+    func_title = title.apply(lambda t: whole_word(t, c.get("job_functions", [])))
+
+    score = (
+        title_hit.astype(int) * 3
+        + ind_ok.astype(int) * 2
+        + (func_title != "").astype(int) * 1
+    )
+    min_score = c.get("min_relevance_score", 3)
+    low = score < min_score
+    log.append(f"Dropped for low relevance score (< {min_score}): {int((keep & low).sum())}")
+    keep = keep & ~low
+
+    industry_status = pd.Series("Unverified", index=jobs.index)
+    industry_status[ind_found != ""] = "Verified"
+    industry_status[(ind_found == "") & is_pri] = "Priority company"
+    industry_status[(ind_found == "") & ~is_pri & has_info] = "No match in text"
+    industry = industry_col.where(industry_col != "", ind_found)
+
+    func = func_title.where(
+        func_title != "",
+        (title + " " + desc).apply(lambda t: whole_word(t, c.get("job_functions", []))),
+    )
     func = func.where(func != "", "Other")
 
-    # Priority companies (a bonus, never a filter)
-    pri_names = c.get("priority_companies", [])
-    priority = company.apply(lambda v: "Yes" if is_priority(v, pri_names) else "")
+    rank_score = score + is_pri.astype(int)
 
     out = pd.DataFrame(
         {
-            "Priority": priority,
+            "Score": rank_score,
+            "Priority": is_pri.map({True: "Yes", False: ""}),
             "Title": title,
             "Company": company,
             "Location": col(jobs, "location"),
@@ -185,17 +218,44 @@ def main():
         }
     )[keep]
 
-    # Sort: priority first, then Verified industry, then newest
+    # Sort by score, then newest
     out["_date"] = pd.to_datetime(out["Date posted"], errors="coerce")
-    out["_p"] = (out["Priority"] != "Yes").astype(int)
-    out["_v"] = (out["Industry check"] != "Verified").astype(int)
-    out = out.sort_values(["_p", "_v", "_date"], ascending=[True, True, False])
-    out = out.drop(columns=["_date", "_p", "_v"]).reset_index(drop=True)
+    out = out.sort_values(["Score", "_date"], ascending=[False, False])
+    out["_key"] = out["Title"].apply(clean) + "|" + out["Company"].apply(clean)
+
+    # 5. Merge repeats (same title + company) into one row
+    before = len(out)
+    merged = out.groupby("_key", sort=False).agg(
+        {
+            "Score": "max",
+            "Priority": "first",
+            "Title": "first",
+            "Company": "first",
+            "Location": lambda s: join_unique(s, " | "),
+            "Employment type": "first",
+            "Industry": "first",
+            "Industry check": "first",
+            "Job function": "first",
+            "Seniority level": "first",
+            "Site": lambda s: join_unique(s, ", "),
+            "Date posted": "first",
+            "Job link": "first",
+            "_date": "first",
+        }
+    )
+    others = out.groupby("_key", sort=False)["Job link"].apply(
+        lambda s: " ".join(list(s)[1:])
+    )
+    merged["Other links"] = others
+    out = merged.reset_index(drop=True)
+    out = out.sort_values(["Score", "_date"], ascending=[False, False])
+    out = out.drop(columns=["_date"]).reset_index(drop=True)
+    log.append(f"Merged repeated jobs: {before - len(out)}")
 
     log.append(f"Final jobs kept: {len(out)}")
     log.append(f"  Priority companies: {int((out['Priority'] == 'Yes').sum())}")
     log.append(f"  Industry verified: {int((out['Industry check'] == 'Verified').sum())}")
-    log.append(f"  Industry unverified: {int((out['Industry check'] == 'Unverified').sum())}")
+    log.append(f"  Score 5 or more: {int((out['Score'] >= 5).sum())}")
 
     today = date.today().isoformat()
     out.to_csv(f"results/jobs_{today}.csv", index=False, encoding="utf-8-sig")
