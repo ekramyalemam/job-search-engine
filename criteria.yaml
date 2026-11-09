@@ -172,12 +172,42 @@ linkedin_fetch_description: true
 # Skip a site that finds nothing after this many searches.
 skip_site_after_failures: 4
 
-# ---- ADDED IN v4 ----
+# ---- ADDED IN v5 ----
+# More seniority words (English "leader", French "gestionnaire", Arabic "مدير" = manager).
+more_seniority_keywords:
+  - leader
+  - gestionnaire
+  - مدير
 
 # More title words that earn +3 (added to title_keywords above).
 more_title_keywords:
   - escalation
   - reliability
+  - ICT
+  - OSP
+  - outside plant
+  - réseau
+  - شبكات
+  - شبكة
+  - الشبكات
+  - الشبكة
+  - اتصالات
+  - الاتصالات
+
+# Related fields. A title with one of these (and none of the words above) earns +1,
+# so a job lands on the MAYBE list instead of being thrown away.
+adjacent_title_keywords:
+  - cyber
+  - cybersecurity
+  - security
+  - devops
+  - digital
+  - platform
+  - application
+
+# Optional: jobs in these places get +1 in ranking (never to get in).
+# Example for the Gulf:  preferred_locations: [Dubai, UAE, Doha, Qatar, Riyadh, Saudi]
+preferred_locations: []
 
 # Companies whose name starts like a priority company but are a different
 # business. They are never marked as priority.
