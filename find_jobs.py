@@ -217,7 +217,7 @@ def main():
     title_hit = title.apply(lambda t: whole_word(t, title_kws) != "")
 
     # --- Relevance score ---
-    pri_names = c.get("priority_companies", [])
+    pri_names = list(c.get("priority_companies", [])) + list(c.get("more_priority_companies", []))
     not_pri = c.get("not_priority_companies", [])
     is_pri = company.apply(lambda v: is_priority(v, pri_names, not_pri))
 
@@ -278,7 +278,7 @@ def main():
 
     full = pd.DataFrame(
         {
-            "Score": score + is_pri.astype(int) + loc_bonus,
+            "Score": score + is_pri.astype(int) * c.get("priority_bonus", 2) + loc_bonus,
             "Priority": is_pri.map({True: "Yes", False: ""}),
             "Title": title,
             "Company": company,
