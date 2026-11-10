@@ -1,3 +1,32 @@
+# JOB SEARCH SETTINGS (v7) - edit anytime
+# Works with the find_jobs.py you already have. Replace the whole file.
+
+# Boards that work (tested)
+sites:
+  - linkedin
+  - indeed
+
+# Boards that returned nothing so far. The script tries them a few
+# times and skips them if they find nothing.
+optional_sites:
+  - bayt
+  - google
+  - glassdoor
+  - zip_recruiter
+
+# Aimed at managed services / service delivery / customer operations leaders
+# in telecom, with a path into cloud and IT networking.
+search_terms:
+  - "managed services director"
+  - "service delivery director telecom"
+  - "head of service delivery"
+  - "customer operations director"
+  - "senior service delivery manager"
+  - "network operations director"
+  - "cloud service delivery manager"
+  - "telecom program manager"
+
+# Country-wide searches, in this order.
 locations:
   - name: "United States"
     country: "USA"
@@ -29,3 +58,184 @@ locations:
   #   country: "United Arab Emirates"
   # - name: "Abu Dhabi, UAE"
   #   country: "United Arab Emirates"
+
+employment_types:
+  - fulltime
+
+remote_only: false
+
+# SENIORITY: the job title must contain one of these words.
+seniority_keywords:
+  - senior
+  - manager
+  - head
+  - lead
+  - leader
+  - director
+  - vice president
+  - VP
+  - general manager
+  - gestionnaire
+  - directeur
+  - مدير
+
+# INDUSTRY: words that show a job is telecom / IT networking / cloud.
+# Searched in the title, company name, job text and industry field.
+industries:
+  - telecom
+  - telecommunications
+  - telco
+  - networking
+  - network operations
+  - network infrastructure
+  - network services
+  - mobile network
+  - core network
+  - radio access
+  - service provider
+  - IT infrastructure
+  - cloud
+  - AWS
+  - Azure
+  - data center
+  - wireless
+  - 4G
+  - 5G
+  - NFV
+  - SDN
+  - fiber
+  - broadband
+  - managed services
+
+# JOB FUNCTION: used for the Job function column and +1 in scoring.
+job_functions:
+  - operations
+  - delivery
+  - incident
+  - project
+  - program
+  - portfolio
+  - managed services
+  - customer operations
+  - service assurance
+  - customer success
+  - professional services
+  - engagement
+
+# SCORING: how a job earns points.
+#   +3  title contains a word from title_keywords
+#   +2  industry words found (or the company is on your priority list)
+#   +1  title contains a job function word
+#   +1  title contains an adjacent_title_keywords word (only if no +3)
+# A job is kept only if its score is at least min_relevance_score.
+# Priority companies and preferred locations only help ranking.
+min_relevance_score: 3
+
+title_keywords:
+  - network
+  - NOC
+  - telecom
+  - telecommunications
+  - cloud
+  - infrastructure
+  - incident
+  - IT
+  - technology
+  - technical
+  - wireless
+  - fiber
+  - 5G
+  - data center
+  - service delivery
+  - service management
+  - service operations
+  - service assurance
+  - customer delivery
+  - customer operations
+  - managed service
+  - managed services
+  - transmission
+  - OSS
+  - BSS
+  - NFV
+  - SDN
+  - AWS
+  - systems
+  - escalation
+  - reliability
+  - ICT
+  - OSP
+  - outside plant
+  - réseau
+  - شبكات
+  - شبكة
+  - الشبكات
+  - الشبكة
+  - اتصالات
+  - الاتصالات
+
+# Related fields. A title with one of these (and no title_keywords word)
+# earns +1, so the job lands on the MAYBE list instead of being thrown away.
+adjacent_title_keywords:
+  - cyber
+  - cybersecurity
+  - security
+  - devops
+  - digital
+  - platform
+  - application
+
+# EXCLUDE: a job is dropped if its title contains any of these words,
+# unless the title also has a title_keywords word (then it goes to MAYBE).
+# "customer success" and "customer support" are no longer excluded.
+exclude_title_words:
+  - store
+  - retail
+  - sales
+  - marketing
+  - recruiter
+  - recruitment
+  - human resources
+  - HR
+  - customer service
+  - finance
+  - accounting
+  - legal
+  - procurement
+  - warehouse
+  - restaurant
+  - hotel
+  - hospitality
+  - construction
+  - civil
+  - highways
+  - QA/QC
+  - safety
+  - HSE
+  - clinical
+  - pharmacy
+  - driver
+  - logistics
+  - supply chain
+  - food
+  - property
+  - real estate
+
+# BONUS list: these companies rank higher. Nothing is removed.
+priority_companies:
+  - Verizon
+  - Comcast
+  - AT&T
+  - T-Mobile
+  - Salesforce
+  - Charter Communications
+  - America Movil
+  - Cisco
+  - HPE
+  - Bell
+  - Rogers
+  - TELUS
+  - Lumen
+  - Cox Communications
+  - Motorola Solutions
+  - Palo Alto Networks
