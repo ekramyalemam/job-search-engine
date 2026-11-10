@@ -223,7 +223,7 @@ def main():
 
     blob = title + " " + company + " " + desc + " " + industry_col
     ind_found = blob.apply(lambda t: word_start(t, c.get("industries", [])))
-    ind_ok = (ind_found != "") | is_pri
+    bonus_only = c.get("bonus_only_companies", []) or []     is_broad = company.apply(lambda v: is_priority(v, bonus_only, not_pri))     ind_ok = (ind_found != "") | (is_pri & ~is_broad)
     has_info = (desc != "") | (industry_col != "")
 
     func_title = title.apply(lambda t: whole_word(t, c.get("job_functions", [])))
