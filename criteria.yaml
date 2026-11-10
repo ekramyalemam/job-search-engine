@@ -1,13 +1,10 @@
-# JOB SEARCH SETTINGS (v10) - edit anytime
-# Works with the find_jobs.py you already have. Replace the whole file.
+# JOB SEARCH SETTINGS (v11) - edit anytime
+# Works only with find_jobs.py v11 (first line says v11). Replace the whole file.
 
-# Boards that work (tested)
 sites:
   - linkedin
   - indeed
 
-# Boards that returned nothing so far. The script tries them a few
-# times and skips them if they find nothing.
 optional_sites:
   - bayt
   - google
@@ -43,7 +40,38 @@ employment_types:
 
 remote_only: false
 
-# SENIORITY: the job title must contain one of these words.
+# 1. HARD GATE: Title MUST contain at least one role/title word
+role_keywords:
+  - network
+  - noc
+  - operations
+  - delivery
+  - incident
+  - escalation
+  - reliability
+  - cloud
+  - manager
+  - director
+  - head
+  - vp
+  - president
+  - executive
+  - leader
+  - lead
+  - program
+  - project
+  - portfolio
+  - resource
+  - care
+  - gestionnaire
+  - directeur
+  - مدير
+  - réseau
+  - شبكات
+  - شبكة
+  - الاتصالات
+
+# 2. HARD GATE: Title MUST contain a seniority level
 seniority_keywords:
   - senior
   - manager
@@ -51,16 +79,55 @@ seniority_keywords:
   - lead
   - leader
   - director
+  - executive
   - vice president
-  - VP
+  - vp
+  - president
+  - chief
   - general manager
   - gestionnaire
   - directeur
   - directrice
   - مدير
 
-# INDUSTRY: words that show a job is telecom / IT networking / cloud.
-# Searched in the title, company name, job text and industry field.
+# 3. EXCLUDE: Hard drop (Junior roles, non-tech)
+exclude_title_words:
+  - store
+  - retail
+  - sales
+  - marketing
+  - recruiter
+  - recruitment
+  - assistant
+  - intern
+  - junior
+  - human resources
+  - hr
+  - customer service
+  - finance
+  - accounting
+  - legal
+  - procurement
+  - warehouse
+  - restaurant
+  - hotel
+  - hospitality
+  - construction
+  - civil
+  - highways
+  - QA/QC
+  - safety
+  - HSE
+  - clinical
+  - pharmacy
+  - driver
+  - logistics
+  - supply chain
+  - food
+  - property
+  - real estate
+
+# INDUSTRY MATCHING
 industries:
   - telecom
   - telecommunications
@@ -87,7 +154,7 @@ industries:
   - broadband
   - managed services
 
-# JOB FUNCTION: used for the Job function column and +1 in scoring.
+# JOB FUNCTION MATCHING (+1 point)
 job_functions:
   - operations
   - delivery
@@ -102,15 +169,10 @@ job_functions:
   - professional services
   - engagement
 
-# SCORING: how a job earns points.
-#   +3  title contains a word from title_keywords
-#   +2  industry words found (or the company is on your priority list)
-#   +1  title contains a job function word
-#   +1  title contains an adjacent_title_keywords word (only if no +3)
-# A job is kept only if its score is at least min_relevance_score.
-# Priority companies and preferred locations only help ranking.
+# SCORING SYSTEM
 min_relevance_score: 3
 
+# High-value title keywords (+3 points) - Generic words safely removed
 title_keywords:
   - network
   - NOC
@@ -119,9 +181,13 @@ title_keywords:
   - cloud
   - infrastructure
   - incident
+  - escalation
+  - reliability
   - wireless
   - fiber
   - 5G
+  - 4G
+  - core network
   - data center
   - service delivery
   - service management
@@ -137,21 +203,15 @@ title_keywords:
   - NFV
   - SDN
   - AWS
-  - escalation
-  - reliability
   - ICT
   - OSP
   - outside plant
   - réseau
   - شبكات
   - شبكة
-  - الشبكات
-  - الشبكة
-  - اتصالات
   - الاتصالات
 
-# Related fields. A title with one of these (and no title_keywords word)
-# earns +1, so the job lands on the MAYBE list instead of being thrown away.
+# Related fields (+1 point, routes lower matches to MAYBE list)
 adjacent_title_keywords:
   - cyber
   - cybersecurity
@@ -161,87 +221,49 @@ adjacent_title_keywords:
   - platform
   - application
 
-# EXCLUDE: a job is dropped if its title contains any of these words,
-# unless the title also has a title_keywords word (then it goes to MAYBE).
-# "customer success" and "customer support" are no longer excluded.
-exclude_title_words:
-  - store
-  - retail
-  - sales
-  - marketing
-  - recruiter
-  - recruitment
-  - assistant
-  - intern
-  - junior
-  - human resources
-  - HR
-  - customer service
-  - finance
-  - accounting
-  - legal
-  - procurement
-  - warehouse
-  - restaurant
-  - hotel
-  - hospitality
-  - construction
-  - civil
-  - highways
-  - QA/QC
-  - safety
-  - HSE
-  - clinical
-  - pharmacy
-  - driver
-  - logistics
-  - supply chain
-  - food
-  - property
-  - real estate
-
-# BONUS list: these companies rank higher. Nothing is removed.
+# PRIORITY BONUS (+3 points in final ranking score)
 priority_companies:
-  - Verizon
-  - Comcast
-  - AT&T
-  - T-Mobile
-  - Salesforce
-  - Charter Communications
-  - America Movil
+  - Nokia
+  - Ericsson
   - Cisco
   - HPE
+  - HP
   - Bell
   - Rogers
   - TELUS
+  - Verizon
+  - AT&T
+  - T-Mobile
+  - Comcast
+  - Salesforce
+  - Charter Communications
+  - America Movil
   - Lumen
   - Cox Communications
   - Motorola Solutions
+  - Ciena
   - Palo Alto Networks
   - Arista Networks
   - Fortinet
   - Altice USA
-  - Ciena
   - CommScope
-  - Ericsson
-  - Nokia
-  - HP
   - Amazon Web Services
   - AWS
-  - Google
   - Microsoft
+  - Google
   - Kyndryl
   - Amdocs
-  # Optional ideas. Remove the # to switch one on:
-  # - Samsung
-  # - Mavenir
-  # - Juniper
-  # - IBM
-  # - CGI
-  # - Equinix
 
-# Companies whose name starts like a priority company but are a different
-# business. They are never marked as priority.
+# Big general companies: they rank higher but do NOT count as telecom/cloud evidence.
+bonus_only_companies:
+  - Google
+  - Microsoft
+  - Amazon Web Services
+  - AWS
+  - Salesforce
+  - HP
+
+# False-positive companies (never marked as priority)
 not_priority_companies:
   - Bell Techlogix
   - Bell Textron
@@ -249,19 +271,12 @@ not_priority_companies:
   - Bell Bank
   - Bell Helicopter
 
-# Ranking bonus for priority companies (needs the 2-line edit in find_jobs.py; otherwise it is +1).
-# 2 = moderate, 3 = strong.
-priority_bonus: 3
-
-# Jobs in these places get +1 in ranking (never to get in).
+# Preferred location ranking bonus (+1 in final score)
 preferred_locations: [Dubai, UAE, Doha, Qatar, Riyadh, Saudi, Toronto, Ontario]
 
 days_back: 7
 results_per_search: 20
 min_match_percent: 75
 
-# Fetch full job text from LinkedIn (slower). Set to false if LinkedIn starts failing.
 linkedin_fetch_description: true
-
-# Skip a site that finds nothing after this many searches.
 skip_site_after_failures: 4
