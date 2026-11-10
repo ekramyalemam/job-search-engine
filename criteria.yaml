@@ -1,228 +1,31 @@
-# JOB SEARCH SETTINGS - edit anytime
-
-# Boards that work (tested)
-sites:
-  - linkedin
-  - indeed
-
-# Boards that returned nothing so far. The script tries them a few
-# times and skips them if they find nothing.
-optional_sites:
-  - bayt
-  - google
-  - glassdoor
-  - zip_recruiter
-
-search_terms:
-  - "network operations manager"
-  - "NOC manager"
-  - "service delivery manager telecom"
-  - "major incident manager"
-  - "cloud operations manager"
-  - "IT infrastructure manager"
-  - "telecom project manager"
-
 locations:
-  - name: "Dubai, UAE"
-    country: "United Arab Emirates"
-  - name: "Doha, Qatar"
-    country: "Qatar"
-  - name: "Riyadh, Saudi Arabia"
-    country: "Saudi Arabia"
-  - name: "Toronto, Canada"
-    country: "Canada"
   - name: "United States"
     country: "USA"
-
-employment_types:
-  - fulltime
-
-remote_only: false
-
-# SENIORITY: the job title must contain one of these words.
-seniority_keywords:
-  - senior
-  - manager
-  - head
-  - lead
-
-# INDUSTRY: words that show a job is telecom / IT networking / cloud.
-# Searched in the title, company name, job text and industry field.
-industries:
-  - telecom
-  - telecommunications
-  - networking
-  - network operations
-  - network infrastructure
-  - IT infrastructure
-  - cloud
-  - data center
-  - wireless
-  - 5G
-  - fiber
-  - broadband
-  - managed services
-
-# JOB FUNCTION: used for the Job function column and for scoring.
-job_functions:
-  - operations
-  - delivery
-  - incident
-  - project
-  - program
-
-# SCORING: how a job earns points.
-#   +3  title contains a word from title_keywords
-#   +2  industry words found (or the company is on your priority list)
-#   +1  title contains a job function word
-# A job is kept only if its score is at least min_relevance_score.
-# Priority companies get +1 for ranking only, never to get in.
-min_relevance_score: 3
-
-title_keywords:
-  - network
-  - NOC
-  - telecom
-  - telecommunications
-  - cloud
-  - infrastructure
-  - incident
-  - IT
-  - technology
-  - technical
-  - wireless
-  - fiber
-  - 5G
-  - data center
-  - service delivery
-  - service management
-  - transmission
-  - OSS
-  - BSS
-  - systems
-  - managed services
-
-# EXCLUDE: a job is dropped if its title contains any of these words.
-exclude_title_words:
-  - store
-  - retail
-  - sales
-  - marketing
-  - recruiter
-  - recruitment
-  - human resources
-  - HR
-  - customer success
-  - customer support
-  - customer service
-  - finance
-  - accounting
-  - legal
-  - procurement
-  - warehouse
-  - restaurant
-  - hotel
-  - hospitality
-  - construction
-  - civil
-  - highways
-  - QA/QC
-  - safety
-  - HSE
-  - clinical
-  - pharmacy
-  - driver
-  - logistics
-  - supply chain
-  - food
-  - property
-  - real estate
-
-# BONUS list: these companies rank higher. Nothing is removed.
-priority_companies:
-  - Verizon
-  - Comcast
-  - AT&T
-  - T-Mobile
-  - Salesforce
-  - Charter Communications
-  - America Movil
-  - Cisco
-  - HPE
-  - Bell
-  - Rogers
-  - TELUS
-  - Lumen
-  - Cox Communications
-  - Motorola Solutions
-  - Palo Alto Networks
-  - Arista Networks
-  - Fortinet
-  - Altice USA
-  - Ciena
-  - CommScope
-
-days_back: 7
-results_per_search: 20
-min_match_percent: 75
-
-# Fetch full job text from LinkedIn (slower). Set to false if LinkedIn starts failing.
-linkedin_fetch_description: true
-
-# Skip a site that finds nothing after this many searches.
-skip_site_after_failures: 4
-
-# ---- ADDED IN v5 ----
-# More seniority words (English "leader", French "gestionnaire", Arabic "مدير" = manager).
-more_seniority_keywords:
-  - leader
-  - gestionnaire
-  - مدير
-
-# More title words that earn +3 (added to title_keywords above).
-more_title_keywords:
-  - escalation
-  - reliability
-  - ICT
-  - OSP
-  - outside plant
-  - réseau
-  - شبكات
-  - شبكة
-  - الشبكات
-  - الشبكة
-  - اتصالات
-  - الاتصالات
-
-# Related fields. A title with one of these (and none of the words above) earns +1,
-# so a job lands on the MAYBE list instead of being thrown away.
-adjacent_title_keywords:
-  - cyber
-  - cybersecurity
-  - security
-  - devops
-  - digital
-  - platform
-  - application
-
-# Optional: jobs in these places get +1 in ranking (never to get in).
-# Example for the Gulf:  preferred_locations: [Dubai, UAE, Doha, Qatar, Riyadh, Saudi]
-preferred_locations: []
-
-# Companies whose name starts like a priority company but are a different
-# business. They are never marked as priority.
-not_priority_companies:
-  - Bell Techlogix
-  - Bell Textron
-  - Bell Flight
-  - Bell Bank
-  - Bell Helicopter
-
-# Extra priority companies (added to priority_companies above).
-more_priority_companies:
-  - Ericsson
-  - Nokia
-
-# Ranking bonus for priority companies (ranking only, never lets a job in).
-# 2 = moderate, 3 = strong.
-priority_bonus: 2
+  - name: "Canada"
+    country: "Canada"
+  - name: "Saudi Arabia"
+    country: "Saudi Arabia"
+  - name: "Qatar"
+    country: "Qatar"
+  - name: "United Arab Emirates"
+    country: "United Arab Emirates"
+  # Optional big cities. More searches also means more risk of LinkedIn blocking.
+  # Remove the # in front of a city to switch it on (keep both lines together):
+  # - name: "Toronto, Canada"
+  #   country: "Canada"
+  # - name: "Vancouver, Canada"
+  #   country: "Canada"
+  # - name: "Calgary, Canada"
+  #   country: "Canada"
+  # - name: "Ottawa, Canada"
+  #   country: "Canada"
+  # - name: "Montreal, Canada"
+  #   country: "Canada"
+  # - name: "Jeddah, Saudi Arabia"
+  #   country: "Saudi Arabia"
+  # - name: "Dammam, Saudi Arabia"
+  #   country: "Saudi Arabia"
+  # - name: "Dubai, UAE"
+  #   country: "United Arab Emirates"
+  # - name: "Abu Dhabi, UAE"
+  #   country: "United Arab Emirates"
