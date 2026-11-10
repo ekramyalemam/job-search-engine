@@ -1,4 +1,4 @@
-# JOB SEARCH SETTINGS (v9) - edit anytime
+# JOB SEARCH SETTINGS (v10) - edit anytime
 # Works with the find_jobs.py you already have. Replace the whole file.
 
 # Boards that work (tested)
@@ -119,9 +119,6 @@ title_keywords:
   - cloud
   - infrastructure
   - incident
-  - IT
-  - technology
-  - technical
   - wireless
   - fiber
   - 5G
@@ -140,7 +137,6 @@ title_keywords:
   - NFV
   - SDN
   - AWS
-  - systems
   - escalation
   - reliability
   - ICT
@@ -229,17 +225,20 @@ priority_companies:
   - CommScope
   - Ericsson
   - Nokia
-  # Optional ideas close to your background. Remove the # to switch one on:
+  - HP
+  - Amazon Web Services
+  - AWS
+  - Google
+  - Microsoft
+  - Kyndryl
+  - Amdocs
+  # Optional ideas. Remove the # to switch one on:
   # - Samsung
   # - Mavenir
-  # - Amdocs
   # - Juniper
-  # - Kyndryl
   # - IBM
   # - CGI
   # - Equinix
-  # - Amazon Web Services
-  # - Microsoft
 
 # Companies whose name starts like a priority company but are a different
 # business. They are never marked as priority.
@@ -250,14 +249,12 @@ not_priority_companies:
   - Bell Bank
   - Bell Helicopter
 
-# Ranking bonus for priority companies (needs the 2-line edit; ignored otherwise).
+# Ranking bonus for priority companies (needs the 2-line edit in find_jobs.py; otherwise it is +1).
 # 2 = moderate, 3 = strong.
-priority_bonus: 2
+priority_bonus: 3
 
-# Optional: jobs in these places get +1 in ranking (never to get in).
-# Example for Canada first:  preferred_locations: [Toronto, Ontario, Canada]
-# Example for the Gulf:      preferred_locations: [Dubai, UAE, Doha, Qatar, Riyadh, Saudi]
-preferred_locations: []
+# Jobs in these places get +1 in ranking (never to get in).
+preferred_locations: [Dubai, UAE, Doha, Qatar, Riyadh, Saudi, Toronto, Ontario]
 
 days_back: 7
 results_per_search: 20
