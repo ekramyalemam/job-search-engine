@@ -1,89 +1,90 @@
-RUN SUMMARY 2026-11-09
+RUN SUMMARY 2026-11-10
 
 SITES
-linkedin: 619 jobs from 34/35 searches (used)
-indeed: 369 jobs from 33/35 searches (used)
+linkedin: 711 jobs from 39/40 searches (used)
+indeed: 492 jobs from 34/40 searches (used)
 bayt: 0 jobs from 0/4 searches (skipped)
 google: 0 jobs from 0/4 searches (skipped)
 glassdoor: 0 jobs from 0/4 searches (skipped)
 zip_recruiter: 0 jobs from 0/4 searches (skipped)
 
 FILTERS
-Total after removing duplicates: 695
-Dropped for seniority: 192
-Dropped for employment type: 28
-Dropped for exclude words: 37
-Dropped, score 0 (no evidence): 64
-Moved to MAYBE list (score 1-2): 98
-Strong matches before merging repeats: 276
-Merged repeated jobs: 19
-Final strong matches: 257
-Final maybe list: 97
-  Priority companies: 7
-  Industry verified: 230
-  Score 5 or more: 169
+Total after removing duplicates: 913
+Dropped for seniority: 166
+Dropped for employment type: 32
+Dropped for exclude words: 67
+Rescued to MAYBE (exclude word but tech title): 6
+Dropped, score 0 (no evidence): 164
+Moved to MAYBE list (score 1-2): 192
+Strong matches before merging repeats: 292
+Merged repeated jobs: 27
+Final strong matches: 265
+Final maybe list: 188
+  Priority companies: 10
+  Industry verified: 233
+  Score 5 or more: 157
 
-REGIONS (strong matches): US/Other 154, Canada 46, UAE 33, KSA 15, Qatar 9
-SCORES: 7:1, 6:79, 5:89, 4:19, 3:69
+REGIONS (strong matches): US/Other 110, Canada 70, UAE 54, KSA 23, Qatar 8
+SCORES: 8:2, 7:3, 6:77, 5:75, 4:17, 3:91
 
 TOP 15 (score | title | company | location)
-7 | Technical Project Manager | Verizon | Chandler, AZ, USA | Irvine,…
-6 | Incident & Problem Manager, Cloud Operations | Sectra | Mississauga, Ontario, Canada
-6 | Network Operations Manager | The HT Group | Brazoria, TX, USA
-6 | Network Operations Manager | Jobgether | USA
-6 | Manager Data Center Operations | Digital Realty | Chicago, IL, USA
-6 | Incident Manager | Optomi | USA
-6 | Cloud Infrastructure Operations Manager | Vanguard | Charlotte, NC, USA | Wayne,…
-6 | Senior Manager, IT Operations | Sabert | Sayreville, NJ, USA
-6 | Manager of Business Systems and IT Operations | PDK International | Remote, USA
-6 | Technical Infrastructure Program Manager , IT S… | Amazon.com | Seattle, WA, USA
-6 | Cloud Operations Manager | Tata Consultancy Services | Philadelphia, PA, USA
-6 | IT Manager Operations And Infrastructure | The Greater Change | Dubai, Dubai, United Arab E…
-6 | Incident Manager | Databricks | USA
-6 | Manager, Cloud Operations | Sun Communities & Sun Out… | Detroit Metropolitan Area
-6 | Network Operations Manager | Effortless Office | Remote, USA
+8 | Senior Director, Delivery (Telecom) | TELUS Digital | Charlottesville, VA, USA | …
+8 | Principal Network Project/Program Manager (Gove… | AT&T | Atlanta, GA, USA
+7 | Gestionnaire principal de la stratégie, Réseau … | Bell | Toronto, Ontario, Canada | …
+7 | Directeur(trice) de programme, Réseau d'IA tiss… | Bell | Regina, Saskatchewan, Canada
+7 | Leader, Systems Engineering | Cisco | Abu Dhabi, Abu Dhabi Emirat…
+6 | Director, IT Operations | Ascent Developer Solutions | Los Angeles, CA, USA
+6 | Operations Director - Managed Services | Swooped | USA
+6 | Service Delivery Director (Healthcare) | Harbor IT | USA
+6 | Technical Product Delivery Manager, Vice Presid… | JPMorganChase | Plano, TX, USA
+6 | Technical Program Manager | Stimulus Technologies | M… | Las Vegas, NV, USA
+6 | Technical Program Integration Lead | Telesat | Ottawa, Ontario, Canada
+6 | Manager –  IT Project Management | eMinds | Dubai, United Arab Emirates
+6 | Assistant Service Delivery Manager, Aspire Life… | International SOS | Dubai, Dubai, United Arab E…
+6 | Assistant Service Delivery Manager, Aspire Life… | Aspire Lifestyles | Dubai, DU, United Arab Emir…
+6 | Telecom Network Engineer/Telecommunications Pro… | Association des Jeunes Av… | Abu Dhabi Emirate, United A…
 
 LOWEST 8 STRONG MATCHES
-3 | Program Manager | AMERICAN SYSTEMS | Verified
-3 | Service Desk Operations Manager | Milestone Technologies | Verified
-3 | Project Manager | Network Connex | Verified
-3 | Mission Critical Project Manager | Velociti | Verified
-3 | Project Manager | Amphenol Communications S… | Verified
-3 | Low Voltage Project Manager | Prime Connected | Verified
-3 | Project Manager / Engineering 11/2/26 | AZAD Technology Partners | Verified
-3 | Agile Delivery Manager | The Emirates Group | Verified
+3 | Senior Manager, Clinic IT Services | 123Dentist | No match in text
+3 | Manager,  DevOps | Michael Page | Verified
+3 | Gestionnaire senior de l'engagement | Sr Engage… | Amazon Web Services (AWS) | Verified
+3 | Senior Engineering Delivery Lead | Telesat | Verified
+3 | Project Manager | EI-TECHNOLOGIES MENA | Verified
+3 | Manager of Platform Integrity | TOD by beIN | Verified
+3 | Associate Director of Global IT & Security | Huda Beauty | Unverified
+3 | Senior DevOps & Back-End Engineer | Autonomous Investment In … | Verified
 
 TOP 10 MAYBE (score | title | company | why)
-3 | Manager, Partnerships & Innovation | Rogers Communications | score 2 below 3
-3 | Manager Statflo Strategy | Rogers Communications | score 2 below 3
-2 | DFIR Lead | Salt | score 2 below 3
-2 | Cybersecurity Manager | Daman Investments | score 2 below 3
-2 | Manager/Devices as a Service (DaaS) Product | etisalat UAE | score 2 below 3
-2 | SENIOR BIM MANAGER | EDMAC ENGINEERING CONSULT… | score 2 below 3
-2 | Senior Engineer - ICT | AECOM | score 2 below 3
-2 | Lead Technician – Outside Plant (OSP) | Confidential Company | score 2 below 3
-2 | Principal Programme Manager  Professional Servi… | Adobe | score 2 below 3
-2 | Product Manager | Impressit | score 2 below 3
+7 | Safety Manager Technology | Rogers Communications | exclude word 'safety' but title has a tech word
+6 | Senior Sales Ops Manager - Scale, AWS Strategy … | Amazon Web Services | exclude word 'sales' but title has a tech word
+5 | Senior Manager Technical Accounting | OLG | exclude word 'accounting' but title has a tech word
+5 | Director, Operational Accounting Technology Sys… | Scotiabank | exclude word 'accounting' but title has a tech word
+4 | IT Infra Manager – Retail Operations | Hire Rightt - Executive S… | exclude word 'retail' but title has a tech word
+4 | Sr Manager Value Management | Rogers Communications | score 2 below 3
+4 | Customer Support Manager | Motorola Solutions | score 2 below 3
+4 | Director, Retail Customer Operations | Kinder's Premium Quality … | exclude word 'retail' but title has a tech word
+4 | Directeur, gestion de projets clients - TELUS S… | TELUS | score 2 below 3
+4 | Directeur(trice), Mise en service - Cx | Bell | score 2 below 3
 
 DROPPED SAMPLES (to check nothing good is lost)
-- seniority: 192 total; examples:
-    Inside Account Executive | Cisco | no seniority word in ti…
-    Electrical Engineer - Kahramaa (Team Leader ) | GETP Group | no seniority word in ti…
-    Software Engineer II | TD | no seniority word in ti…
-    Gestionnaire principal de la stratégie, Réseau d'… | Bell | no seniority word in ti…
-    Incident Coordinator | University Health Netwo… | no seniority word in ti…
-    Quality Inspector | AECOM | no seniority word in ti…
-- exclude word: 37 total; examples:
-    Senior Manager of OSP Construction | Insight Global | exclude word: construct…
-    Senior Health and Safety Manager (Night Shifts) | Mace Group | exclude word: safety
-    Senior Project Manager (Utility Construction / FT… | Telecon | exclude word: construct…
-    Digital Marketing Head ( Restaurant Background) | FAMILY FOOD CENTRE | exclude word: marketing
-    Restaurant Manager | Mandoos Hospitality LLC | exclude word: restaurant
-    Manager II, Retail Wireless Network Operations | EchoStar Corporation | exclude word: retail
-- score 0: 64 total; examples:
-    Manager - Customer Due Diligence | HSBC | score 0: no role or ind…
-    Lead Document Controller | Parsons | score 0: no role or ind…
-    Senior BIM Architectural Engineer | Seero Engineering Consu… | score 0: no role or ind…
-    Client Manager | JD.COM | score 0: no role or ind…
-    Senior Contracts Specialist | Qatar Airways | score 0: no role or ind…
-    OT Cybersecurity Manager | Accenture Middle East | score 0: no role or ind…
+- seniority: 166 total; examples:
+    Planning Engineer | Consertus | no seniority word in ti…
+    Warehouse Operator | Coop Embrun | no seniority word in ti…
+    Data Engineering Developer II | Trojan Technologies | no seniority word in ti…
+    People & Culture Associate - KSA Nationals ONLY | Four Principles | no seniority word in ti…
+    Communications Specialist | University of British C… | no seniority word in ti…
+    Registered Nurse | Alberta Health Services | no seniority word in ti…
+- exclude word: 67 total; examples:
+    Sales Manager, Foreign Circulation | Royal Canadian Mint | exclude word: sales
+    VP, Human Resources, Market Area North and Centra… | Metso | exclude word: human res…
+    Director - Health, Safety and Worker Welfare Oper… | Qiddiya Investment Comp… | exclude word: safety
+    Country Manager - Food Services | Delivery Hero | exclude word: food
+    Head of People & Culture (Human Resources) - Saud… | Accor | exclude word: human res…
+    Regional Marketing Manager (ME) | Fragomen | exclude word: marketing
+- score 0: 164 total; examples:
+    Associate Director-Advisory & Risk Consulting | R… | Control Risks | score 0: no role or ind…
+    Senior Customer Manager | DOW | score 0: no role or ind…
+    Manager/Devices as a Service (DaaS) Product | etisalat UAE | score 0: no role or ind…
+    Laboratory Quality Manager | Grand River Hospital | score 0: no role or ind…
+    Site Manager | Whistle Express Car Wash | score 0: no role or ind…
+    Director - Arts and Culture - Aldar Education (Ce… | Aldar Academies | score 0: no role or ind…
