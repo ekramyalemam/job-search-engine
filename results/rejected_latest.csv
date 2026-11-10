@@ -1,430 +1,424 @@
-﻿Reason,Title,Company,Location,Site,Job link
-employment type: contract,Senior Electrical Engineering,AECOM,"الرياض, S01, Saudi Arabia",indeed,https://sa.indeed.com/viewjob?jk=22b32a9e96a93ea1
-employment type: contract,Senior Engineer - ICT,AECOM,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=224a04a9d8693081
-employment type: contract,"Lead - Procurement Systems, Digitalization & Process Improvement",Airswift,"Doha, Doha, Qatar",linkedin,https://www.linkedin.com/jobs/view/4488862888
-employment type: contract,"Senior Service Delivery Manager, IT",Audax Group,"Boston, MA, USA",linkedin,https://www.linkedin.com/jobs/view/4489123617
-employment type: contract,Corporate Services Manager,B.I. (Europe) Limited,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=8539b7502e1b33b3
-employment type: contract,Delivery Manager,Capgemini,"Seattle, WA, USA",indeed,https://www.indeed.com/viewjob?jk=03839622acb4c068
-employment type: contract,Head of Marketing,ESM - East Sports Management,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=0fe287dfa300edff
-employment type: contract,Senior Utilities Engineer (Design),Egis Group,"الرياض, S01, Saudi Arabia",indeed,https://sa.indeed.com/viewjob?jk=10aae2a1b78cadab
-employment type: contract,Environment Project Manager,Egis Group,"الرياض, S01, Saudi Arabia",indeed,https://sa.indeed.com/viewjob?jk=b6a18f10ba65a8fc
-employment type: contract,Director of Information Technology,Envy Consulting Group,"North Bay, Ontario, Canada",linkedin,https://www.linkedin.com/jobs/view/4485856363
-employment type: contract,ServiceNow Platform Lead (Ref: 198510),Forsyth Barnes,"Dubai, United Arab Emirates",linkedin,https://www.linkedin.com/jobs/view/4488841190
-employment type: contract,Project Manager | HRBrain,HRbrain Inc.,"Mississauga, Ontario, Canada",linkedin,https://www.linkedin.com/jobs/view/4486095835
-employment type: contract,Core Banking Programme Director (m/f/d),"Halian | Managed Services, Recruitment Agency & Contract Staffing","Doha, Qatar",linkedin,https://www.linkedin.com/jobs/view/4486974474
-employment type: contract,Senior Manager Projects - Cargo Terminal 2 (Fixed-Term Contract),Qatar Airways,Doha Metropolitan Area,linkedin,https://www.linkedin.com/jobs/view/4487927767
-employment type: contract,Manager Delivery Integration - Cargo Terminal 2 (Fixed-Term Contract),Qatar Airways,Doha Metropolitan Area,linkedin,https://www.linkedin.com/jobs/view/4487931584
-employment type: contract,Senior Manager Projects - Cargo Terminal 2 (Fixed-Term Contract),Qatar Airways,"Doha, DAW, Qatar",indeed,https://qa.indeed.com/viewjob?jk=f75441f4d7bfb3e1
-employment type: contract,Manager Delivery Integration - Cargo Terminal 2 (Fixed-Term Contract),Qatar Airways,"Doha, DAW, Qatar",indeed,https://qa.indeed.com/viewjob?jk=a7df0dd6022ec2e9
-employment type: contract,Manager Delivery Integration,Qatar Aviation Services,"Doha, Qatar",linkedin,https://www.linkedin.com/jobs/view/4487441466
-employment type: contract,Project Portfolio Manager,Salt,"Abu Dhabi, Abu Dhabi Emirate, United Arab Emirates",linkedin,https://www.linkedin.com/jobs/view/4487475654
-employment type: contract,"Manager, Contract and Billing",Samsara,"Los Angeles, CA, USA",indeed,https://www.indeed.com/viewjob?jk=744368b1953e2d05
-employment type: contract,Program Manager -Security Services,"Securitas Critical Infrastructure Services, Inc.","Seattle, WA, USA",indeed,https://www.indeed.com/viewjob?jk=07bdfcdc10810312
-employment type: internship,"Director, Grid Operations",Toronto Hydro,"Toronto, Ontario, Canada",linkedin,https://www.linkedin.com/jobs/view/4488892378
-employment type: other,Banking Partnerships & Quality Director,ADP,"Etobicoke, Ontario, Canada",linkedin,https://www.linkedin.com/jobs/view/4486629057
-employment type: other,Senior Service Delivery Manager – Transportation Technology (ITS),SONDA,"Miami, FL, USA",linkedin,https://www.linkedin.com/jobs/view/4489126300
-employment type: parttime,Second Service Manager,"Hy-Vee, Inc.","Washington, MO, USA",indeed,https://www.indeed.com/viewjob?jk=435889e4e70e83da
-employment type: parttime,Head of Information Technology,Salt,"Doha, Qatar",linkedin,https://www.linkedin.com/jobs/view/4487469582
-employment type: parttime,Office Manager & Workplace Experience Coordinator,Slingshot Biosciences,"Emeryville, CA, USA",indeed,https://www.indeed.com/viewjob?jk=be6ab9f1e8b4ecdf
-employment type: parttime,"Project Manager, Epic Cloud Infrastructure, Information Services – Temporary Full-Time (1.0)",Top Producer Systems,"Ottawa, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=528e1e8a824bb43e
-employment type: parttime,Area Director of Culinary Operations - JRK! and Mangrove,Turnberry,"Aventura, FL, USA",indeed,https://www.indeed.com/viewjob?jk=bc99c4e31fa0e1ef
-employment type: temporary,"Lead, Security Architect",Payments Canada,"Ottawa, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=3e320876dcec27ce
-employment type: temporary,Restoration Manager,telMAX Inc.,"Markham, Ontario, Canada",linkedin,https://www.linkedin.com/jobs/view/4486777007
-"employment type: temporary, contract",Senior Technical Delivery Manager,Specsavers,"Burnaby, BC, Canada",indeed,https://ca.indeed.com/viewjob?jk=d342741519badac8
-exclude word: HR,Manager – HR Operations & Administration,RAK Medical & Health Sciences University,"Ras al-Khaimah, RK, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=21ca712bb9eeda70
-exclude word: HR,Assistant HR Manager,University of British Columbia,"Vancouver, BC, Canada",indeed,https://ca.indeed.com/viewjob?jk=1e09525811ffb977
-exclude word: accounting,Operations Manager - Tax & Accounting,FCBS,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=bf45d3253d53ea75
-exclude word: clinical,"Director, Clinical Support Services","CARTI, Inc.","Little Rock, AR, USA",indeed,https://www.indeed.com/viewjob?jk=3c1eca2c2cca733f
-exclude word: clinical,"Director, Clinical Operations (Community & Hospital)",Fraser Health,"New Westminster, BC, Canada",indeed,https://ca.indeed.com/viewjob?jk=0af6c087d5fba7a1
-exclude word: clinical,Clinical Lead,Optima Living,"Calgary, AB, Canada",indeed,https://ca.indeed.com/viewjob?jk=9338b473d2dce006
-exclude word: clinical,Clinical Account Director - Remote Virginia,Prime Therapeutics,"Remote, USA",indeed,https://www.indeed.com/viewjob?jk=91a466f77c352f8a
-exclude word: construction,"Director, Major Projects | NEW GENERATION (Construction Utility Projects)",American Electric Power,"Shreveport, LA, USA",indeed,https://www.indeed.com/viewjob?jk=30bcae846402a5fb
-exclude word: construction,"Construction Manager - Round/Island Lake, IL","Metronet Associates, LLC","Round Lake, IL, USA",indeed,https://www.indeed.com/viewjob?jk=3de0291dc0c47a73
-exclude word: construction,Retrofit Construction Program Manager,Microsoft,"Santa Clara, CA, USA",indeed,https://www.indeed.com/viewjob?jk=b4582576a1fa7498
-exclude word: construction,Team Lead - Digital Construction,Pomerleau,"Toronto, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=d45d8c7b8c0cedaf
-exclude word: customer service,Senior Customer Service Manager,CertainTeed,"Mississauga, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=4428029ec4802e52
-exclude word: customer service,Director of Customer Services Center,East West Bank,"El Monte, CA, USA",linkedin,https://www.linkedin.com/jobs/view/4468983280
-exclude word: customer service,"Director, Customer Service",Hospitality Newfoundland and Labrador,"St John’s, Newfoundland and Labrador, Canada",linkedin,https://www.linkedin.com/jobs/view/4487213546
-exclude word: customer service,Director of Customer Service,Pikemann,"Dallas, TX, USA",linkedin,https://www.linkedin.com/jobs/view/4487328773
-exclude word: finance,Head of Corporate Finance & Credit Control,Al-Futtaim,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=8c83cd4e714e1f5d
-exclude word: finance,Finance Manager (Real Estate),Five Hotels and Resorts,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=22be13e9665b25e3
-exclude word: finance,"Consumer Finance Director, Contact Center Operations",Travel + Leisure Co.,"Orlando, FL, USA",linkedin,https://www.linkedin.com/jobs/view/4488438089
-exclude word: food,"Executive Director Food and Beverage, Middle East, Africa & Turkiye",Accor,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=2af4fe8e315d6319
-exclude word: food,Senior Food Service Worker,Banner Health,"Gilbert, AZ, USA",indeed,https://www.indeed.com/viewjob?jk=7058bb9a99e4a8d1
-exclude word: food,Food Services Assistant Director,Compass Park,"Franklin, IN, USA",indeed,https://www.indeed.com/viewjob?jk=2a384ac3176c65aa
-exclude word: food,Country Manager - Food Services,Delivery Hero,"Doha, DAW, Qatar",indeed,https://qa.indeed.com/viewjob?jk=d017d017f52d77e7
-exclude word: food,Executive Assistant Manager - Food & Beverage,Raffles Hotels & Resorts,"Doha, Qatar",linkedin,https://www.linkedin.com/jobs/view/4488071453
-exclude word: food,Food & Beverage Operation Manager,Sheraton Hotels & Resorts,"Doha, Qatar",linkedin,https://www.linkedin.com/jobs/view/4486903765
-exclude word: food,Food Service Manager 2,Sodexo,"McLean, VA, USA",indeed,https://www.indeed.com/viewjob?jk=237b186297385a10
-exclude word: food,Country Manager - Food Services,talabat,"Doha, Qatar",linkedin,https://www.linkedin.com/jobs/view/4486339799
-exclude word: human resources,Head of People & Culture (Human Resources) - Saudi Arabia,Accor,"جدة, S02, Saudi Arabia",indeed,https://sa.indeed.com/viewjob?jk=8ca630265d3d41e5
-exclude word: human resources,"VP, Human Resources, Market Area North and Central America",Metso,"Montréal, QC, Canada",indeed,https://ca.indeed.com/viewjob?jk=bdf667df4de64f53
-exclude word: human resources,Director of Human Resources,Rotana Hotels,"Abu Dhabi, AZ, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=99c136f5e239694b
-exclude word: legal,"Chicago - Global Managing Director, Legal Support Services",Winston Taylor,"Chicago, IL, USA",linkedin,https://www.linkedin.com/jobs/view/4477360288
-exclude word: logistics,"Senior Account Manager, Quick Commerce, Last Mile Logistics, Delivery Service Partners (Saudi National)",Amazon,"Riyadh, Riyadh, Saudi Arabia",linkedin,https://www.linkedin.com/jobs/view/4486866392
-exclude word: logistics,Americas Logistics- Delivery Exception Manager,Apple,"Austin, TX, USA",indeed,https://www.indeed.com/viewjob?jk=00f1c556ad25e7c6
-exclude word: logistics,"Senior Logistics, Security and Interface Manager",Jasara Program Management Company,"Riyadh, Riyadh, Saudi Arabia",linkedin,https://www.linkedin.com/jobs/view/4487229661
-exclude word: logistics,"Manager Logistics, Pro Delivery Strategy",The Home Depot,"Atlanta, GA, USA",indeed,https://www.indeed.com/viewjob?jk=efca674cbac09d73
-exclude word: marketing,B2O Marketing Manager,British Council,Saudi Arabia,indeed,https://sa.indeed.com/viewjob?jk=1a8d4b45374e57b1
-exclude word: marketing,Regional Marketing Manager (ME),Fragomen,"الرياض, S01, Saudi Arabia",indeed,https://sa.indeed.com/viewjob?jk=ec50ff855129cdfa
-exclude word: marketing,Senior Business Development & Marketing Executive / Business Development & Marketing Manager,Maples Group - Legal Services,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=7b2d22d12e6fd286
-exclude word: marketing,Marketing Manager,Marriott International,"Doha, DAW, Qatar",indeed,https://qa.indeed.com/viewjob?jk=9f9f092daf5254f8
-exclude word: marketing,Marketing & Communications Manager,Rotana Hotels,"الجبيل, S04, Saudi Arabia",indeed,https://sa.indeed.com/viewjob?jk=9bda28dfe564377e
-exclude word: marketing,Senior Marketing Executive,Savills,"الرياض, S01, Saudi Arabia",indeed,https://sa.indeed.com/viewjob?jk=1d0077e6683026ea
-exclude word: procurement,Procurement manager,8 portions,"الخبر, S04, Saudi Arabia",indeed,https://sa.indeed.com/viewjob?jk=0c30e4a2cb029cf2
-exclude word: procurement,Manager Procurement (Procurement Excellence),Qatar Airways,"Doha, DAW, Qatar",indeed,https://qa.indeed.com/viewjob?jk=912c8f9944ba8151
-exclude word: procurement,Manager Procurement (Catering & F&B),Qatar Airways,"Doha, DAW, Qatar",indeed,https://qa.indeed.com/viewjob?jk=d3296ed9923f7209
-exclude word: procurement,Senior Procurement Specialist (Qatari),Qatar Airways,"Doha, DAW, Qatar",indeed,https://qa.indeed.com/viewjob?jk=f63e1f498ca1fb15
-exclude word: restaurant,RESTAURANT MANAGER,Hot n cool,"Doha, DAW, Qatar",indeed,https://qa.indeed.com/viewjob?jk=cbf7457d367efc9b
-exclude word: restaurant,Restaurant Manager,Qatar Airways,Doha Metropolitan Area,linkedin,https://www.linkedin.com/jobs/view/4479170895
-exclude word: retail,"Vice President, Retail Branches",Assiniboine Credit Union Ltd,"Winnipeg, MB, Canada",indeed,https://ca.indeed.com/viewjob?jk=448f16c198ed71e4
-exclude word: retail,Deputy CEO / Head of Offline Retail Business | Saudi Arabia,Rawaj - Human Capital Management,"الرياض, S01, Saudi Arabia",indeed,https://sa.indeed.com/viewjob?jk=71f1167caeb5449c
-exclude word: safety,"Senior Manager, Health, Safety and Environment (HSE), Saskatchewan",Bell,"Regina, SK, Canada",indeed,https://ca.indeed.com/viewjob?jk=e93e9cc99579e2ad
-exclude word: safety,"Senior Manager, Safety Management System & Safety Culture",CAE,"Saint-Laurent, QC, Canada",indeed,https://ca.indeed.com/viewjob?jk=863290a6918dfb59
-exclude word: safety,Senior Manager - Airport Fire & Life Safety,Dubai Airports,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=09890a433894bf2d
-exclude word: safety,"Associate Director for Building Operations, Safety and Security",Georgetown University,"Doha, DAW, Qatar",indeed,https://qa.indeed.com/viewjob?jk=7afa2ae03a5c4a0d
-exclude word: safety,Director of Safety & Security,Pyramid Global Hospitality,"Oklahoma City, OK, USA",indeed,https://www.indeed.com/viewjob?jk=336b6f150b03727a
-exclude word: safety,"Director - Health, Safety and Worker Welfare Operations (RE1)",Qiddiya Investment Company,"الرياض, S01, Saudi Arabia",indeed,https://sa.indeed.com/viewjob?jk=a237b82eecb4979a
-exclude word: sales,We’re Hiring Sales & Managing Director – Real Estate Developer,AMA HOLDING LLC,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=4e6f63cac3c831ec
-exclude word: sales,Sales & Marketing Manager (Remote) – Own Visa preferred,Ababeel FZE LLC.,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=e36643c58c31b9b8
-exclude word: sales,Area Sales Manager,Apparel Group,"Doha, Doha, Qatar",linkedin,https://www.linkedin.com/jobs/view/4487773344
-exclude word: sales,Sales VP-US Based,Cogent Communications,"Minneapolis, MN, USA",indeed,https://www.indeed.com/viewjob?jk=39a91417038bb526
-exclude word: sales,"Sales Director – Minneapolis, MN",Cogent Communications,"Minneapolis, MN, USA",indeed,https://www.indeed.com/viewjob?jk=55e0abaa98927365
-exclude word: sales,Head of Mortgage Sales - UAE,HSBC,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=07bfdfd55bbd4a3a
-exclude word: sales,"WW High Velocity Sales Program Manager, HPE Networking",Hewlett Packard Enterprise,"Dubai, Dubai, United Arab Emirates",linkedin,https://www.linkedin.com/jobs/view/4486464827
-exclude word: sales,Director of Customer Service & Sales Support,LION,"Dayton, OH, USA",linkedin,https://www.linkedin.com/jobs/view/4487928980
-exclude word: sales,"Sales Manager, Foreign Circulation",Royal Canadian Mint,"Ottawa, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=283becd8d4737c8f
-exclude word: sales,Senior International Sales Manager,Stuller Inc,"Lafayette, LA, USA",indeed,https://www.indeed.com/viewjob?jk=95b99bd16f3bdfaa
-exclude word: sales,Services Sales Leader,Trane Technologies,"Abu Dhabi, AZ, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=2dd068b7f354abad
-exclude word: store,New Store Openings Manager,Piedmont Beverage Company,"Spartanburg, SC, USA",indeed,https://www.indeed.com/viewjob?jk=c458602dac8386b4
-exclude word: store,Store & Workplace Support Tech Lead,SEPHORA,"Jiddah, Makkah, Saudi Arabia",linkedin,https://www.linkedin.com/jobs/view/4487724627
-no seniority word in title,OT SECURITY ANALYST (EL),ABB,"جدة, S02, Saudi Arabia",indeed,https://sa.indeed.com/viewjob?jk=df64b40b0dd92050
-no seniority word in title,Engineer - Infrastructure,AECOM,"الخفجي, S04, Saudi Arabia",indeed,https://sa.indeed.com/viewjob?jk=24d3e8476f5be256
-no seniority word in title,Principal Design Engineer - Structures,AECOM,"Doha, DAW, Qatar",indeed,https://qa.indeed.com/viewjob?jk=d425a4fedd3877d3
-no seniority word in title,Home Care Startup & Operations Consultant – Ontario,ALTURA CARE GROUP INC,"Mississauga, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=851ad9ff08a546d6
-no seniority word in title,Principal Network Project/Program Management,AT&T,"Dallas, TX, USA",linkedin,https://www.linkedin.com/jobs/view/4486631797
-no seniority word in title,Forward Deployed Solutions Engineer - AIM,AVEVA,"Abu Dhabi, AZ, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=804796202873a163
-no seniority word in title,Barman,AWJ Investments,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=f6482c2e2880b841
-no seniority word in title,"Specialist, Country Study Start Up",AbbVie,"Montréal, QC, Canada",indeed,https://ca.indeed.com/viewjob?jk=d09ffd3f0b0dc7f0
-no seniority word in title,Labourer,Aecon Group Inc.,"Springfield, MB, Canada",indeed,https://ca.indeed.com/viewjob?jk=3ddc14de55d91bf8
-no seniority word in title,Chef de service - Maintenance Air Canada - Transformation commerciale,Air Canada,"Dorval, Quebec, Canada",linkedin,https://www.linkedin.com/jobs/view/4487424343
-no seniority word in title,Flight Dispatch / Key Account Executive,Al-Futtaim,United Arab Emirates,indeed,https://ae.indeed.com/viewjob?jk=c875d2a76999ffcb
-no seniority word in title,Registered Nurse,Alberta Health Services,"Stettler, AB, Canada",indeed,https://ca.indeed.com/viewjob?jk=9c3cefde87b37561
-no seniority word in title,Physiotherapist II,Alberta Health Services,"Peace River, AB, Canada",indeed,https://ca.indeed.com/viewjob?jk=261d52f0f7189716
-no seniority word in title,Human Resources Advisor,Andritz,"Peterborough, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=bb4b5a9943fc7203
-no seniority word in title,Cook,Anthony's Restaurants,"Tacoma, WA, USA",indeed,https://www.indeed.com/viewjob?jk=bbc6d74edd6ee49e
-no seniority word in title,Hourly Supervisor - ASU-Board Operations,Aramark,"Tempe, AZ, USA",indeed,https://www.indeed.com/viewjob?jk=278114bfd0d0228c
-no seniority word in title,Product Agile Delivery & Transformation,Astek,"Jeddah, Makkah, Saudi Arabia",linkedin,https://www.linkedin.com/jobs/view/4487140638
-no seniority word in title,HR Solutions Partner,AstraZeneca,"Mississauga, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=1553807207b2004e
-no seniority word in title,Civil CAD Technician,AtkinsRéalis,"Montréal, QC, Canada",indeed,https://ca.indeed.com/viewjob?jk=dc681e30bf24f3a7
-no seniority word in title,Human Resources Coordinator,BC Energy Regulator,"Fort St. John, BC, Canada",indeed,https://ca.indeed.com/viewjob?jk=952397353f982af0
-no seniority word in title,Specialist Engineer (Grid Telecom Operations),BC Hydro,"Fraser, BC, Canada",indeed,https://ca.indeed.com/viewjob?jk=aaa4b655135254e9
-no seniority word in title,System Administration Specialist,BPO PLUS,"Doha, DAW, Qatar",indeed,https://qa.indeed.com/viewjob?jk=f2105093f759bb45
-no seniority word in title,Dir Service Delivery Management,BioSpace,"Sleepy Hollow, NY, USA",linkedin,https://www.linkedin.com/jobs/view/4487709598
-no seniority word in title,Business Development Executive,Blue Gulf Ship Builders L.L.C,"Abu Dhabi, AZ, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=5728aad9d1d64241
-no seniority word in title,Chief of Mission Operations,Booz Allen Hamilton,"Chantilly, VA, USA",linkedin,https://www.linkedin.com/jobs/view/4487788186
-no seniority word in title,Electrician,Bosch Building Technologies,"Vanderhoof, BC, Canada",indeed,https://ca.indeed.com/viewjob?jk=9968e7a2ec18673c
-no seniority word in title,Indian Health Service Network Operations & Support Center:,Bowhead,"Rockville, MD, USA",indeed,https://www.indeed.com/viewjob?jk=ae0acacdcfcf7529
-no seniority word in title,Community Programs Supervisor,Boys and Girls Club of Leduc,"Leduc, AB, Canada",indeed,https://ca.indeed.com/viewjob?jk=c98f9ff13dae2b7d
-no seniority word in title,Baker,Brighton Resort,"Brighton, UT, USA",indeed,https://www.indeed.com/viewjob?jk=c071f203dec45600
-no seniority word in title,Business Development Intern – B2B Technology Sales,Bullseye Technology,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=e98abb7ee844ec1c
-no seniority word in title,Project Coordinator,CBRE,"San Francisco, CA, USA",indeed,https://www.indeed.com/viewjob?jk=68fed3187e95376d
-no seniority word in title,Golf Professional,CHEVY CHASE CLUB,"Chevy Chase, MD, USA",indeed,https://www.indeed.com/viewjob?jk=e28aa71f6373640b
-no seniority word in title,Electrical Design Engineer,CMTA Consulting Engineers,"Renton, WA, USA",indeed,https://www.indeed.com/viewjob?jk=e09ef52e9bdc6949
-no seniority word in title,ELV Engineer,COSMOS ELECTRO TECHNICAL CONTRACTING,"Abu Dhabi, AZ, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=07966a837805a25d
-no seniority word in title,Valet Runner - Steady Extra (Paris LV),Caesars Entertainment,"Las Vegas, NV, USA",indeed,https://www.indeed.com/viewjob?jk=847a9ee9fe73c588
-no seniority word in title,"Coordinator, Information Management",Canadian Air Transport Security Authority (CATSA),"Ottawa, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=baf62d3fcbf69a9a
-no seniority word in title,People and Culture (HR) Partner,Canadian Museum for Human Rights,"Winnipeg, MB, Canada",indeed,https://ca.indeed.com/viewjob?jk=49f0ad8602fad19f
-no seniority word in title,Dir IS Cust Svc & Workplc Tech,Children's National Hospital,"Silver Spring, MD, USA",linkedin,https://www.linkedin.com/jobs/view/4486799276
-no seniority word in title,City Clerk,City of Kawartha Lakes,"Kawartha Lakes, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=42a506de347dab8a
-no seniority word in title,CDL A Driver Merchandiser,Coca-Cola Beverages Northeast,"Needham, MA, USA",indeed,https://www.indeed.com/viewjob?jk=833efdec848f494e
-no seniority word in title,Prep Cook Full Time Temp,Cogir Senior Living Canada,"Winnipeg, MB, Canada",indeed,https://ca.indeed.com/viewjob?jk=1c4f4f8ce4cb9510
-no seniority word in title,Network and Systems Administrator,Comox Valley Regional District,"Courtenay, BC, Canada",indeed,https://ca.indeed.com/viewjob?jk=8d4835381dbd5984
-no seniority word in title,Supervisor – OSP Projects,Confidential Company,"Doha, Qatar",linkedin,https://www.linkedin.com/jobs/view/4487135705
-no seniority word in title,Dir Field Services PMO,Connection,"Hillsborough County, NH, USA",linkedin,https://www.linkedin.com/jobs/view/4486530508
-no seniority word in title,Planning Engineer,Consertus,"Abu Dhabi, AZ, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=fa4631f44a0d75b2
-no seniority word in title,"Principal, Security, Cyber & Resilience Consulting",Control Risks,"Dubai, Dubai, United Arab Emirates",linkedin,https://www.linkedin.com/jobs/view/4487147215
-no seniority word in title,Service Account Executive - Building Automation Systems,Convergint,"Calgary, AB, Canada",indeed,https://ca.indeed.com/viewjob?jk=f5d29946e7602a18
-no seniority word in title,Warehouse Operator,Coop Embrun,"Embrun, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=34f4a0ef5fc40d52
-no seniority word in title,Tools Department Clerk,Coop Embrun,"Embrun, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=c57452e1a3efac11
-no seniority word in title,Coordinator of Employment Relations- Human Resources - Mistissini (Replacement),Cree School Board,"Mistissini, QC, Canada",indeed,https://ca.indeed.com/viewjob?jk=01f73dc045395903
-no seniority word in title,Associate ( Cost Management ),Currie & Brown Holdings,"Abu Dhabi, AZ, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=191de9f0c672aa03
-no seniority word in title,HR ASSISTANT,DP World,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=7e938ad518ed5da1
-no seniority word in title,Bell Attendant [YR],Dolly Parton's SongTeller Hotel,"Nashville, TN, USA",indeed,https://www.indeed.com/viewjob?jk=1583585fd32b5a31
-no seniority word in title,Junior Client Partner - Dubai,DoubleVerify,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=ca488b0529de19ff
-no seniority word in title,Project Analyst - PMO,ENTRUST Solutions Group,"Las Vegas, NV, USA",indeed,https://www.indeed.com/viewjob?jk=41821141153b7cc9
-no seniority word in title,System Technician,Eastlink,"Bonnyville, AB, Canada",indeed,https://ca.indeed.com/viewjob?jk=af61ffdcb7cd4b2e
-no seniority word in title,Service Technician,Eastlink,"Amherst, NS, Canada",indeed,https://ca.indeed.com/viewjob?jk=5d9b19d8ae35a730
-no seniority word in title,Safety Officer (Saudi National),Egis Group,"الرياض, S01, Saudi Arabia",indeed,https://sa.indeed.com/viewjob?jk=2c7e5c4791082a5a
-no seniority word in title,"Advisor, Analytical Chemistry",Eli Lilly,"Toronto, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=6359327bdf8c9872
-no seniority word in title,Pastry Chef,Elmhirst's Resort,"Keene, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=60dd97d26eeeac1c
-no seniority word in title,Early Career - Network Engineer (RAN Optimization),Ericsson,"Plano, TX, USA",indeed,https://www.indeed.com/viewjob?jk=5fbf471e64e1ce9a
-no seniority word in title,PS Core SME,Ericsson,"Riyadh, Riyadh, Saudi Arabia",linkedin,https://www.linkedin.com/jobs/view/4486072812
-no seniority word in title,Corporate Security Officer,Etihad Airways,"Abu Dhabi, AZ, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=5644b6ad6556159f
-no seniority word in title,Travel Administrator,FHI 360,"Remote, USA",indeed,https://www.indeed.com/viewjob?jk=7537917cd8538052
-no seniority word in title,"Mgr, IT Operations",Fluor Corporation,"Greenville, SC, USA",linkedin,https://www.linkedin.com/jobs/view/4488064338
-no seniority word in title,"Administrative Assistant, Engineering",Fortis BC,"Trail, BC, Canada",indeed,https://ca.indeed.com/viewjob?jk=4cba5e0316f4a5c4
-no seniority word in title,People & Culture Associate - KSA Nationals ONLY,Four Principles,"الرياض, S01, Saudi Arabia",indeed,https://sa.indeed.com/viewjob?jk=239e27545eeb61d6
-no seniority word in title,Farm Business Representative (Level 1),G3 Canada Limited,"Melville, SK, Canada",indeed,https://ca.indeed.com/viewjob?jk=74f1c67e012ea2f6
-no seniority word in title,"Principal Analyst, Aggregator & Vertical Search Analytics",GEICO,"Chicago, IL, USA",indeed,https://www.indeed.com/viewjob?jk=74b633b955b97c3a
-no seniority word in title,QA/QC Engineer,GHD,"Abu Dhabi, AZ, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=18bc7b63203e243d
-no seniority word in title,Customer Service Officer | Everyday Goods - Distribution,GMG,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=543bad62caa62f0c
-no seniority word in title,Professional Services Engineer - KSA,GitLab Inc,Saudi Arabia,indeed,https://sa.indeed.com/viewjob?jk=0d07b28fde1978c1
-no seniority word in title,Operations Specialist,Globant,Saudi Arabia,indeed,https://sa.indeed.com/viewjob?jk=661d231f6f454631
-no seniority word in title,Auditor,Government Of Alberta,"Edmonton, AB, Canada",indeed,https://ca.indeed.com/viewjob?jk=450494c44d851dc9
-no seniority word in title,Sous Chef,Grand Tourist Hotel Muscat,"Doha, DAW, Qatar",indeed,https://qa.indeed.com/viewjob?jk=0c1b9de61de6f21a
-no seniority word in title,Electrical Engineer,HanmiGlobal Saudi,"الرياض, S01, Saudi Arabia",indeed,https://sa.indeed.com/viewjob?jk=4f1e04a12375a699
-no seniority word in title,Quality Assurance Specialist,Hart Print,"Mont-royal, QC, Canada",indeed,https://ca.indeed.com/viewjob?jk=38a28fa088961136
-no seniority word in title,Frontend Developer & Designer,Hatch,"الرياض, S01, Saudi Arabia",indeed,https://sa.indeed.com/viewjob?jk=77ed603a69ac1a56
-no seniority word in title,"Consultant, Digital",Hatch,"الرياض, S01, Saudi Arabia",indeed,https://sa.indeed.com/viewjob?jk=75e1279f65ec53eb
-no seniority word in title,"Functional Specialist , SAP - MM & SCS",Hitachi Energy,"Toronto, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=82cfb9e0f2b26da9
-no seniority word in title,Field Service Supervisor-Low Current System (Saudi National Only),Honeywell Technologies,Saudi Arabia,linkedin,https://www.linkedin.com/jobs/view/4487245215
-no seniority word in title,Miramichi Licensed Counselling Therapist (LC01) PCN 1757475,Horizon Health Network,"Miramichi, NB, Canada",indeed,https://ca.indeed.com/viewjob?jk=4a2434f15dbf8952
-no seniority word in title,SOUS CHEF,Hot n cool,"Doha, DAW, Qatar",indeed,https://qa.indeed.com/viewjob?jk=f7f21a4cc02b38cd
-no seniority word in title,EXECUTIVE CHEF,Hot n cool,"Doha, DAW, Qatar",indeed,https://qa.indeed.com/viewjob?jk=3988232809a9f5a1
-no seniority word in title,Digital Analyst,Hydro One,"Toronto, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=ee7642829b849056
-no seniority word in title,Service Management Analyst,Hydro One,"Rexdale, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=8049665fa284307e
-no seniority word in title,Electrical / Instrumentation & Telecom Supervisor,IOTA GROUP,"Al Jubayl, Saudi Arabia",linkedin,https://www.linkedin.com/jobs/view/4489194590
-no seniority word in title,Business Development Executive,IW Express,"الرياض, S01, Saudi Arabia",indeed,https://sa.indeed.com/viewjob?jk=2a7bd14b42cf4d51
-no seniority word in title,Real-Estate Agent,Independent Life Real Estate Brokerage LLC,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=6a40ec21178f16fa
-no seniority word in title,Manufacturing Supervisor,Integra LifeSciences,"Prospect, CT, USA",indeed,https://www.indeed.com/viewjob?jk=75881675ed637634
-no seniority word in title,Coordinating Doctor,International SOS,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=b9535a6fd0099220
-no seniority word in title,SCRUM Master,Island Health,"Victoria, BC, Canada",indeed,https://ca.indeed.com/viewjob?jk=33fc4839d1a124c0
-no seniority word in title,"Application Specialist, ITSM",J.D. Irving,"Saint John, NB, Canada",indeed,https://ca.indeed.com/viewjob?jk=4a604c2cca01da7c
-no seniority word in title,"SVP, Multi-Family - Property & Asset Management",JLL,"Toronto, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=fa29f49b2cfd61b3
-no seniority word in title,Madinah Project Positions,KEO International Consultants,"المدينة, S03, Saudi Arabia",indeed,https://sa.indeed.com/viewjob?jk=ea33dbc78f09a94d
-no seniority word in title,Partner Enablement Specialist,"Keeper Security, Inc.","Remote, USA",indeed,https://www.indeed.com/viewjob?jk=ce53e704bd604d8c
-no seniority word in title,Group Design Supervisor,Klick Health,"Toronto, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=4fb268b0705db576
-no seniority word in title,海外运营负责人-利雅得/迪拜,LHH,"Riyadh, Saudi Arabia",linkedin,https://www.linkedin.com/jobs/view/4487661710
-no seniority word in title,"Expert Commissioning Scheduler - Data Centre, Abu Dhabi & UAE",Laminar Projects,"Abu Dhabi, AZ, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=1cc0d7e03d0d359d
-no seniority word in title,ISG Asst Mfg Program Mgr,Lenovo,"Riyadh, Riyadh, Saudi Arabia",linkedin,https://www.linkedin.com/jobs/view/4460224793
-no seniority word in title,Project Management Specialist,Lenovo,"Riyadh, Riyadh, Saudi Arabia",linkedin,https://www.linkedin.com/jobs/view/4460268904
-no seniority word in title,"Security Projects and Operations Engineer (Toronto, ON – Hybrid)",LifeLabs,"Toronto, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=5301f276b86279b9
-no seniority word in title,MGR Fitness & Training,MNP Community and Sport Centre,"Calgary, AB, Canada",indeed,https://ca.indeed.com/viewjob?jk=c7ba9ec75947cbac
-no seniority word in title,Community Peace Officer,MacEwan University,"Edmonton, AB, Canada",indeed,https://ca.indeed.com/viewjob?jk=1b9d93c501868bb4
-no seniority word in title,FT Executive Chef,Manitoba Liquor & Lotteries,"Winnipeg, MB, Canada",indeed,https://ca.indeed.com/viewjob?jk=ea49f51a6d3d7d30
-no seniority word in title,Mgr-Security & Safety,Marriott International,"مكة, S02, Saudi Arabia",indeed,https://sa.indeed.com/viewjob?jk=90b200a53e5b3a24
-no seniority word in title,Managing Partner & CEO | Japanese Matcha Trading & Distribution,Matcha Vibes cafe,"Jumeirah, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=432d404c1a996f91
-no seniority word in title,Knowledge Analyst - Telco,McKinsey & Company,"الرياض, S01, Saudi Arabia",indeed,https://sa.indeed.com/viewjob?jk=dbaaac14c29c01f8
-no seniority word in title,People Experience Advisor,Mondelēz International,"Hamilton, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=8de67d327c90e4b3
-no seniority word in title,Social Media and Content Specialist,"Mondetta Canada, Inc.","Winnipeg, MB, Canada",indeed,https://ca.indeed.com/viewjob?jk=7fe23bea9b226921
-no seniority word in title,GM of Technical Operations Services,NCGR - National Center for Government Resources Sys.,"Riyadh, Riyadh, Saudi Arabia",linkedin,https://www.linkedin.com/jobs/view/4484685222
-no seniority word in title,Financial & Special Projects Consultant,NIAGARA REGION,"Thorold, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=8a0df4b2bfa12389
-no seniority word in title,Coordinator - Maternity & Childcare Services,NMC Health plc,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=c795c30d85fa0f0a
-no seniority word in title,Physician Leadership,Newfoundland and Labrador Centre for Health Information,"Happy Valley-Goose Bay, NL, Canada",indeed,https://ca.indeed.com/viewjob?jk=57d5e9ca97185386
-no seniority word in title,Clinical Psychologist III,Newfoundland and Labrador Centre for Health Information,"Clarenville, NL, Canada",indeed,https://ca.indeed.com/viewjob?jk=5b627be1cc6227a1
-no seniority word in title,Regional Technology Specialist – Mission Critical & Enterprise,Nokia,Doha Metropolitan Area,linkedin,https://www.linkedin.com/jobs/view/4487464879
-no seniority word in title,"Sr Specialist, Maintenance & Reliability",Nutrien,"Calgary, AB, Canada",indeed,https://ca.indeed.com/viewjob?jk=db528a885145ce73
-no seniority word in title,"Coordinator, Community Relations and Social Media – Edmonton Oil Kings",OEG Sports & Entertainment,"Edmonton, AB, Canada",indeed,https://ca.indeed.com/viewjob?jk=2c782b75dad6d81f
-no seniority word in title,Corporate Ergonomist,Olymel,"Boucherville, QC, Canada",indeed,https://ca.indeed.com/viewjob?jk=6e84f1863b33efcd
-no seniority word in title,Placement Coordinator,Ontario Health atHome,"Peterborough, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=f220c454d4e7a530
-no seniority word in title,Support Engineer I,Opti9 Technologies,"Ottawa, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=b64db7855662cbdc
-no seniority word in title,Principal Network Developer,Oracle,"Seattle, WA, USA",indeed,https://www.indeed.com/viewjob?jk=3101bce696d8997b
-no seniority word in title,Maintenance Technician,Pattison Media,"Prince George, BC, Canada",indeed,https://ca.indeed.com/viewjob?jk=88c9c9eebf2208d6
-no seniority word in title,"Solution Architect, HPE Networking",Pellera Technologies,"Calgary, AB, Canada",indeed,https://ca.indeed.com/viewjob?jk=716cebe5cb8081d1
-no seniority word in title,Registered Nurse - Postpartum Community Services,Primary Care Alberta,"Calgary, AB, Canada",indeed,https://ca.indeed.com/viewjob?jk=b4c06f4850c87861
-no seniority word in title,Chief Operating Officer – Industrial Division,ProPosition Management Search,"Abu Dhabi Emirate, United Arab Emirates",linkedin,https://www.linkedin.com/jobs/view/4486250306
-no seniority word in title,"Health Emergency Management (HEM) Specialist, Projects and Initiatives",Provincial Health Services Authority (PHSA),"Prince George, BC, Canada",indeed,https://ca.indeed.com/viewjob?jk=e33d730343f04bc1
-no seniority word in title,Network Engineer / Telecommunications Specialist / Engineer,QA DNA,"Dubai, United Arab Emirates",linkedin,https://www.linkedin.com/jobs/view/4486590032
-no seniority word in title,Commercial Operations Specialist,Qatar Airways,"Doha, DAW, Qatar",indeed,https://qa.indeed.com/viewjob?jk=fcfebeea07dba586
-no seniority word in title,Technology Services Controller (Telecom & Collaboration),Qatar Airways,Doha Metropolitan Area,linkedin,https://www.linkedin.com/jobs/view/4486504489
-no seniority word in title,SR. SYSTEMS ANALYST (LOGISITCS),QatarEnergy,"Doha, DAW, Qatar",indeed,https://qa.indeed.com/viewjob?jk=e48da97804269d8b
-no seniority word in title,Security Supervisor,Raffles,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=198f41525aaf0491
-no seniority word in title,"General Counsel, Raytheon Emirates Limited (REL)",Raytheon,"Abu Dhabi, AZ, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=15b2ddc5c5ed8ade
-no seniority word in title,Dir Service Delivery Management,Regeneron,"Sleepy Hollow, NY, USA",linkedin,https://www.linkedin.com/jobs/view/4486070604
-no seniority word in title,Civil Engineer,Rogers Communications,"Vancouver, BC, Canada",indeed,https://ca.indeed.com/viewjob?jk=eb2531584bb8dcfc
-no seniority word in title,Sales Coordinator- Emirati Talent,Rotana Hotels,"Abu Dhabi, AZ, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=ea32c77aac1eb01f
-no seniority word in title,Optoelectronic Engineer,Sanmina,"Ottawa, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=f6387be0af2badcc
-no seniority word in title,Patient Support Specialist,Sanofi,"Toronto, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=d3596aa5a60b690c
-no seniority word in title,Chef.fe de l’administration de programmes des services de santé mentale jeunesse,Santé Québec Centre-Ouest-de-l'Île-de-Montréal - Universitaire,"Montreal, Quebec, Canada",linkedin,https://www.linkedin.com/jobs/view/4487391268
-no seniority word in title,Chef De Cuisine - Oriental Chef - Arabic Speaker,Shanasheel Restaurants Co LLC,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=22db1e24f8364869
-no seniority word in title,Captain Waiter,Souq Waqif Boutique Hotel By Tivoli,"Doha, DAW, Qatar",indeed,https://qa.indeed.com/viewjob?jk=00eea68652740775
-no seniority word in title,F&B Supervisor,Souq Waqif Boutique Hotel By Tivoli,"Doha, DAW, Qatar",indeed,https://qa.indeed.com/viewjob?jk=ccd7c4f9fbd02e09
-no seniority word in title,mgr district- Central Maryland,Starbucks,"Columbia, MD, USA",indeed,https://www.indeed.com/viewjob?jk=5459d140353c1113
-no seniority word in title,Chief Operating Officer,TAQRIR | تقرير,"Riyadh, Saudi Arabia",linkedin,https://www.linkedin.com/jobs/view/4487110072
-no seniority word in title,Government and Community Relations Advisor - Canadian Prairies,TC Energy,"Regina, SK, Canada",indeed,https://ca.indeed.com/viewjob?jk=1baa0f8f7af906e5
-no seniority word in title,Finance Audit Advisor - Cigna Healthcare,The Cigna Group,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=290ad51bd56acd14
-no seniority word in title,Valet Attendant,The Cypress of Hilton Head,"Hilton Head Island, SC, USA",indeed,https://www.indeed.com/viewjob?jk=674239569b52d223
-no seniority word in title,أخصائي رئيسي -القضايا والمنازعات,The Roads and Transport Authority (RTA),"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=a56ba0a26a0f0d38
-no seniority word in title,Project Administrator,Total Technology L.L.C-FZ,"Remote, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=88e032d881390401
-no seniority word in title,IT Support Technician,Town of Peace River,"Peace River, AB, Canada",indeed,https://ca.indeed.com/viewjob?jk=54e010a61c33263a
-no seniority word in title,Data Engineering Developer II,Trojan Technologies,"London, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=74f299c6f43396a5
-no seniority word in title,IT Support Specialist,URBACON,"Toronto, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=bbbc46a8f4db0130
-no seniority word in title,Communications Specialist,University of British Columbia,"Vancouver, BC, Canada",indeed,https://ca.indeed.com/viewjob?jk=064eaaa8eab12cc7
-no seniority word in title,Account Executive,Unlimited Content,"Remote, USA",indeed,https://www.indeed.com/viewjob?jk=95282a66097dfbb8
-no seniority word in title,Voice Specialist,Vodafone,"Doha, Doha, Qatar",linkedin,https://www.linkedin.com/jobs/view/4487664959
-no seniority word in title,Digital & Technology Graduate (Qatarization),Vodafone,"Doha, Qatar",linkedin,https://www.linkedin.com/jobs/view/4407441902
-no seniority word in title,Shipper/Receiver,Wajax,"Wabush, NL, Canada",indeed,https://ca.indeed.com/viewjob?jk=a4b674e0fab3a6d3
-no seniority word in title,ACCOUNT EXECUTIVE - JV's,Wipro,"الخبر, S04, Saudi Arabia",indeed,https://sa.indeed.com/viewjob?jk=4f8eef418ce9e317
-no seniority word in title,Early Childhood Educator,YMCA of Greater Halifax/Dartmouth,"Fall River, NS, Canada",indeed,https://ca.indeed.com/viewjob?jk=15f4d37b2c43ad57
-no seniority word in title,Internal Audit Specialist,Your Neighbourhood Credit Union (YNCU),"Sault Ste. Marie, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=3467227250d37a67
-no seniority word in title,Rep Ops Transport Tower,gate group,"Seattle, WA, USA",indeed,https://www.indeed.com/viewjob?jk=7a443c70712ccce8
-no seniority word in title,نائب الرئيس التنفيذي للعمليات – مجمعات مدارس,iHR (International Human Resources),"Riyadh, Saudi Arabia",linkedin,https://www.linkedin.com/jobs/view/4485099251
-no seniority word in title,Backend Engineer,ikeGPS,"Broomfield, CO, USA",indeed,https://www.indeed.com/viewjob?jk=f2b2d7cd7eddb88a
-no seniority word in title,Talent Acquisition Coordinator,telMAX Inc.,"Markham, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=136017dcc9aedbf5
-no seniority word in title,Construction Student,telMAX Inc.,"Markham, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=6c14b451510088e3
-no seniority word in title,Commercial Installation Specialist,telMAX Inc.,"Newmarket, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=aea0d96488eaf066
-score 0: no role or industry evidence,Contact Center Manager - SOURC02404,2P Perfect Presentation,"Riyadh, Saudi Arabia",linkedin,https://www.linkedin.com/jobs/view/4487475049
-score 0: no role or industry evidence,"Manager / Senior Manager - FAAS, Private Equity, Operational Excellence, Riyadh",ACCA Careers,"Riyadh, Riyadh, Saudi Arabia",linkedin,https://www.linkedin.com/jobs/view/4487931645
-score 0: no role or industry evidence,Head of Priority Direct,ADIB - Abu Dhabi Islamic Bank,"Dubai, Dubai, United Arab Emirates",linkedin,https://www.linkedin.com/jobs/view/4487715117
-score 0: no role or industry evidence,General Services Senior Manager,ADIB - Abu Dhabi Islamic Bank,"Abu Dhabi, Abu Dhabi Emirate, United Arab Emirates",linkedin,https://www.linkedin.com/jobs/view/4489458354
-score 0: no role or industry evidence,Commercial Director MEAP & Turkey CIS,Abbott,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=eac91c093f385127
-score 0: no role or industry evidence,Director - Programme - Fujairah New Port,Abu Dhabi ports,"Abu Dhabi, AZ, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=26054ff957e852eb
-score 0: no role or industry evidence,Purchasing Manager,Accor,"Doha, DAW, Qatar",indeed,https://qa.indeed.com/viewjob?jk=6631efe6d3048e5e
-score 0: no role or industry evidence,"Manager, EHS",Aecon Group Inc.,"Calgary, AB, Canada",indeed,https://ca.indeed.com/viewjob?jk=2a43a8dfa9e4a9ad
-score 0: no role or industry evidence,Directeur(trice) Pièces et Service,Agence Charlie,"Sherbrooke, Quebec, Canada",linkedin,https://www.linkedin.com/jobs/view/4488032914
-score 0: no role or industry evidence,"Manager, Air Canada Maintenance Business Transformation",Air Canada,"Dorval, QC, Canada",indeed,https://ca.indeed.com/viewjob?jk=275e7bbd7266832a
-score 0: no role or industry evidence,Head of Financial Planning & Analysis,Al-Futtaim,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=7001f7d431182e35
-score 0: no role or industry evidence,Director - Arts and Culture - Aldar Education (Centre of Excellence),Aldar Academies,"Abu Dhabi, AZ, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=46c6c0bb1cf4f130
-score 0: no role or industry evidence,Director of Transportation,Alvarado Independent School District,"Alvarado, TX, USA",indeed,https://www.indeed.com/viewjob?jk=fdcc7885df787fb2
-score 0: no role or industry evidence,"Director, Healthcare Services - MedTech",Alvarez & Marsal,"Denver, CO, USA",indeed,https://www.indeed.com/viewjob?jk=d0d498af8ca7610d
-score 0: no role or industry evidence,Service Line Manager,Amana Healthcare,"Al Ain, Abu Dhabi Emirate, United Arab Emirates",linkedin,https://www.linkedin.com/jobs/view/4464187577
-score 0: no role or industry evidence,Senior Regional EHS Manager,Amazon.com,"Bristol, IN, USA",indeed,https://www.indeed.com/viewjob?jk=ec546ae927ebaa2c
-score 0: no role or industry evidence,"Head of Series Production, Apple TV",Apple,"Culver City, CA, USA",indeed,https://www.indeed.com/viewjob?jk=3554577a4cc6c5d5
-score 0: no role or industry evidence,"Global Director, Business Process and Partnerships",Aramex,"Dubai, Dubai, United Arab Emirates",linkedin,https://www.linkedin.com/jobs/view/4488127333
-score 0: no role or industry evidence,Head of Channel Relations,Artha Realty,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=e02c70854eb41934
-score 0: no role or industry evidence,"Director, Treasury & Business Intelligence",Avana Developments,"Regina, SK, Canada",indeed,https://ca.indeed.com/viewjob?jk=6c9e37c198d90a46
-score 0: no role or industry evidence,"Band 3 - Senior Manager, Communications & Stakeholder Relations",BC Public Service,"Burnaby, BC, Canada",indeed,https://ca.indeed.com/viewjob?jk=ba14d22e1c76b982
-score 0: no role or industry evidence,"Senior Director, Business Enablement, Trust Co.",BMO,"Toronto, Ontario, Canada",linkedin,https://www.linkedin.com/jobs/view/4488003360
-score 0: no role or industry evidence,Senior Manager - Intelligent Process Automation and Reengineering,BMO Financial Group,"Chicago, IL, USA",indeed,https://www.indeed.com/viewjob?jk=d23461076d50ea0f
-score 0: no role or industry evidence,Assistant Spa Manager,Banana Island Resort Doha by Anantara,"Doha, DAW, Qatar",indeed,https://qa.indeed.com/viewjob?jk=0432d99975fd0999
-score 0: no role or industry evidence,Channel Director,Blue Marble Geographics,"Remote, USA",indeed,https://www.indeed.com/viewjob?jk=7ece622dcda385db
-score 0: no role or industry evidence,General Manager- Consumer Lines Dubai,Braxtone Group,"Dubai, Dubai, United Arab Emirates",linkedin,https://www.linkedin.com/jobs/view/4489193477
-score 0: no role or industry evidence,General Manager- Consumer Lines (Dubai),Braxtone Group,"Dubai, Dubai, United Arab Emirates",linkedin,https://www.linkedin.com/jobs/view/4487914593
-score 0: no role or industry evidence,Manager - Operational Transformation,Bupa Arabia,"Riyadh, Riyadh, Saudi Arabia",linkedin,https://www.linkedin.com/jobs/view/4486766116
-score 0: no role or industry evidence,CME Preformance Head,Bureau Veritas,Riyadh Region,linkedin,https://www.linkedin.com/jobs/view/4487931655
-score 0: no role or industry evidence,CME PREFORMANCE HEAD,Bureau Veritas | Marine & Offshore,Riyadh Region,linkedin,https://www.linkedin.com/jobs/view/4489443316
-score 0: no role or industry evidence,Regional Director - Edmonton,CBI Home Health,"Edmonton, AB, Canada",indeed,https://ca.indeed.com/viewjob?jk=b8e025777fad411e
-score 0: no role or industry evidence,"Director, Client Support",CIBC,"Toronto, Ontario, Canada",linkedin,https://www.linkedin.com/jobs/view/4488722983
-score 0: no role or industry evidence,"Manager, Library Services",CITY OF WINNIPEG,"Winnipeg, MB, Canada",indeed,https://ca.indeed.com/viewjob?jk=a7116cd819c52871
-score 0: no role or industry evidence,"Director, Transit",CITY OF WINNIPEG,"Winnipeg, MB, Canada",indeed,https://ca.indeed.com/viewjob?jk=a7dc81216151e374
-score 0: no role or industry evidence,"Executive Director, Shared Services",Canadian Bar Association,"Ottawa, Ontario, Canada",linkedin,https://www.linkedin.com/jobs/view/4478465162
-score 0: no role or industry evidence,Directeur principal régional du service,Canon Canada,"Montreal, Quebec, Canada",linkedin,https://www.linkedin.com/jobs/view/4487568914
-score 0: no role or industry evidence,After Market Country Division Manager,Carrier,"Riyadh, Riyadh, Saudi Arabia",linkedin,https://www.linkedin.com/jobs/view/4486064972
-score 0: no role or industry evidence,"Director, Client Relations",Cencora,"Carrollton, TX, USA",linkedin,https://www.linkedin.com/jobs/view/4484627552
-score 0: no role or industry evidence,"Senior Manager, Revenue Management Core Brands",Choice Hotels,"Remote, USA",indeed,https://www.indeed.com/viewjob?jk=96e7ccd601574650
-score 0: no role or industry evidence,"MEA Business Execution Head, Managing Director",Citi,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=7fcf115de5de3a6b
-score 0: no role or industry evidence,Senior Product Manager META,Clarios,"الرياض, S01, Saudi Arabia",indeed,https://sa.indeed.com/viewjob?jk=0c40eecf4e48c6cc
-score 0: no role or industry evidence,"Head of Customer Life Cycle Management, WBG",Commercial Bank of Dubai,"Dubai, Dubai, United Arab Emirates",linkedin,https://www.linkedin.com/jobs/view/4489125079
-score 0: no role or industry evidence,Director of AISDLC,Computer Services,"Remote, USA",indeed,https://www.indeed.com/viewjob?jk=84ae9b6afc23bc2d
-score 0: no role or industry evidence,Dynamics 365 FinOps ERP Manager,Confidential Jobs,"Riyadh, Saudi Arabia",linkedin,https://www.linkedin.com/jobs/view/4487426907
-score 0: no role or industry evidence,Associate Director-Advisory & Risk Consulting | Risk & Resilience,Control Risks,"Riyadh, Riyadh, Saudi Arabia",linkedin,https://www.linkedin.com/jobs/view/4487132734
-score 0: no role or industry evidence,"Head of Service, Crimson Rise",Crimson Education,"Austin, CO, USA",linkedin,https://www.linkedin.com/jobs/view/4462768674
-score 0: no role or industry evidence,"Head of Service, Crimson Rise",Crimson Education,"Los Angeles, CA, USA",linkedin,https://www.linkedin.com/jobs/view/4462763724
-score 0: no role or industry evidence,Senior Customer Manager,DOW,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=3c4ee80eb3ec35c5
-score 0: no role or industry evidence,Senior Operational Key Account Manager - Defence,DSV - Global Transport and Logistics,"Abu Dhabi, Abu Dhabi Emirate, United Arab Emirates",linkedin,https://www.linkedin.com/jobs/view/4469699277
-score 0: no role or industry evidence,Transition Manager,DXC Technology,"Riyadh, Saudi Arabia",linkedin,https://www.linkedin.com/jobs/view/4488870598
-score 0: no role or industry evidence,Service Manager,Daktronics,"Dubai, Dubai, United Arab Emirates",linkedin,https://www.linkedin.com/jobs/view/4485268028
-score 0: no role or industry evidence,Corporate Bank - Head of Trust & Securities Services - Vice President up to Director,Deutsche Bank,"Riyadh, Riyadh, Saudi Arabia",linkedin,https://www.linkedin.com/jobs/view/4480115476
-score 0: no role or industry evidence,"Senior Manager, Workforce Management",Devoted Health,"Remote, USA",indeed,https://www.indeed.com/viewjob?jk=70f9f49d0fe8503d
-score 0: no role or industry evidence,Parton's Live Manager [YR],Dolly Parton's SongTeller Hotel,"Nashville, TN, USA",indeed,https://www.indeed.com/viewjob?jk=95631d549765c615
-score 0: no role or industry evidence,"VP, Head of Consulting",Dow Jones,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=0134b59f4d09e922
-score 0: no role or industry evidence,SENIOR LIBRARY ASSISTANT (PAGE SUPERVISOR) - MAIN LIBRARY - 40002203,Durham County Government,"Durham, NC, USA",indeed,https://www.indeed.com/viewjob?jk=928617c4cfcc2f4e
-score 0: no role or industry evidence,DLP Lead,E-Solutions,"Riyadh, Saudi Arabia",linkedin,https://www.linkedin.com/jobs/view/4487722909
-score 0: no role or industry evidence,Director of Transportation,ESC Region 11,"Alvarado, TX, USA",indeed,https://www.indeed.com/viewjob?jk=f040ab29164c00ac
-score 0: no role or industry evidence,"Director, Customer Experience",Ergon Inc.,"Flowood, MS, USA",linkedin,https://www.linkedin.com/jobs/view/4487305734
-score 0: no role or industry evidence,Field Services QMS Manager,EthosEnergy,"Remote, USA",indeed,https://www.indeed.com/viewjob?jk=f7aa03e756b6dd11
-score 0: no role or industry evidence,"Director, Care Center ComEd",Exelon,"Villa Park, IL, USA",linkedin,https://www.linkedin.com/jobs/view/4488104557
-score 0: no role or industry evidence,Applied AI Transformation Manager - MENA,FDE Times,Riyadh Region,linkedin,https://www.linkedin.com/jobs/view/4486643183
-score 0: no role or industry evidence,"Director, Spa",Fairmont Hotels & Resorts,"Dubai, Dubai, United Arab Emirates",linkedin,https://www.linkedin.com/jobs/view/4488186754
-score 0: no role or industry evidence,Director of Tactical and Member Services,FlyExclusive,"Raleigh, NC, USA",indeed,https://www.indeed.com/viewjob?jk=a8cea73a63637fd1
-score 0: no role or industry evidence,Associate Director - KSA Nationals ONLY,Four Principles,"الرياض, S01, Saudi Arabia",indeed,https://sa.indeed.com/viewjob?jk=ac9b2353f66841e6
-score 0: no role or industry evidence,"Manager, Service",GCC Olayan,"Al Khobar, Eastern, Saudi Arabia",linkedin,https://www.linkedin.com/jobs/view/4477308425
-score 0: no role or industry evidence,Laboratory Quality Manager,Grand River Hospital,"Kitchener, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=016e90867141ec69
-score 0: no role or industry evidence,Public Affairs Lead,Grand River Hospital,"Kitchener, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=81aaedd9f57ce806
-score 0: no role or industry evidence,Directeur(trice) du service à la clientèle,Groupe Abbatiello,"Québec, Quebec, Canada",linkedin,https://www.linkedin.com/jobs/view/4488178102
-score 0: no role or industry evidence,Business Manager - Securities Services - UAE National Role,HSBC,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=534c137190a3c497
-score 0: no role or industry evidence,"Product Manager, Secured Lending (UAE National)",HSBC,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=79e48ecc1ddb4dea
-score 0: no role or industry evidence,Senior Manager BHS Development,Hamad International Airport,"Doha, Qatar",linkedin,https://www.linkedin.com/jobs/view/4486683177
-score 0: no role or industry evidence,Venue Manager (Society),Hilton,"Doha, Qatar",linkedin,https://www.linkedin.com/jobs/view/4480971118
-score 0: no role or industry evidence,Asst General Manager,Hilton Grand Vacations,"Daytona Beach, FL, USA",indeed,https://www.indeed.com/viewjob?jk=0fad89ff1f39defb
-score 0: no role or industry evidence,Senior Field Service Engineer - GIS Specialist,Hitachi Energy,"Abu Dhabi, AZ, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=446910e54bc7f00f
-score 0: no role or industry evidence,General Manager I,Hudson by Avolta,"Honolulu, HI, USA",indeed,https://www.indeed.com/viewjob?jk=de2e5813b062f097
-score 0: no role or industry evidence,"Directeur(trice) principal, Solutions aux patients, Canada /Senior Director Patient Solutions, Canada",Inizio Engage,"Quebec City, QC, Canada",indeed,https://ca.indeed.com/viewjob?jk=f49663c99d63782d
-score 0: no role or industry evidence,"Directeur(rice), Prestation de services – Région Ouest",Intact,"Calgary, Alberta, Canada",linkedin,https://www.linkedin.com/jobs/view/4487946616
-score 0: no role or industry evidence,Senior Manager - Corporate Services & Outreach,International Center for Biosaline Agriculture,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=a787584f9b8e0368
-score 0: no role or industry evidence,Director - Governance & Client Account Management,International Financial Data Services (IFDS),"Toronto, Ontario, Canada",linkedin,https://www.linkedin.com/jobs/view/4485223044
-score 0: no role or industry evidence,"Manager, Sudbury Office",J.L. Richards & Associates,"Greater Sudbury, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=a062a7e684505df2
-score 0: no role or industry evidence,Business Manager - Senior Associate,JPMorganChase,"الرياض, S01, Saudi Arabia",indeed,https://sa.indeed.com/viewjob?jk=c90bec8ae4f545db
-score 0: no role or industry evidence,Head of Global Support,Jobgether,Canada,linkedin,https://www.linkedin.com/jobs/view/4486316959
-score 0: no role or industry evidence,Assistant Manager,KITH,"New York, NY, USA",indeed,https://www.indeed.com/viewjob?jk=049e7b680c8995f3
-score 0: no role or industry evidence,"Directeur(trice), Transformation technologique bancaire et implantation",KPMG Canada,"Montreal, Quebec, Canada",linkedin,https://www.linkedin.com/jobs/view/4463682658
-score 0: no role or industry evidence,Activities Director,Leisure Care,"Rochester, NY, USA",indeed,https://www.indeed.com/viewjob?jk=745da7b9afbda7b9
-score 0: no role or industry evidence,"Directeur national, ACS",Linde,"Montreal, Quebec, Canada",linkedin,https://www.linkedin.com/jobs/view/4489134226
-score 0: no role or industry evidence,Head of Automotive,Link x Talent,"Riyadh, Saudi Arabia",linkedin,https://www.linkedin.com/jobs/view/4484354603
-score 0: no role or industry evidence,"Senior Market Development Manager – Middle East, Turkey",Lloyd's,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=35a3dc4f8bfcb72b
-score 0: no role or industry evidence,March Break Camp - Lead Camp Instructor,MUNICIPALITY OF CLARINGTON,"Courtice, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=170fd49f3e1c2365
-score 0: no role or industry evidence,Sector Manager,Maharah Human Resources,"Riyadh, Riyadh, Saudi Arabia",linkedin,https://www.linkedin.com/jobs/view/4487251653
-score 0: no role or industry evidence,Senior Purchasing Manager,Marriott International,"Fort Lauderdale, FL, USA",indeed,https://www.indeed.com/viewjob?jk=f0631dc592f21a7c
-score 0: no role or industry evidence,Head Bartender,Marriott International,Saudi Arabia,indeed,https://sa.indeed.com/viewjob?jk=07b3ceac3cfcd245
-score 0: no role or industry evidence,Spa Director,Marriott International,"Doha, DAW, Qatar",indeed,https://qa.indeed.com/viewjob?jk=45399673442e185e
-score 0: no role or industry evidence,"RC RAK, Al Hamra Assistant Housekeeping Manager",Marriott International,"Ras al-Khaimah, RK, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=59534eb41174cc2f
-score 0: no role or industry evidence,Regional Vice President – Middle East & Africa (Excluding UAE & KSA),Millennium Hotels and Resorts MEA,"Doha, Qatar",linkedin,https://www.linkedin.com/jobs/view/4486089964
-score 0: no role or industry evidence,General Manager | Qatar,Millennium Hotels and Resorts MEA,"Doha, Qatar",linkedin,https://www.linkedin.com/jobs/view/4487315047
-score 0: no role or industry evidence,Regional Vice President - UAE,Millennium Hotels and Resorts MEA,"Dubai, Dubai, United Arab Emirates",linkedin,https://www.linkedin.com/jobs/view/4486308025
-score 0: no role or industry evidence,Business Head,Mindfield Resources,"Riyadh, Saudi Arabia",linkedin,https://www.linkedin.com/jobs/view/4486226983
-score 0: no role or industry evidence,Senior Design Manager,Mott MacDonald,"الرياض, S01, Saudi Arabia",indeed,https://sa.indeed.com/viewjob?jk=409294602c573c6f
-score 0: no role or industry evidence,Area Manager,NICE ONE | نايس ون,Najran Region,linkedin,https://www.linkedin.com/jobs/view/4486302440
-score 0: no role or industry evidence,Contract Team Lead - KSA,NOK Human Capital,"Ras Al Khair, Eastern, Saudi Arabia",linkedin,https://www.linkedin.com/jobs/view/4489106134
-score 0: no role or industry evidence,Field Tech Senior Manager (hybrid),NTT DATA North America,"Victoria, British Columbia, Canada",linkedin,https://www.linkedin.com/jobs/view/4488710329
-score 0: no role or industry evidence,CRM Manager,Nasser Bin Khaled and Sons Holdings,"Doha, Qatar",linkedin,https://www.linkedin.com/jobs/view/4485074834
-score 0: no role or industry evidence,"Director, Travel Services",Navan,"Dallas, TX, USA",linkedin,https://www.linkedin.com/jobs/view/4480151922
-score 0: no role or industry evidence,Senior Production Manager,Nestlé Purina,"Batavia, OH, USA",indeed,https://www.indeed.com/viewjob?jk=f493c746b80166b6
-score 0: no role or industry evidence,Director of the Library,Northwestern University,"Doha, Qatar",linkedin,https://www.linkedin.com/jobs/view/4461258720
-score 0: no role or industry evidence,Outpatient Services Director,Old Vineyard Behavioral Health Services,"Winston-Salem, NC, USA",indeed,https://www.indeed.com/viewjob?jk=35da202e3abe0b06
-score 0: no role or industry evidence,General Manager,PRIME ROCK READY MIX INDUSTRY LLC,"Abu Dhabi, AZ, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=c681717fda2fea68
-score 0: no role or industry evidence,HS&E Manager (Metro/Rail Exp),Parsons,"الرياض, S01, Saudi Arabia",indeed,https://sa.indeed.com/viewjob?jk=38d5291365f68013
-score 0: no role or industry evidence,Head of E&M Transformation Programme,Parsons Corporation,Doha Metropolitan Area,linkedin,https://www.linkedin.com/jobs/view/4487257476
-score 0: no role or industry evidence,Brand Manager,Patchi,"Doha, Qatar",linkedin,https://www.linkedin.com/jobs/view/4487459238
-score 0: no role or industry evidence,"Director of Business Development, Middle East & Africa",Proceq,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=6839eb2498d87c7f
-score 0: no role or industry evidence,Learning and Development Team Lead,Property Shop Investment L.L.C-S.P.C,"Abu Dhabi, AZ, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=0326557bbe0efabb
-score 0: no role or industry evidence,"Manager, Services (North America)",Prophix,"Etobicoke, Ontario, Canada",linkedin,https://www.linkedin.com/jobs/view/4470354462
-score 0: no role or industry evidence,Admissions Director - Decatur,PruittHealth,"Decatur, GA, USA",indeed,https://www.indeed.com/viewjob?jk=5012a0f8b2e5b363
-score 0: no role or industry evidence,Director of Rooms,Pyramid Global Hospitality,"Scottsdale, AZ, USA",indeed,https://www.indeed.com/viewjob?jk=4abe9564d7e2726f
-score 0: no role or industry evidence,QNB3884 - Assistant Vice President Domain Support (Qatarization),QNB Group,"Doha, Qatar",linkedin,https://www.linkedin.com/jobs/view/4478252135
-score 0: no role or industry evidence,QNB3892 - Vice President Customer Experience,QNB Group,"Doha, Qatar",linkedin,https://www.linkedin.com/jobs/view/4470586936
-score 0: no role or industry evidence,Director - Cost Planning - 50013618,Qiddiya Investment Company,"الرياض, S01, Saudi Arabia",indeed,https://sa.indeed.com/viewjob?jk=9cf41c34b432cdd2
-score 0: no role or industry evidence,Manager of Customer / Patient Experience & Administration (Healthcare) - QHC000,Qiddiya | القدية,"Riyadh, Riyadh, Saudi Arabia",linkedin,https://www.linkedin.com/jobs/view/4487682553
-score 0: no role or industry evidence,"Senior Manager, Account Management - Questbank",Questrade Financial Group,"North York, Ontario, Canada",linkedin,https://www.linkedin.com/jobs/view/4485894819
-score 0: no role or industry evidence,"Director, New Accounts and Documentation",RBC,"Toronto, Ontario, Canada",linkedin,https://www.linkedin.com/jobs/view/4487098691
-score 0: no role or industry evidence,Head Butler,Raffles Hotels & Resorts,"Dubai, Dubai, United Arab Emirates",linkedin,https://www.linkedin.com/jobs/view/4488141527
-score 0: no role or industry evidence,Director of Front Services,Rosewood Hotel Group,"Doha, DAW, Qatar",indeed,https://qa.indeed.com/viewjob?jk=634eceeabe359ab7
-score 0: no role or industry evidence,Rosewood Explorers - Team Leader,Rosewood Hotel Group,"Doha, DAW, Qatar",indeed,https://qa.indeed.com/viewjob?jk=072f6b1763e30643
-score 0: no role or industry evidence,Engineering Manager,Rotana Hotels,"Ras al-Khaimah, RK, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=baf194c776fa244f
-score 0: no role or industry evidence,Senior Ops Manager II,Ryder System,"Fenton, MO, USA",indeed,https://www.indeed.com/viewjob?jk=7e3119881237822f
-score 0: no role or industry evidence,Directeur(trice) de service,Sezam,"South Shore, Quebec, Canada",linkedin,https://www.linkedin.com/jobs/view/4486523524
-score 0: no role or industry evidence,"Senior Schedular (Planner) - Siemens Energy, Riyadh KSA",Siemens Energy,"الرياض, S01, Saudi Arabia",indeed,https://sa.indeed.com/viewjob?jk=e401a0ee3c99f96b
-score 0: no role or industry evidence,Events Lead,Snoonu,Qatar,indeed,https://qa.indeed.com/viewjob?jk=34080214c215fa57
-score 0: no role or industry evidence,Head of Record to Report (R2R),Snoonu,Qatar,indeed,https://qa.indeed.com/viewjob?jk=c79e93b6ede8dd8c
-score 0: no role or industry evidence,International Markets Performance Manager,Snoonu,"Lusail, Qatar",linkedin,https://www.linkedin.com/jobs/view/4478442775
-score 0: no role or industry evidence,Director of Team Support,Soccer Village,"Blue Ash, OH, USA",linkedin,https://www.linkedin.com/jobs/view/4488057795
-score 0: no role or industry evidence,"Senior Manager, Banquets- SL",Sodexo,"Las Vegas, NV, USA",indeed,https://www.indeed.com/viewjob?jk=92fca6248985d9f2
-score 0: no role or industry evidence,Directeur.ice principal.e en technologie de l’information & transformation numérique,Solmatech inc.,"Repentigny, Quebec, Canada",linkedin,https://www.linkedin.com/jobs/view/4479068006
-score 0: no role or industry evidence,Director of Housekeeping,Sonesta,"Chicago, IL, USA",indeed,https://www.indeed.com/viewjob?jk=a0039744eaca972b
-score 0: no role or industry evidence,Senior Manager of Customer Care,Stuller Inc,"Lafayette, LA, USA",indeed,https://www.indeed.com/viewjob?jk=494ae62dd3fcb96a
-score 0: no role or industry evidence,Contract General Manager,Sundus,"Abu Dhabi, Abu Dhabi Emirate, United Arab Emirates",linkedin,https://www.linkedin.com/jobs/view/4487215903
-score 0: no role or industry evidence,"Manager, Regulated Business Development",TC Energy,"Calgary, AB, Canada",indeed,https://ca.indeed.com/viewjob?jk=d2d36ee0c1afae90
-score 0: no role or industry evidence,"Manager, Community and Councillor Relations",TTC (Toronto Transit Commission),"Toronto, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=430f40cfce17025b
-score 0: no role or industry evidence,Office Manager,Thales Academy,"Wake Forest, NC, USA",indeed,https://www.indeed.com/viewjob?jk=4c69021ffd6587f1
-score 0: no role or industry evidence,News Director for Iran and the Gulf,The Associated Press,"Doha, DAW, Qatar",indeed,https://qa.indeed.com/viewjob?jk=0b99fe4045ff74b9
-score 0: no role or industry evidence,Client Servicing | VP | Abu Dhabi,The Citco Group Limited,"Abu Dhabi, Abu Dhabi Emirate, United Arab Emirates",linkedin,https://www.linkedin.com/jobs/view/4468998748
-score 0: no role or industry evidence,Client Connectivity Services Director,The Depository Trust & Clearing Corporation (DTCC),"Tampa, FL, USA",linkedin,https://www.linkedin.com/jobs/view/4467675642
-score 0: no role or industry evidence,Spa Director,"The Ritz-Carlton Hotel Company, L.L.C.","Doha, Qatar",linkedin,https://www.linkedin.com/jobs/view/4487306654
-score 0: no role or industry evidence,Directeur du service,Thorens - Executive Search Specialists,"Victoriaville, Quebec, Canada",linkedin,https://www.linkedin.com/jobs/view/4468132577
-score 0: no role or industry evidence,Premium Services Manager,Thunes,"Riyadh, Riyadh, Saudi Arabia",linkedin,https://www.linkedin.com/jobs/view/4478110065
-score 0: no role or industry evidence,Manager,Trans Mountain Corporation Inc.,"Calgary, AB, Canada",indeed,https://ca.indeed.com/viewjob?jk=180a1b77c29b828c
-score 0: no role or industry evidence,Senior officer – Protocols,UAE General Civil Aviation Authority,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=c3d12b576f4dd904
-score 0: no role or industry evidence,Business Support Director,UCC Holding,"Lusail, Qatar",linkedin,https://www.linkedin.com/jobs/view/4488860916
-score 0: no role or industry evidence,"Head, Library Technologies And Archives",University of Doha for Science & Technology,"Doha, Qatar",linkedin,https://www.linkedin.com/jobs/view/4485586616
-score 0: no role or industry evidence,"Head, Accessibility Services",University of Doha for Science and Technology,"Doha, DAW, Qatar",indeed,https://qa.indeed.com/viewjob?jk=a9e0e0d3104ad175
-score 0: no role or industry evidence,Director - Client Success and Business Planning,Visa,Riyadh Region,linkedin,https://www.linkedin.com/jobs/view/4479569225
-score 0: no role or industry evidence,"Head of Talent Acquisition, CEMEA",Visa,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=6aafc5868cbdc4ce
-score 0: no role or industry evidence,"(USA) Senior Manager, Material Handling Equipment Service",Walmart,"Bentonville, AR, USA",indeed,https://www.indeed.com/viewjob?jk=4f81c85cfcd77069
-score 0: no role or industry evidence,Head of Customer Experience – Luxury Aftercare,Washmen,"Dubai, United Arab Emirates",linkedin,https://www.linkedin.com/jobs/view/4485064441
-score 0: no role or industry evidence,Site Manager,Whistle Express Car Wash,"Greenville, NC, USA",indeed,https://www.indeed.com/viewjob?jk=2611e00581a5b723
-score 0: no role or industry evidence,Director-Student Counseling Center,Zayed University,"Abu Dhabi, Abu Dhabi Emirate, United Arab Emirates",linkedin,https://www.linkedin.com/jobs/view/4466290298
-score 0: no role or industry evidence,"Executive Director, GTX Client Solution WBG - Family Conglomerates, Corporate Banking, Education & Healthcare - Emiratized Role",bankfab,"Abu Dhabi, AZ, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=0bad9b5ffdb7e06c
-score 0: no role or industry evidence,Manager - Partnerships & Alliances,emaratech,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=b3bd596187fa93e7
-score 0: no role or industry evidence,Director/Channel Management,etisalat UAE,"Dubai, Dubai, United Arab Emirates",linkedin,https://www.linkedin.com/jobs/view/4487780758
-score 0: no role or industry evidence,Manager/Devices as a Service (DaaS) Product,etisalat UAE,"Dubai, Dubai, United Arab Emirates",linkedin,https://www.linkedin.com/jobs/view/4488832949
-score 0: no role or industry evidence,مدير العمليات | Chief Operating Officer (COO),شركة سمر تاون العقارية | SummerTown Real Estate,"Riyadh, Riyadh, Saudi Arabia",linkedin,https://www.linkedin.com/jobs/view/4487142768
+﻿Reason,Title,Company,Workplace,Location,Site,Job link
+employment type: contract,International Analytics Manager,Adastra Corporation,Remote,"Markham, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=0b99eb37d6ad9901
+employment type: contract,"Lead - Procurement Systems, Digitalization & Process Improvement",Airswift,Onsite,"Doha, Doha, Qatar",linkedin,https://www.linkedin.com/jobs/view/4488862888
+employment type: contract,Business Support Lead,Airswift,Onsite,"Doha, Doha, Qatar",linkedin,https://www.linkedin.com/jobs/view/4487468072
+employment type: contract,Salesforce Project Manager,Ampstek,Onsite,"Dubai, United Arab Emirates",linkedin,https://www.linkedin.com/jobs/view/4486578852
+employment type: contract,"Senior Service Delivery Manager, IT",Audax Group,Hybrid,"Boston, MA, USA",linkedin,https://www.linkedin.com/jobs/view/4489123617
+employment type: contract,Corporate Services Manager,B.I. (Europe) Limited,Onsite,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=8539b7502e1b33b3
+employment type: contract,Delivery Manager,Capgemini,Onsite,"Seattle, WA, USA",indeed,https://www.indeed.com/viewjob?jk=03839622acb4c068
+employment type: contract,Head of Customer Success & Commercial Operations – AI-Driven,Crisalix,Onsite,"Dubai, United Arab Emirates",linkedin,https://www.linkedin.com/jobs/view/4487688395
+employment type: contract,ServiceNow Platform Lead (Ref: 198510),Forsyth Barnes,Onsite,"Dubai, United Arab Emirates",linkedin,https://www.linkedin.com/jobs/view/4488841190
+employment type: contract,Project Manager | HRBrain,HRbrain Inc.,Hybrid,"Mississauga, Ontario, Canada",linkedin,https://www.linkedin.com/jobs/view/4486095835
+employment type: contract,Senior Manager Projects - Cargo Terminal 2 (Fixed-Term Contract),Qatar Airways,Onsite,Doha Metropolitan Area,linkedin,https://www.linkedin.com/jobs/view/4487927767
+employment type: contract,Manager Delivery Integration - Cargo Terminal 2 (Fixed-Term Contract),Qatar Airways,Onsite,Doha Metropolitan Area,linkedin,https://www.linkedin.com/jobs/view/4487931584
+employment type: contract,Senior Manager Projects - Cargo Terminal 2 (Fixed-Term Contract),Qatar Airways,Onsite,"Doha, DAW, Qatar",indeed,https://qa.indeed.com/viewjob?jk=f75441f4d7bfb3e1
+employment type: contract,Manager Delivery Integration - Cargo Terminal 2 (Fixed-Term Contract),Qatar Airways,Onsite,"Doha, DAW, Qatar",indeed,https://qa.indeed.com/viewjob?jk=a7df0dd6022ec2e9
+employment type: contract,Senior Manager Projects,Qatar Aviation Services,Onsite,"Doha, Qatar",linkedin,https://www.linkedin.com/jobs/view/4487439512
+employment type: contract,Manager Delivery Integration,Qatar Aviation Services,Onsite,"Doha, Qatar",linkedin,https://www.linkedin.com/jobs/view/4487441466
+employment type: contract,Online Account Manager,Qatar Moms,Onsite,"Dubai International City, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=2b05113cd59c4d88
+employment type: contract,"Manager, Contract and Billing",Samsara,Remote,"Seattle, WA, USA",indeed,https://www.indeed.com/viewjob?jk=76c6d0f512b68f10
+employment type: contract,Project Manager - AI GPS Mapping,TELUS Digital,Onsite,"Doha, Qatar",linkedin,https://www.linkedin.com/jobs/view/4488426007
+employment type: contract,PMO Manager,Talent Blueprint FZ LLC,Onsite,"Riyadh, Riyadh, Saudi Arabia",linkedin,https://www.linkedin.com/jobs/view/4489439441
+employment type: contract,Spa Director,"The Ritz-Carlton Hotel Company, L.L.C.",Onsite,"Doha, Qatar",linkedin,https://www.linkedin.com/jobs/view/4487306654
+employment type: internship,"Director, Grid Operations",Toronto Hydro,Remote,"Toronto, Ontario, Canada",linkedin,https://www.linkedin.com/jobs/view/4488892378
+employment type: other,"Manager, Technical HCM Contact Center / Gestionnaire, Centre de contact technique HCM",ADP,Onsite,"Etobicoke, Ontario, Canada",linkedin,https://www.linkedin.com/jobs/view/4441875981
+employment type: other,Senior Service Delivery Manager – Transportation Technology (ITS),SONDA,Onsite,"Miami, FL, USA",linkedin,https://www.linkedin.com/jobs/view/4489126300
+employment type: other,"Manager, Network Administration and Operations",University of Chicago,Remote,"Chicago, IL, USA",linkedin,https://www.linkedin.com/jobs/view/4486342226
+employment type: parttime,Pool Manager I,"City of San Bernardino, CA",Onsite,"San Bernardino, CA, USA",indeed,https://www.indeed.com/viewjob?jk=bbdf9de5333f56c4
+employment type: parttime,Second Service Manager,"Hy-Vee, Inc.",Onsite,"Washington, MO, USA",indeed,https://www.indeed.com/viewjob?jk=435889e4e70e83da
+employment type: parttime,"Manager, Guest Experience",NYCFC,Onsite,"New York, NY, USA",indeed,https://www.indeed.com/viewjob?jk=9249a13491697f18
+employment type: parttime,Head of Information Technology,Salt,Onsite,"Doha, Qatar",linkedin,https://www.linkedin.com/jobs/view/4487469582
+employment type: temporary,"Lead, Security Architect",Payments Canada,Remote,"Toronto, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=f090a50bf45e78d2
+employment type: temporary,Restoration Manager,telMAX Inc.,Hybrid,"Markham, Ontario, Canada",linkedin,https://www.linkedin.com/jobs/view/4486777007
+exclude word: accounting,Operations Manager - Tax & Accounting,FCBS,Onsite,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=bf45d3253d53ea75
+exclude word: accounting,Senior Manager - Commercial (Development Accounting),Qiddiya Investment Company,Onsite,"الرياض, S01, Saudi Arabia",indeed,https://sa.indeed.com/viewjob?jk=8b92477008e30bfc
+exclude word: assistant,People & Culture Assistant Manager (Saudi Only),Accor,Onsite,"الرياض, S01, Saudi Arabia",indeed,https://sa.indeed.com/viewjob?jk=72fb0072077b4ecf
+exclude word: assistant,Assistant Director,CareerSource NEFL,Onsite,"Jacksonville, FL, USA",indeed,https://www.indeed.com/viewjob?jk=bf0ee73f03830f24
+exclude word: assistant,Food Services Assistant Director,Compass Park,Onsite,"Franklin, IN, USA",indeed,https://www.indeed.com/viewjob?jk=2a384ac3176c65aa
+exclude word: assistant,Assistant Manager/Manager | Client Account Manager - Growth | Riyadh,Deloitte,Onsite,"الرياض, S01, Saudi Arabia",indeed,https://sa.indeed.com/viewjob?jk=22a0b9db7e78c327
+exclude word: assistant,Assistant Manager II,Dollar Tree,Onsite,"Saint Cloud, FL, USA",indeed,https://www.indeed.com/viewjob?jk=29694bfa2707da54
+exclude word: assistant,Assistant Manager | Technology & Cyber Advisory | Technology Risk,Grant Thornton,Hybrid,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=0f7d6b77697aec60
+exclude word: assistant,Rider Quality Assistant Manager,HungerStation | هنقرستيشن,Onsite,"Riyadh, Riyadh, Saudi Arabia",linkedin,https://www.linkedin.com/jobs/view/4376730324
+exclude word: assistant,Assistant Director of Human Resources,Marriott International,Onsite,"Toronto, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=7b720bb81366418b
+exclude word: assistant,QNB3884 - Assistant Vice President Domain Support (Qatarization),QNB Group,Onsite,"Doha, Qatar",linkedin,https://www.linkedin.com/jobs/view/4478252135
+exclude word: assistant,Executive Assistant Manager - Food & Beverage,Raffles,Onsite,"Doha, DAW, Qatar",indeed,https://qa.indeed.com/viewjob?jk=690c6a2d9fda8452
+exclude word: assistant,Executive Assistant Manager - Food & Beverage,Raffles Hotels & Resorts,Onsite,"Doha, Qatar",linkedin,https://www.linkedin.com/jobs/view/4488071453
+exclude word: assistant,Assistant Health & Safety Manager,Salit Steel,Onsite,"Toronto, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=9bd0d50fad0d58ca
+exclude word: assistant,Assistant Manager - Inflight,United Airlines,Onsite,"San Francisco, CA, USA",indeed,https://www.indeed.com/viewjob?jk=b739e1cf29cfb2f0
+exclude word: clinical,Clinical Account Director - Remote Virginia,Prime Therapeutics,Remote,"Remote, USA",indeed,https://www.indeed.com/viewjob?jk=91a466f77c352f8a
+exclude word: construction,Head of Projects- Construction/MEP,CBRE,Onsite,"Cleveland, OH, USA",indeed,https://www.indeed.com/viewjob?jk=3493502095c1cdd4
+exclude word: construction,Construction Project Manager,Mary Brown's,Onsite,"Markham, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=eef31394dc0c2d33
+exclude word: construction,Retrofit Construction Program Manager,Microsoft,Onsite,"Santa Clara, CA, USA",indeed,https://www.indeed.com/viewjob?jk=b4582576a1fa7498
+exclude word: construction,Team Lead - Digital Construction,Pomerleau,Hybrid,"Toronto, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=d45d8c7b8c0cedaf
+exclude word: customer service,Senior Customer Service Manager,CertainTeed,Onsite,"Mississauga, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=4428029ec4802e52
+exclude word: customer service,"Manager, Customer Service & Operations",The Talent Company,Onsite,"Greater Toronto Area, Canada",linkedin,https://www.linkedin.com/jobs/view/4487536354
+exclude word: finance,Head of Corporate Finance & Credit Control,Al-Futtaim,Onsite,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=8c83cd4e714e1f5d
+exclude word: finance,Finance Manager (Real Estate),Five Hotels and Resorts,Onsite,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=22be13e9665b25e3
+exclude word: finance,Senior Techno-Functional Lead – Trade Finance Systems (Eximbills),TMC Middle East,Onsite,"Riyadh, Riyadh, Saudi Arabia",linkedin,https://www.linkedin.com/jobs/view/4485057718
+exclude word: finance,Finance Audit Lead Analyst - Cigna Healthcare,The Cigna Group,Hybrid,"الرياض, S01, Saudi Arabia",indeed,https://sa.indeed.com/viewjob?jk=64a1eaf508603c84
+exclude word: food,Country Manager - Food Services,Delivery Hero,Onsite,"Doha, DAW, Qatar",indeed,https://qa.indeed.com/viewjob?jk=d017d017f52d77e7
+exclude word: food,Food Service Manager 2,Sodexo,Onsite,"McLean, VA, USA",indeed,https://www.indeed.com/viewjob?jk=237b186297385a10
+exclude word: food,Country Manager - Food Services,talabat,Onsite,"Doha, Qatar",linkedin,https://www.linkedin.com/jobs/view/4486339799
+exclude word: junior,Junior Project Manager,DEEL,Onsite,"Chicago, IL, USA",indeed,https://www.indeed.com/viewjob?jk=5812f247557d0fc9
+exclude word: legal,"Chicago - Global Managing Director, Legal Support Services",Winston Taylor,Hybrid,"Chicago, IL, USA",linkedin,https://www.linkedin.com/jobs/view/4477360288
+exclude word: logistics,Americas Logistics- Delivery Exception Manager,Apple,Onsite,"Austin, TX, USA",indeed,https://www.indeed.com/viewjob?jk=00f1c556ad25e7c6
+exclude word: logistics,"Senior Logistics, Security and Interface Manager",JASARA PMC,Onsite,"الرياض, S01, Saudi Arabia",indeed,https://sa.indeed.com/viewjob?jk=c0323692922cddef
+exclude word: logistics,"Senior Logistics, Security and Interface Manager",Jasara Program Management Company,Onsite,"Riyadh, Riyadh, Saudi Arabia",linkedin,https://www.linkedin.com/jobs/view/4487229661
+exclude word: logistics,"Director of Facilities - Custodial, Grounds, Logistics and Mail and Related Services",McMaster University,Onsite,"Hamilton, Ontario, Canada",linkedin,https://www.linkedin.com/jobs/view/4487039796
+exclude word: logistics,"Manager Logistics, Pro Delivery Strategy",The Home Depot,Onsite,"Atlanta, GA, USA",indeed,https://www.indeed.com/viewjob?jk=efca674cbac09d73
+exclude word: marketing,Senior Marketing and Communications Manager,Accor,Onsite,"Doha, DAW, Qatar",indeed,https://qa.indeed.com/viewjob?jk=35d75154d9d3440e
+exclude word: marketing,Regional Marketing Manager (ME),Fragomen,Onsite,"الرياض, S01, Saudi Arabia",indeed,https://sa.indeed.com/viewjob?jk=ec50ff855129cdfa
+exclude word: marketing,Senior Business Development & Marketing Executive / Business Development & Marketing Manager,Maples Group - Legal Services,Onsite,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=7b2d22d12e6fd286
+exclude word: marketing,Senior Marketing Executive,Savills,Onsite,"الرياض, S01, Saudi Arabia",indeed,https://sa.indeed.com/viewjob?jk=1d0077e6683026ea
+exclude word: procurement,Manager Procurement (Procurement Excellence),Qatar Airways,Onsite,"Doha, DAW, Qatar",indeed,https://qa.indeed.com/viewjob?jk=912c8f9944ba8151
+exclude word: procurement,Manager Procurement (Catering & F&B),Qatar Airways,Onsite,"Doha, DAW, Qatar",indeed,https://qa.indeed.com/viewjob?jk=d3296ed9923f7209
+exclude word: procurement,"Procurement Category Manager, Subcontractor Services",Telecon,Onsite,"Vaughan, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=4a3849f10d0f4d76
+exclude word: restaurant,RESTAURANT MANAGER,Hot n cool,Onsite,"Doha, DAW, Qatar",indeed,https://qa.indeed.com/viewjob?jk=cbf7457d367efc9b
+exclude word: restaurant,"Director, Restaurant Technology Deployment & Operations, Tim Hortons",Restaurant Brands International,Onsite,"Toronto, Ontario, Canada",linkedin,https://www.linkedin.com/jobs/view/4480302094
+exclude word: retail,"2027 Retail Vendor Manager Intern, MENA Retail - Consumer Electronics",Amazon.com,Onsite,"الرياض, S01, Saudi Arabia",indeed,https://sa.indeed.com/viewjob?jk=8bc2229590f96059
+exclude word: retail,Back Office Manager (Retail Operations),Bulgari,Onsite,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=9a5cedaadcbd9da2
+exclude word: retail,IT Infra Manager – Retail Operations,Hire Rightt - Executive Search & HR Advisory,Onsite,"Dubai, United Arab Emirates",linkedin,https://www.linkedin.com/jobs/view/4487435638
+exclude word: safety,Senior Health and Safety Manager (Night Shifts),Mace Group,Hybrid,"الرياض, S01, Saudi Arabia",indeed,https://sa.indeed.com/viewjob?jk=8509a03677c7cb55
+exclude word: safety,"Safety, Health & Environment Executive",PLACE VENDOME,Onsite,"Doha, DAW, Qatar",indeed,https://qa.indeed.com/viewjob?jk=ca821670ff7e49c1
+exclude word: safety,Director of Safety & Security,Pyramid Global Hospitality,Onsite,"Oklahoma City, OK, USA",indeed,https://www.indeed.com/viewjob?jk=336b6f150b03727a
+exclude word: safety,"Director - Health, Safety and Worker Welfare Operations (RE1)",Qiddiya Investment Company,Onsite,"الرياض, S01, Saudi Arabia",indeed,https://sa.indeed.com/viewjob?jk=a237b82eecb4979a
+exclude word: safety,Safety Manager Technology,Rogers Communications,Onsite,"Toronto, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=a37b4f8ac953ad16
+exclude word: sales,"Vice President, Client Executive Financial Institutions Sales - Middle East & Africa",Citi,Onsite,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=8bb0e7fd99715a4d
+exclude word: sales,ServiceNow Cyber Sales Executive (Senior Manager),Deloitte,Hybrid,"Toronto, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=ee7ccd7def078929
+exclude word: sales,Head of Mortgage Sales - UAE,HSBC,Onsite,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=07bfdfd55bbd4a3a
+exclude word: sales,"WW High Velocity Sales Program Manager, HPE Networking",Hewlett Packard Enterprise,Onsite,"Dubai, Dubai, United Arab Emirates",linkedin,https://www.linkedin.com/jobs/view/4486464827
+exclude word: sales,SALES MANAGER (Events & Exhibitions),Holding,Onsite,"Doha, DAW, Qatar",indeed,https://qa.indeed.com/viewjob?jk=b14c895634cd5459
+exclude word: sales,Sales & Business Development Executive – Software & IT Solutions Company: OcttoApps Technologies W.,OcttoApps Technologies,Onsite,"Doha, DAW, Qatar",indeed,https://qa.indeed.com/viewjob?jk=3c1ab9353828b4a0
+exclude word: sales,"Sales Director, Southern CA",Presidio,Remote,"Los Angeles, CA, USA",indeed,https://www.indeed.com/viewjob?jk=0f65b0221afd76ab
+exclude word: sales,Senior Sales Manager,Pyramid Global Hospitality,Onsite,"Manchester, NH, USA",indeed,https://www.indeed.com/viewjob?jk=53db1ee19841709a
+exclude word: sales,Senior International Sales Manager,Stuller Inc,Onsite,"Lafayette, LA, USA",indeed,https://www.indeed.com/viewjob?jk=95b99bd16f3bdfaa
+exclude word: store,Assistant Manager of Store Operations,"Hy-Vee, Inc.",Onsite,"Mission, KS, USA",indeed,https://www.indeed.com/viewjob?jk=f8405c965e9b5f9d
+exclude word: store,Store Manager - GTA East,Rogers Communications,Onsite,"Scarborough, Ontario, Canada",linkedin,https://www.linkedin.com/jobs/view/4481636529
+exclude word: store,Store Manager - GTA East,Rogers Communications,Onsite,"Markham, Ontario, Canada",linkedin,https://www.linkedin.com/jobs/view/4481633733
+exclude word: warehouse,"IT Director, Warehouse and Inventory Management",Saputo Inc.,Hybrid,"Georgetown, Ontario, Canada",linkedin,https://www.linkedin.com/jobs/view/4441668500
+missing role keyword,Senior IT Managed Services Specialist,700apps,Onsite,"Riyadh, Riyadh, Saudi Arabia",linkedin,https://www.linkedin.com/jobs/view/4487402972
+missing role keyword,Senior Engineer - ICT,AECOM,Onsite,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=224a04a9d8693081
+missing role keyword,"Senior Advisor – Safety, Health & Environment (SH&E) - Infra",AECOM,Onsite,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=ea2807b9e920bec4
+missing role keyword,"Advisor - Safety, Health & Environment - Infra",AECOM,Onsite,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=dd278b9897ad116d
+missing role keyword,Land Surveyor,AECOM,Onsite,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=cefac382f18fddf4
+missing role keyword,Principal Design Engineer - Structures,AECOM,Onsite,"Doha, DAW, Qatar",indeed,https://qa.indeed.com/viewjob?jk=d425a4fedd3877d3
+missing role keyword,Senior Electrical Engineering,AECOM,Onsite,"الرياض, S01, Saudi Arabia",indeed,https://sa.indeed.com/viewjob?jk=22b32a9e96a93ea1
+missing role keyword,IT Technician,AFG College with UoA,Onsite,"Doha, DAW, Qatar",indeed,https://qa.indeed.com/viewjob?jk=b2e094f567ff09eb
+missing role keyword,Senior Total Rewards Specialist,ALCOHOL AND GAMING COMMISSION OF ONTARIO,Onsite,"Toronto, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=e71de22c04609f30
+missing role keyword,Barman,AWJ Investments,Onsite,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=f6482c2e2880b841
+missing role keyword,Medical Advisor - Allergan Aesthetics,AbbVie,Onsite,"Markham, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=aa938e2489d167e2
+missing role keyword,System Security Practitioner,Accenture Middle East,Onsite,"Riyadh, Riyadh, Saudi Arabia",linkedin,https://www.linkedin.com/jobs/view/4487680168
+missing role keyword,"Senior Presales Solutions Architect, AWS",Adastra Corporation,Hybrid,"Markham, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=d7a2d184c0bdbef8
+missing role keyword,Chef de service - Données et Intelligence artificielle - Responsable technique - Intégration des systèmes et solutions,Air Canada,Onsite,"Toronto, Ontario, Canada",linkedin,https://www.linkedin.com/jobs/view/4485877412
+missing role keyword,Garden Supervisor,Al Fattan Properties,Onsite,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=e600309dff6f3c45
+missing role keyword,Senior Advisor - Technology,Al Jazeera Media Network,Onsite,"Doha, Qatar",linkedin,https://www.linkedin.com/jobs/view/4488780304
+missing role keyword,"SPECIALIST, DATA ANALYST",Alfanar Projects,Onsite,"Riyadh, Riyadh, Saudi Arabia",linkedin,https://www.linkedin.com/jobs/view/4487696905
+missing role keyword,"Principal, International CX, Amazon Customer Service",Amazon,Onsite,"Dubai, Dubai, United Arab Emirates",linkedin,https://www.linkedin.com/jobs/view/4463132941
+missing role keyword,"Health & Safety Officer | UAE National only, UAE AMZL WHS",Amazon.com,Onsite,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=623e68e1b2a567b6
+missing role keyword,"Quality Associate, Amazon Now",Amazon.com,Onsite,"الرياض, S01, Saudi Arabia",indeed,https://sa.indeed.com/viewjob?jk=3297f023cdd3152f
+missing role keyword,Cook,Anthony's Restaurants,Onsite,"Tacoma, WA, USA",indeed,https://www.indeed.com/viewjob?jk=bbc6d74edd6ee49e
+missing role keyword,HR Solutions Partner,AstraZeneca,Hybrid,"Mississauga, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=1553807207b2004e
+missing role keyword,Junior Civil Engineer,AtkinsRéalis,Hybrid,"Pickering, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=b2d28b593ed07ce6
+missing role keyword,Senior DevOps & Back-End Engineer,Autonomous Investment In Commercial Enterprises and Management LLC,Onsite,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=f31398016bdec4d2
+missing role keyword,Workplace Ambassador I,BGIS,Onsite,"Toronto, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=4fa4d0a9db4ceeff
+missing role keyword,Senior Platform Engineer,BGIS,Onsite,"Toronto, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=15c266e6b6633c3e
+missing role keyword,Platform Engineer RPA and Agentic Automation,BMO Financial Group,Hybrid,"Toronto, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=4e66cc4d235fe5ca
+missing role keyword,Conseiller principal en gestion des propositions,Bell,Onsite,"Toronto, Ontario, Canada",linkedin,https://www.linkedin.com/jobs/view/4488418921
+missing role keyword,Principal (IT/Digital) | BCG Platinion,Boston Consulting Group (BCG),Onsite,Doha Metropolitan Area,linkedin,https://www.linkedin.com/jobs/view/4427276696
+missing role keyword,Principal (IT/Digital) | BCG Platinion,Boston Consulting Group (BCG),Onsite,"Riyadh, Riyadh, Saudi Arabia",linkedin,https://www.linkedin.com/jobs/view/4427478114
+missing role keyword,Safety & Security Data Analyst ( UAE National ),CHANEL,Onsite,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=87642a953072c9f0
+missing role keyword,Golf Professional,CHEVY CHASE CLUB,Onsite,"Chevy Chase, MD, USA",indeed,https://www.indeed.com/viewjob?jk=e28aa71f6373640b
+missing role keyword,Valet Runner - Steady Extra (Paris LV),Caesars Entertainment,Onsite,"Las Vegas, NV, USA",indeed,https://www.indeed.com/viewjob?jk=847a9ee9fe73c588
+missing role keyword,Service Desk Senior Technician (part-time),Chesterfield County,Remote,"Chesterfield, VA, USA",indeed,https://www.indeed.com/viewjob?jk=d6a9dc8c09d17f68
+missing role keyword,Dir IS Cust Svc & Workplc Tech,Children's National Hospital,Onsite,"Silver Spring, MD, USA",linkedin,https://www.linkedin.com/jobs/view/4486799276
+missing role keyword,CDL A Driver Merchandiser,Coca-Cola Beverages Northeast,Onsite,"Needham, MA, USA",indeed,https://www.indeed.com/viewjob?jk=833efdec848f494e
+missing role keyword,"Principal, Security, Cyber & Resilience Consulting",Control Risks,Onsite,"Dubai, Dubai, United Arab Emirates",linkedin,https://www.linkedin.com/jobs/view/4487147215
+missing role keyword,CAD Draftsman - Managed Services,Convergint,Onsite,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=33515d213e6e4df6
+missing role keyword,Associate ( Cost Management ),Currie & Brown Holdings,Onsite,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=88fcfe8512f0b2d0
+missing role keyword,HR ASSISTANT,DP World,Onsite,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=7e938ad518ed5da1
+missing role keyword,Bell Attendant [YR],Dolly Parton's SongTeller Hotel,Onsite,"Nashville, TN, USA",indeed,https://www.indeed.com/viewjob?jk=1583585fd32b5a31
+missing role keyword,Junior Client Partner - Dubai,DoubleVerify,Hybrid,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=ca488b0529de19ff
+missing role keyword,SENIOR LIBRARY ASSISTANT (PAGE SUPERVISOR) - MAIN LIBRARY - 40002203,Durham County Government,Onsite,"Durham, NC, USA",indeed,https://www.indeed.com/viewjob?jk=928617c4cfcc2f4e
+missing role keyword,"Principal, AI Data Centres",Echelon,Onsite,"Riyadh, Riyadh, Saudi Arabia",linkedin,https://www.linkedin.com/jobs/view/4488803014
+missing role keyword,Senior Utilities Engineer (Design),Egis Group,Onsite,"الرياض, S01, Saudi Arabia",indeed,https://sa.indeed.com/viewjob?jk=10aae2a1b78cadab
+missing role keyword,Safety Officer (Saudi National),Egis Group,Onsite,"الرياض, S01, Saudi Arabia",indeed,https://sa.indeed.com/viewjob?jk=2c7e5c4791082a5a
+missing role keyword,"Advisor, Analytical Chemistry",Eli Lilly,Onsite,"Toronto, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=6359327bdf8c9872
+missing role keyword,Senior Principal-IT Infrastructure,Elm Company,Onsite,"Riyadh, Riyadh, Saudi Arabia",linkedin,https://www.linkedin.com/jobs/view/4488303651
+missing role keyword,PS Core SME,Ericsson,Onsite,"Riyadh, Riyadh, Saudi Arabia",linkedin,https://www.linkedin.com/jobs/view/4486072812
+missing role keyword,Buyer- Non Food,FAMILY FOOD CENTRE,Onsite,"Doha, DAW, Qatar",indeed,https://qa.indeed.com/viewjob?jk=47d12af4791efc15
+missing role keyword,Business Systems Analyst FCC,Fidelity Canada,Remote,"Toronto, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=e0f3279a71352f43
+missing role keyword,IT Specialist,Five Hotels and Resorts,Onsite,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=c234a80957e7854f
+missing role keyword,Customer Service Officer | Everyday Goods - Distribution,GMG,Onsite,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=543bad62caa62f0c
+missing role keyword,Sous Chef,Grand Tourist Hotel Muscat,Onsite,"Doha, DAW, Qatar",indeed,https://qa.indeed.com/viewjob?jk=0c1b9de61de6f21a
+missing role keyword,"Associate - Credit & Financing, Institutional Sales - UAE National Role",HSBC,Onsite,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=c626e2a3e1c2c018
+missing role keyword,Electrical Engineer,HanmiGlobal Saudi,Onsite,"الرياض, S01, Saudi Arabia",indeed,https://sa.indeed.com/viewjob?jk=4f1e04a12375a699
+missing role keyword,Frontend Developer & Designer,Hatch,Onsite,"الرياض, S01, Saudi Arabia",indeed,https://sa.indeed.com/viewjob?jk=77ed603a69ac1a56
+missing role keyword,"Consultant, Digital",Hatch,Hybrid,"الرياض, S01, Saudi Arabia",indeed,https://sa.indeed.com/viewjob?jk=75e1279f65ec53eb
+missing role keyword,"Functional Specialist , SAP - MM & SCS",Hitachi Energy,Onsite,"Toronto, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=82cfb9e0f2b26da9
+missing role keyword,SOUS CHEF,Hot n cool,Onsite,"Doha, DAW, Qatar",indeed,https://qa.indeed.com/viewjob?jk=f7f21a4cc02b38cd
+missing role keyword,Service Management Analyst,Hydro One,Onsite,"Rexdale, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=8049665fa284307e
+missing role keyword,Digital Analyst,Hydro One,Onsite,"Toronto, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=ee7642829b849056
+missing role keyword,Real-Estate Agent,Independent Life Real Estate Brokerage LLC,Onsite,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=6a40ec21178f16fa
+missing role keyword,Senior PMO Analyst - Venue Technology,Intaleq Technology Consulting & Services,Onsite,"Doha, DAW, Qatar",indeed,https://qa.indeed.com/viewjob?jk=8e4c749faf4af393
+missing role keyword,Coordinating Doctor,International SOS,Onsite,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=b9535a6fd0099220
+missing role keyword,"SVP, Multi-Family - Property & Asset Management",JLL,Onsite,"Toronto, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=fa29f49b2cfd61b3
+missing role keyword,"Business Information Security Officer, Audit & Assurance",KPMG,Onsite,"Toronto, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=8229d7b9fb1db372
+missing role keyword,Azure Platform & Integration Specialist,KPMG,Hybrid,"Vaughan, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=6361a9744682c92e
+missing role keyword,Group Design Supervisor,Klick Health,Hybrid,"Toronto, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=4fb268b0705db576
+missing role keyword,Digital Campus & ELV supervisor,Lenovo,Onsite,"Riyadh, Riyadh, Saudi Arabia",linkedin,https://www.linkedin.com/jobs/view/4460212989
+missing role keyword,"Staff Product Designer, Agentic Experiences",Loblaw Digital,Onsite,"Toronto, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=9996265900f80c5f
+missing role keyword,Infrastructure Solution Architect,LotusFlare,Onsite,"Toronto, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=da189e66665de368
+missing role keyword,AVP Retirement & Wealth Strategy,Manulife,Hybrid,"Toronto, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=2fd8e3386eea87fc
+missing role keyword,Knowledge Analyst - Telco,McKinsey & Company,Onsite,"الرياض, S01, Saudi Arabia",indeed,https://sa.indeed.com/viewjob?jk=dbaaac14c29c01f8
+missing role keyword,Maintenance Contract Supervisor,Ministry Of Transportation Ontario,Onsite,"Mississauga, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=91e648fe1590d3b1
+missing role keyword,Rental Sales Agent,Muzna Food & Beverages LLC,Onsite,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=1e47def03b2c1367
+missing role keyword,Coordinator - Maternity & Childcare Services,NMC Health plc,Onsite,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=c795c30d85fa0f0a
+missing role keyword,Facility Coordinator,Namaa,Onsite,"الرياض, S01, Saudi Arabia",indeed,https://sa.indeed.com/viewjob?jk=e75842b32d73d260
+missing role keyword,Regional Technology Specialist – Mission Critical & Enterprise,Nokia,Hybrid,Doha Metropolitan Area,linkedin,https://www.linkedin.com/jobs/view/4487464879
+missing role keyword,Regional Technology Specialist – Mission Critical & Enterprise,Nokia,Onsite,Riyadh Region,linkedin,https://www.linkedin.com/jobs/view/4487473411
+missing role keyword,Workforce Planning & Labor Specialist,OSL Retail Services Inc,Onsite,"Mississauga, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=d81c531657e715b1
+missing role keyword,Administrative Services Clerk,Ontario Nurses' Association,Onsite,"Toronto, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=38dff9c589b91915
+missing role keyword,Talent Acquisition Partner,Orlando Utilities Commission,Hybrid,"Orlando, FL, USA",indeed,https://www.indeed.com/viewjob?jk=d4ec53d2332b86a3
+missing role keyword,SENIOR ICT ENGINEER,PROGER s.p.a.,Onsite,"Riyadh, Riyadh, Saudi Arabia",linkedin,https://www.linkedin.com/jobs/view/4489467310
+missing role keyword,Procurement Specialist (Saudi National),Parsons,Onsite,"الرياض, S01, Saudi Arabia",indeed,https://sa.indeed.com/viewjob?jk=9fd9ded23dc72d1d
+missing role keyword,Civil Inspector,Parsons,Onsite,"الرياض, S01, Saudi Arabia",indeed,https://sa.indeed.com/viewjob?jk=e5f0df65bf759582
+missing role keyword,Field Engineer Civil (Saudi National),Parsons,Onsite,"الرياض, S01, Saudi Arabia",indeed,https://sa.indeed.com/viewjob?jk=c80616c03b07ee6c
+missing role keyword,Senior Procurement Specialist (Qatari),Qatar Airways,Onsite,"Doha, DAW, Qatar",indeed,https://qa.indeed.com/viewjob?jk=f63e1f498ca1fb15
+missing role keyword,Senior Cargo Corporate Planning Analyst,Qatar Airways,Onsite,"Doha, DAW, Qatar",indeed,https://qa.indeed.com/viewjob?jk=4052ae01d3aca0d4
+missing role keyword,Technology Services Controller (Telecom & Collaboration),Qatar Airways,Onsite,Doha Metropolitan Area,linkedin,https://www.linkedin.com/jobs/view/4486504489
+missing role keyword,SR. SYSTEMS ANALYST (LOGISITCS),QatarEnergy,Onsite,"Doha, DAW, Qatar",indeed,https://qa.indeed.com/viewjob?jk=e48da97804269d8b
+missing role keyword,Analyst - Cybersecurity Business Partner,Qiddiya | القدية,Onsite,"Riyadh, Riyadh, Saudi Arabia",linkedin,https://www.linkedin.com/jobs/view/4487687154
+missing role keyword,Training officer,RATP Dev,Onsite,"الرياض, S01, Saudi Arabia",indeed,https://sa.indeed.com/viewjob?jk=8f1a3de7f9f58e1f
+missing role keyword,PSD Engineer,RATP Dev,Onsite,"الرياض, S01, Saudi Arabia",indeed,https://sa.indeed.com/viewjob?jk=38fa1b2a06edb6e3
+missing role keyword,"Analyst II, QC Microbiology (18-month Fixed-Term Contract)",Resilience,Onsite,"Mississauga, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=6eeca324ba2c9a06
+missing role keyword,HSE Officer- PE,SD (Middle East) LLC,Onsite,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=ffbe19366508407f
+missing role keyword,Patient Support Specialist,Sanofi,Hybrid,"Toronto, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=d3596aa5a60b690c
+missing role keyword,Patient Support Specialist - 1-year Contract,Sanofi,Hybrid,"Toronto, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=dca437343afbead7
+missing role keyword,Finance Officer,Save the Children,Remote,"Remote, USA",indeed,https://www.indeed.com/viewjob?jk=02ccc6320dda2971
+missing role keyword,Procurement Specialist,Seashore Recycling and Sustainability,Onsite,"Doha, DAW, Qatar",indeed,https://qa.indeed.com/viewjob?jk=eff40c8016b29e7c
+missing role keyword,Chef De Cuisine - Oriental Chef - Arabic Speaker,Shanasheel Restaurants Co LLC,Onsite,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=22db1e24f8364869
+missing role keyword,Hepatitis C & Harm Reduction Nurse,Sherbourne Health Centre,Onsite,"Toronto, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=90d7a2c88a0979ab
+missing role keyword,"Supervisor, Support - GiveX Team",Shift4,Onsite,"Toronto, Ontario, Canada",linkedin,https://www.linkedin.com/jobs/view/4489164396
+missing role keyword,"Supervisor, Deal Registration & Pricing Enablement",Softchoice,Hybrid,"Toronto, Ontario, Canada",linkedin,https://www.linkedin.com/jobs/view/4461931212
+missing role keyword,Captain Waiter,Souq Waqif Boutique Hotel By Tivoli,Onsite,"Doha, DAW, Qatar",indeed,https://qa.indeed.com/viewjob?jk=00eea68652740775
+missing role keyword,F&B Supervisor,Souq Waqif Boutique Hotel By Tivoli,Onsite,"Doha, DAW, Qatar",indeed,https://qa.indeed.com/viewjob?jk=ccd7c4f9fbd02e09
+missing role keyword,"Sr. Business Systems Analyst, TD Securities",TD,Onsite,"Toronto, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=573e1568dbe10521
+missing role keyword,Claims Specialist - Claims Bodily Injury,TD,Onsite,"Markham, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=fe0faa6b465cc3c0
+missing role keyword,Sr. IT Build Specialist,TD,Onsite,"Toronto, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=cf89976f1b4134f6
+missing role keyword,Software Engineer II,TD,Hybrid,"Toronto, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=83987496f23ffc9b
+missing role keyword,Software Engineer II (Systems Support),TD,Onsite,"Toronto, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=38439fc9636cfbf0
+missing role keyword,Contact Center Supervisor,TP,Onsite,"Toronto, Ontario, Canada",linkedin,https://www.linkedin.com/jobs/view/4466340462
+missing role keyword,Risk Assessment Officer,TTC (Toronto Transit Commission),Hybrid,"Toronto, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=b534bbb5be855740
+missing role keyword,Senior Assurance Specialist,TTC (Toronto Transit Commission),Hybrid,"Toronto, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=ad7d0227614ed0f9
+missing role keyword,"Senior Contract Administrator, Construction",TTC (Toronto Transit Commission),Hybrid,"Toronto, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=a8d94c0a856a2c34
+missing role keyword,Contract Support Assistant,TTC (Toronto Transit Commission),Hybrid,"Toronto, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=a2caf5c74ad50ed2
+missing role keyword,Fraud Detection Analyst,Tangerine,Hybrid,"Toronto, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=32d3d18e2bd03d93
+missing role keyword,Finance Audit Advisor - Cigna Healthcare,The Cigna Group,Hybrid,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=290ad51bd56acd14
+missing role keyword,Accounting Supervisor,The Cigna Group,Onsite,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=f3b8182cafd809e2
+missing role keyword,Valet Attendant,The Cypress of Hilton Head,Onsite,"Hilton Head Island, SC, USA",indeed,https://www.indeed.com/viewjob?jk=674239569b52d223
+missing role keyword,Senior Technical Engineer,The Emirates Group,Hybrid,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=9847b1bdaab50114
+missing role keyword,Strength & Conditioning Coach,Toronto Pan Am Sports Centre,Onsite,"Toronto, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=d47a1bebc0bfbd29
+missing role keyword,Senior officer – Protocols,UAE General Civil Aviation Authority,Onsite,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=c3d12b576f4dd904
+missing role keyword,IT Support Specialist,URBACON,Onsite,"Toronto, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=bbbc46a8f4db0130
+missing role keyword,Security Specialist,US Animal and Plant Health Inspection Service,Remote,"Ames, IA, USA",indeed,https://www.indeed.com/viewjob?jk=24715c0b2ed6919f
+missing role keyword,Systems Integrator III,Ulteig,Hybrid,"Burlington, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=e7ffeb96318d7d82
+missing role keyword,Administrative Assistant II - CIPP,University Health Network,Onsite,"Toronto, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=f4aa7fe957392b0a
+missing role keyword,Digital Technician (IT Service Desk Agent),University Health Network,Remote,"Toronto, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=ab836d75dbfbaf4b
+missing role keyword,Architect,Virtusa,Onsite,"Dubai, Dubai, United Arab Emirates",linkedin,https://www.linkedin.com/jobs/view/4487493975
+missing role keyword,Voice Specialist,Vodafone,Onsite,"Doha, Doha, Qatar",linkedin,https://www.linkedin.com/jobs/view/4487664959
+missing role keyword,Digital & Technology Graduate (Qatarization),Vodafone,Onsite,"Doha, Qatar",linkedin,https://www.linkedin.com/jobs/view/4407441902
+missing role keyword,CUPE 2331 Temporary Lunchtime Supervisor - Prince of Peace,York Catholic District School Board,Onsite,"Keswick, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=46d348f5e9dffd3b
+missing role keyword,Rep Ops Transport Tower,gate group,Onsite,"Seattle, WA, USA",indeed,https://www.indeed.com/viewjob?jk=7a443c70712ccce8
+missing role keyword,Senior Business Process Analyst,iGaming Ontario,Onsite,"Toronto, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=1bbc97f2619a418c
+missing role keyword,Talent Acquisition Coordinator,telMAX Inc.,Hybrid,"Markham, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=136017dcc9aedbf5
+missing role keyword,Construction Student,telMAX Inc.,Hybrid,"Markham, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=6c14b451510088e3
+missing role keyword,Commercial Installation Specialist,telMAX Inc.,Hybrid,"Newmarket, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=aea0d96488eaf066
+no seniority word in title,Home Care Startup & Operations Consultant – Ontario,ALTURA CARE GROUP INC,Remote,"Mississauga, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=851ad9ff08a546d6
+no seniority word in title,Principal Network Project/Program Management,AT&T,Onsite,"Dallas, TX, USA",linkedin,https://www.linkedin.com/jobs/view/4486631797
+no seniority word in title,IT Operations Centre Analyst - ITOC,Air Canada,Onsite,"Toronto, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=39657c6c8409461c
+no seniority word in title,Network Engineer - Rugby School Dubai,Aldar Academies,Onsite,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=c9d2253284adc0da
+no seniority word in title,"Vendor Management PM , Business Operations",Amazon.com,Onsite,"Bellevue, WA, USA",indeed,https://www.indeed.com/viewjob?jk=46b7cdeb93f37894
+no seniority word in title,Human Resources Business Partner,BAYCREST HOSPITAL,Hybrid,"Toronto, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=5ef43951d60f311b
+no seniority word in title,Dir Service Delivery Management,BioSpace,Hybrid,"Sleepy Hollow, NY, USA",linkedin,https://www.linkedin.com/jobs/view/4487709598
+no seniority word in title,Incident Commander,Blackhawk Network,Onsite,"Pleasanton, CA, USA",linkedin,https://www.linkedin.com/jobs/view/4489140864
+no seniority word in title,Indian Health Service Network Operations & Support Center:,Bowhead,Onsite,"Rockville, MD, USA",indeed,https://www.indeed.com/viewjob?jk=ae0acacdcfcf7529
+no seniority word in title,Project Coordinator,CBRE,Onsite,"San Francisco, CA, USA",indeed,https://www.indeed.com/viewjob?jk=68fed3187e95376d
+no seniority word in title,"Regular Full-Time Supervisor, Cemetery Operations","City of Oshawa, ON",Onsite,"Oshawa, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=0be50279a3d5c930
+no seniority word in title,Supervisor – OSP Projects,Confidential Company,Onsite,"Doha, Qatar",linkedin,https://www.linkedin.com/jobs/view/4487135705
+no seniority word in title,Operations Supervisor,EDGE INTEGRATED TECHNICAL SERVICES LLC,Onsite,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=4d1c94a0b5ff0916
+no seniority word in title,Project Analyst - PMO,ENTRUST Solutions Group,Onsite,"Las Vegas, NV, USA",indeed,https://www.indeed.com/viewjob?jk=41821141153b7cc9
+no seniority word in title,"Mgr, IT Operations",Fluor Corporation,Hybrid,"Greenville, SC, USA",linkedin,https://www.linkedin.com/jobs/view/4488064338
+no seniority word in title,Network Administrator,Frisco ISD,Onsite,"Frisco, TX, USA",indeed,https://www.indeed.com/viewjob?jk=fd565c4e7dcd7a22
+no seniority word in title,Cybersecurity Incident Coordinator,KPMG,Onsite,"Vaughan, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=29b7077b60379ca3
+no seniority word in title,ISG Asst Mfg Program Mgr,Lenovo,Onsite,"Riyadh, Riyadh, Saudi Arabia",linkedin,https://www.linkedin.com/jobs/view/4460224793
+no seniority word in title,Project Management Specialist,Lenovo,Onsite,"Riyadh, Riyadh, Saudi Arabia",linkedin,https://www.linkedin.com/jobs/view/4460268904
+no seniority word in title,"Security Projects and Operations Engineer (Toronto, ON – Hybrid)",LifeLabs,Onsite,"Toronto, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=5301f276b86279b9
+no seniority word in title,Supervisor - Service Operations,Lumos Fiber,Remote,"Spartanburg, SC, USA",linkedin,https://www.linkedin.com/jobs/view/4485846797
+no seniority word in title,Human Resources Business Partner (HRBP) - 12 Month Contract,Merrithew,Hybrid,"Scarborough, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=59ac201ff0d80db0
+no seniority word in title,"Site Supervisor, Child Care Centre",Network Childcare Services,Onsite,"Scarborough, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=74bdc4e3a700903e
+no seniority word in title,Principal Network Developer,Oracle,Onsite,"Seattle, WA, USA",indeed,https://www.indeed.com/viewjob?jk=3101bce696d8997b
+no seniority word in title,Commercial Operations Specialist,Qatar Airways,Onsite,"Doha, DAW, Qatar",indeed,https://qa.indeed.com/viewjob?jk=fcfebeea07dba586
+no seniority word in title,OPERATIONS SUPERVISOR (TRANS & DIST),QatarEnergy,Onsite,"Mesaieed, Al Wakrah, Qatar",linkedin,https://www.linkedin.com/jobs/view/4371519513
+no seniority word in title,Incident Coordinator,Scotiabank,Onsite,"Toronto, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=a62cb682e1f6b30f
+no seniority word in title,Delivery Management,Synechron,Hybrid,"Mississauga, Ontario, Canada",linkedin,https://www.linkedin.com/jobs/view/4468158111
+no seniority word in title,Project Controls Coordinator,TTC (Toronto Transit Commission),Hybrid,"Toronto, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=1d00bb7c940a1620
+no seniority word in title,Personal Care Attendant – Gage Transition to Independent Living Program,University Health Network,Onsite,"Toronto, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=232aca1c9a211b73
+no seniority word in title,Incident Coordinator,University Health Network,Onsite,"Toronto, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=d6ca7908908f2297
+score 0: no role or industry evidence,"Manager / Senior Manager - FAAS, Private Equity, Operational Excellence, Riyadh",ACCA Careers,Hybrid,"Riyadh, Riyadh, Saudi Arabia",linkedin,https://www.linkedin.com/jobs/view/4487931645
+score 0: no role or industry evidence,Head of Priority Direct,ADIB - Abu Dhabi Islamic Bank,Onsite,"Dubai, Dubai, United Arab Emirates",linkedin,https://www.linkedin.com/jobs/view/4487715117
+score 0: no role or industry evidence,"Director, Stations",AECOM,Onsite,"Mississauga, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=507844cea108b7db
+score 0: no role or industry evidence,Cluster Director of People & Culture,Accor,Onsite,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=9bd30c2472303e97
+score 0: no role or industry evidence,Purchasing Manager,Accor,Onsite,"Doha, DAW, Qatar",indeed,https://qa.indeed.com/viewjob?jk=6631efe6d3048e5e
+score 0: no role or industry evidence,"Director, Customer Value",Adobe,Onsite,Riyadh Region,linkedin,https://www.linkedin.com/jobs/view/4487692668
+score 0: no role or industry evidence,Head of Aircraft Technical Services,Airbus Helicopters,Onsite,"Riyadh, Riyadh, Saudi Arabia",linkedin,https://www.linkedin.com/jobs/view/4383675360
+score 0: no role or industry evidence,Technical & Warranty Manager | Al-Futtaim Automotive | Dubai,Al-Futtaim,Onsite,"Dubai, Dubai, United Arab Emirates",linkedin,https://www.linkedin.com/jobs/view/4480181187
+score 0: no role or industry evidence,Client Solutions Manager - X,Aleph Holding,Hybrid,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=82241f260ab54e37
+score 0: no role or industry evidence,Director of Transportation,Alvarado Independent School District,Onsite,"Alvarado, TX, USA",indeed,https://www.indeed.com/viewjob?jk=fdcc7885df787fb2
+score 0: no role or industry evidence,"Director, Healthcare Services - MedTech",Alvarez & Marsal,Onsite,"Denver, CO, USA",indeed,https://www.indeed.com/viewjob?jk=d0d498af8ca7610d
+score 0: no role or industry evidence,Client Support Manager,American National Bank of Texas,Onsite,"Mesquite, TX, USA",linkedin,https://www.linkedin.com/jobs/view/4487358872
+score 0: no role or industry evidence,"Head of Series Production, Apple TV",Apple,Onsite,"Culver City, CA, USA",indeed,https://www.indeed.com/viewjob?jk=3554577a4cc6c5d5
+score 0: no role or industry evidence,"Global Director, Business Process and Partnerships",Aramex,Onsite,"Dubai, Dubai, United Arab Emirates",linkedin,https://www.linkedin.com/jobs/view/4488127333
+score 0: no role or industry evidence,Head of Channel Relations,Artha Realty,Onsite,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=e02c70854eb41934
+score 0: no role or industry evidence,"National Director, Technical Services",BGO,Onsite,"Mississauga, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=944f2144e9c16927
+score 0: no role or industry evidence,Head of Information Technology,BGTS International,Onsite,"Dubai, United Arab Emirates",linkedin,https://www.linkedin.com/jobs/view/4482275777
+score 0: no role or industry evidence,"Senior Director, Business Enablement, Trust Co.",BMO,Onsite,"Toronto, Ontario, Canada",linkedin,https://www.linkedin.com/jobs/view/4488003360
+score 0: no role or industry evidence,"Senior Manager, Learning & Knowledge Management",BMO Financial Group,Onsite,"Toronto, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=7c8a2c912ea5751d
+score 0: no role or industry evidence,Senior Design Manager,BMO Financial Group,Onsite,"Toronto, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=21aca4f8e2a5d765
+score 0: no role or industry evidence,Senior Manager - Intelligent Process Automation and Reengineering,BMO Financial Group,Onsite,"Chicago, IL, USA",indeed,https://www.indeed.com/viewjob?jk=d23461076d50ea0f
+score 0: no role or industry evidence,Service Control Manager,Barclays,Onsite,"Whippany, NJ, USA",indeed,https://www.indeed.com/viewjob?jk=924df2772c4152ab
+score 0: no role or industry evidence,General Manager- Consumer Lines Dubai,Braxtone Group,Onsite,"Dubai, Dubai, United Arab Emirates",linkedin,https://www.linkedin.com/jobs/view/4489193477
+score 0: no role or industry evidence,General Manager- Consumer Lines (Dubai),Braxtone Group,Onsite,"Dubai, Dubai, United Arab Emirates",linkedin,https://www.linkedin.com/jobs/view/4487914593
+score 0: no role or industry evidence,"Leader, PI Customer Experience",BrokerLink,Onsite,"Markham, Ontario, Canada",linkedin,https://www.linkedin.com/jobs/view/4470984593
+score 0: no role or industry evidence,Manager - Operational Transformation,Bupa Arabia,Onsite,"Riyadh, Riyadh, Saudi Arabia",linkedin,https://www.linkedin.com/jobs/view/4486766116
+score 0: no role or industry evidence,CME Preformance Head,Bureau Veritas,Onsite,Riyadh Region,linkedin,https://www.linkedin.com/jobs/view/4487931655
+score 0: no role or industry evidence,CME PREFORMANCE HEAD,Bureau Veritas | Marine & Offshore,Onsite,Riyadh Region,linkedin,https://www.linkedin.com/jobs/view/4489443316
+score 0: no role or industry evidence,Director Conference & Event Centre,CAMH,Hybrid,"Toronto, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=c71eb23571490f15
+score 0: no role or industry evidence,Plant Manager,CBRE,Onsite,"Mississauga, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=5f6a1314b1db58bf
+score 0: no role or industry evidence,"Director, Client Support",CIBC,Remote,"Toronto, Ontario, Canada",linkedin,https://www.linkedin.com/jobs/view/4488722983
+score 0: no role or industry evidence,"Software Alliances Director, EMEA",Canonical,Onsite,"Riyadh, Riyadh, Saudi Arabia",linkedin,https://www.linkedin.com/jobs/view/4489128155
+score 0: no role or industry evidence,After Market Country Division Manager,Carrier,Remote,"Riyadh, Riyadh, Saudi Arabia",linkedin,https://www.linkedin.com/jobs/view/4486064972
+score 0: no role or industry evidence,"Senior Manager, Revenue Management Core Brands",Choice Hotels,Remote,"Remote, USA",indeed,https://www.indeed.com/viewjob?jk=96e7ccd601574650
+score 0: no role or industry evidence,Director of Shelters and Housing,Christie Ossington Neighbourhood Centre,Onsite,"Toronto, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=9846130a5767fc2e
+score 0: no role or industry evidence,"MEA Business Execution Head, Managing Director",Citi,Onsite,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=7fcf115de5de3a6b
+score 0: no role or industry evidence,Senior Product Manager META,Clarios,Onsite,"الرياض, S01, Saudi Arabia",indeed,https://sa.indeed.com/viewjob?jk=0c40eecf4e48c6cc
+score 0: no role or industry evidence,Senior Pricing Manager META,Clarios,Onsite,"الرياض, S01, Saudi Arabia",indeed,https://sa.indeed.com/viewjob?jk=57796be7ca56332f
+score 0: no role or industry evidence,"Head of Customer Life Cycle Management, WBG",Commercial Bank of Dubai,Onsite,"Dubai, Dubai, United Arab Emirates",linkedin,https://www.linkedin.com/jobs/view/4489125079
+score 0: no role or industry evidence,Associate Director-Advisory & Risk Consulting | Risk & Resilience,Control Risks,Onsite,"Riyadh, Riyadh, Saudi Arabia",linkedin,https://www.linkedin.com/jobs/view/4487132734
+score 0: no role or industry evidence,"Head of Service, Crimson Rise",Crimson Education,Onsite,"Austin, CO, USA",linkedin,https://www.linkedin.com/jobs/view/4462768674
+score 0: no role or industry evidence,"Head of Service, Crimson Rise",Crimson Education,Remote,"Los Angeles, CA, USA",linkedin,https://www.linkedin.com/jobs/view/4462763724
+score 0: no role or industry evidence,"Manager, Customer Experience — Fintech Products",DAT Freight & Analytics,Hybrid,"Seattle, WA, USA",linkedin,https://www.linkedin.com/jobs/view/4463656391
+score 0: no role or industry evidence,Senior Customer Manager,DOW,Onsite,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=3c4ee80eb3ec35c5
+score 0: no role or industry evidence,Service Manager,Daktronics,Onsite,"Dubai, Dubai, United Arab Emirates",linkedin,https://www.linkedin.com/jobs/view/4485268028
+score 0: no role or industry evidence,Payroll Team Lead,De Havilland Aircraft of Canada Ltd,Onsite,"Mississauga, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=178720ac3b527613
+score 0: no role or industry evidence,Corporate Bank - Head of Trust & Securities Services - Vice President up to Director,Deutsche Bank,Onsite,"Riyadh, Riyadh, Saudi Arabia",linkedin,https://www.linkedin.com/jobs/view/4480115476
+score 0: no role or industry evidence,"Senior Manager, Workforce Management",Devoted Health,Remote,"Remote, USA",indeed,https://www.indeed.com/viewjob?jk=70f9f49d0fe8503d
+score 0: no role or industry evidence,Regional Asset Protection Manager,Dollar Tree,Onsite,"Minneapolis, MN, USA",indeed,https://www.indeed.com/viewjob?jk=9d1bbe4a36d89d10
+score 0: no role or industry evidence,"VP, Head of Consulting",Dow Jones,Onsite,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=0134b59f4d09e922
+score 0: no role or industry evidence,Director of Transportation,ESC Region 11,Onsite,"Alvarado, TX, USA",indeed,https://www.indeed.com/viewjob?jk=f040ab29164c00ac
+score 0: no role or industry evidence,Applied AI Transformation Manager - MENA,FDE Times,Onsite,Riyadh Region,linkedin,https://www.linkedin.com/jobs/view/4486643183
+score 0: no role or industry evidence,Manager Business Resiliency and Continuity,Fidelity Canada,Remote,"Toronto, Ontario, Canada",linkedin,https://www.linkedin.com/jobs/view/4422718850
+score 0: no role or industry evidence,Director of Contracts,Firehawk Aerospace,Remote,"Addison, TX, USA",indeed,https://www.indeed.com/viewjob?jk=f070847afe021b55
+score 0: no role or industry evidence,Director of Tactical and Member Services,FlyExclusive,Onsite,"Raleigh, NC, USA",indeed,https://www.indeed.com/viewjob?jk=a8cea73a63637fd1
+score 0: no role or industry evidence,Field Service Manager - Technical Support,GE Vernova,Onsite,"Dubai, Dubai, United Arab Emirates",linkedin,https://www.linkedin.com/jobs/view/4489474028
+score 0: no role or industry evidence,Electrical Engineer - Kahramaa (Team Leader ),GETP Group,Onsite,"Doha, DAW, Qatar",indeed,https://qa.indeed.com/viewjob?jk=e1bce2d518e1a751
+score 0: no role or industry evidence,"Manager, Technical Support",Gap Inc.,Remote,"Fresno, CA, USA",indeed,https://www.indeed.com/viewjob?jk=7eb75a7efd30445f
+score 0: no role or industry evidence,"Director, Solutions Consulting Middle East & Africa",Genesys,Onsite,"Riyadh, Riyadh, Saudi Arabia",linkedin,https://www.linkedin.com/jobs/view/4488601162
+score 0: no role or industry evidence,"Manager, IT Vendor Performance & IT Audit",Greater Toronto Airports Authority,Hybrid,"Toronto, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=9d96f672f110806d
+score 0: no role or industry evidence,National Account Manager (Ontario),Guardteck Security,Remote,"Mississauga, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=86cda46dfc829a5f
+score 0: no role or industry evidence,Manager - Customer Due Diligence(UAE National),HSBC,Onsite,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=379e651a8e46139a
+score 0: no role or industry evidence,Business Manager - Securities Services - UAE National Role,HSBC,Onsite,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=534c137190a3c497
+score 0: no role or industry evidence,"Product Manager, Secured Lending (UAE National)",HSBC,Onsite,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=79e48ecc1ddb4dea
+score 0: no role or industry evidence,Senior Manager BHS Development,Hamad International Airport,Onsite,"Doha, Qatar",linkedin,https://www.linkedin.com/jobs/view/4486683177
+score 0: no role or industry evidence,Customer Care Team Leader,HungerStation | هنقرستيشن,Onsite,"Riyadh, Riyadh, Saudi Arabia",linkedin,https://www.linkedin.com/jobs/view/4462682286
+score 0: no role or industry evidence,Senior Manager - Corporate Services & Outreach,International Center for Biosaline Agriculture,Onsite,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=a787584f9b8e0368
+score 0: no role or industry evidence,Director - Governance & Client Account Management,International Financial Data Services (IFDS),Hybrid,"Toronto, Ontario, Canada",linkedin,https://www.linkedin.com/jobs/view/4485223044
+score 0: no role or industry evidence,Business Manager - Senior Associate,JPMorganChase,Onsite,"الرياض, S01, Saudi Arabia",indeed,https://sa.indeed.com/viewjob?jk=c90bec8ae4f545db
+score 0: no role or industry evidence,Directeur.rice fonctionnel.le - ServiceNow,KPMG Canada,Onsite,"Toronto, Ontario, Canada",linkedin,https://www.linkedin.com/jobs/view/4480392411
+score 0: no role or industry evidence,Audio Visual Manager,Kempinski Hotels,Onsite,"Doha, Qatar",linkedin,https://www.linkedin.com/jobs/view/4486359471
+score 0: no role or industry evidence,Community Manager,Kickstarter.com,Remote,"Remote, USA",indeed,https://www.indeed.com/viewjob?jk=4877550003e271ec
+score 0: no role or industry evidence,Information Technology Manager,Kingston Stanley,Onsite,"Dubai, United Arab Emirates",linkedin,https://www.linkedin.com/jobs/view/4486581513
+score 0: no role or industry evidence,EHS Manager/ 1029/2B,L&T Technology Services Ltd.,Onsite,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=3464c1ff95735290
+score 0: no role or industry evidence,"Manager, Testing and Readiness",LA28 (Web),Onsite,"Los Angeles, CA, USA",indeed,https://www.indeed.com/viewjob?jk=4b623e3f2cf7241e
+score 0: no role or industry evidence,Manager - Testing & Commissioning - PPC Specialist,Larsen & Toubro,Hybrid,"Riyadh, Riyadh, Saudi Arabia",linkedin,https://www.linkedin.com/jobs/view/4489605150
+score 0: no role or industry evidence,Scaffolding Manager,Libera Consultants,Onsite,"Doha, Qatar",linkedin,https://www.linkedin.com/jobs/view/4467088763
+score 0: no role or industry evidence,"Senior Market Development Manager – Middle East, Turkey",Lloyd's,Onsite,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=35a3dc4f8bfcb72b
+score 0: no role or industry evidence,Vice President - Transaction Banking,MUFG,Onsite,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=88699594c7ace002
+score 0: no role or industry evidence,Senior Interface Manager,Mace,Hybrid,"Riyadh, Riyadh, Saudi Arabia",linkedin,https://www.linkedin.com/jobs/view/4480954522
+score 0: no role or industry evidence,Interface Lead,Mace,Hybrid,"Riyadh, Riyadh, Saudi Arabia",linkedin,https://www.linkedin.com/jobs/view/4480955464
+score 0: no role or industry evidence,Sector Manager,Maharah Human Resources,Onsite,"Riyadh, Riyadh, Saudi Arabia",linkedin,https://www.linkedin.com/jobs/view/4487251653
+score 0: no role or industry evidence,"Senior Manager, Operational Resilience",Manulife,Hybrid,"Toronto, Ontario, Canada",linkedin,https://www.linkedin.com/jobs/view/4453798375
+score 0: no role or industry evidence,Spa Director,Marriott International,Onsite,"Doha, DAW, Qatar",indeed,https://qa.indeed.com/viewjob?jk=45399673442e185e
+score 0: no role or industry evidence,Senior Purchasing Manager,Marriott International,Onsite,"Fort Lauderdale, FL, USA",indeed,https://www.indeed.com/viewjob?jk=f0631dc592f21a7c
+score 0: no role or industry evidence,"Principal, Advisors & Consulting Services, Sub-Cluster Lead - KSA, Bahrain, Jordan, Yemen",Mastercard,Onsite,"الرياض, S01, Saudi Arabia",indeed,https://sa.indeed.com/viewjob?jk=6b26911b45923b0c
+score 0: no role or industry evidence,Call Center Manager,Maximus,Onsite,"Topeka, KS, USA",linkedin,https://www.linkedin.com/jobs/view/4484235864
+score 0: no role or industry evidence,"IT Director, Identity & Directory Services (HYBRID)",McCormick & Company,Onsite,"Mississauga, Ontario, Canada",linkedin,https://www.linkedin.com/jobs/view/4486772883
+score 0: no role or industry evidence,Condominium Manager,Melbourne Property Management,Onsite,"Burlington, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=956186bfa2cbfe45
+score 0: no role or industry evidence,Head of Maintenance,Michigan Association of School Boards,Onsite,"Oakland, MI, USA",indeed,https://www.indeed.com/viewjob?jk=d4179fa775f3f18c
+score 0: no role or industry evidence,Regional Vice President – Middle East & Africa (Excluding UAE & KSA),Millennium Hotels and Resorts MEA,Onsite,"Doha, Qatar",linkedin,https://www.linkedin.com/jobs/view/4486089964
+score 0: no role or industry evidence,"Director, MDS Lead Canada",Mondelēz International,Hybrid,"Toronto, Ontario, Canada",linkedin,https://www.linkedin.com/jobs/view/4416251858
+score 0: no role or industry evidence,Senior Design Manager,Mott MacDonald,Onsite,"الرياض, S01, Saudi Arabia",indeed,https://sa.indeed.com/viewjob?jk=409294602c573c6f
+score 0: no role or industry evidence,Senior Production Manager,Nestlé Purina,Onsite,"Batavia, OH, USA",indeed,https://www.indeed.com/viewjob?jk=f493c746b80166b6
+score 0: no role or industry evidence,Director of the Library,Northwestern University,Onsite,"Doha, Qatar",linkedin,https://www.linkedin.com/jobs/view/4461258720
+score 0: no role or industry evidence,Outpatient Services Director,Old Vineyard Behavioral Health Services,Onsite,"Winston-Salem, NC, USA",indeed,https://www.indeed.com/viewjob?jk=35da202e3abe0b06
+score 0: no role or industry evidence,Programme Implementation Manager,Parsons,Onsite,"Doha, DAW, Qatar",indeed,https://qa.indeed.com/viewjob?jk=45798e7559a10894
+score 0: no role or industry evidence,HS&E Manager (Metro/Rail Exp),Parsons,Onsite,"الرياض, S01, Saudi Arabia",indeed,https://sa.indeed.com/viewjob?jk=38d5291365f68013
+score 0: no role or industry evidence,Head of E&M Transformation Programme,Parsons Corporation,Onsite,Doha Metropolitan Area,linkedin,https://www.linkedin.com/jobs/view/4487257476
+score 0: no role or industry evidence,Programme Implementation Manager,Parsons Corporation,Onsite,Doha Metropolitan Area,linkedin,https://www.linkedin.com/jobs/view/4487256518
+score 0: no role or industry evidence,Regional Director - Dental Clinic Support,Passion Dental Group,Onsite,"Toronto, Ontario, Canada",linkedin,https://www.linkedin.com/jobs/view/4487494559
+score 0: no role or industry evidence,"Director of Business Development, Middle East & Africa",Proceq,Onsite,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=6839eb2498d87c7f
+score 0: no role or industry evidence,"Manager, Services (North America)",Prophix,Hybrid,"Etobicoke, Ontario, Canada",linkedin,https://www.linkedin.com/jobs/view/4470354462
+score 0: no role or industry evidence,Admissions Director - Decatur,PruittHealth,Onsite,"Decatur, GA, USA",indeed,https://www.indeed.com/viewjob?jk=5012a0f8b2e5b363
+score 0: no role or industry evidence,QNB3892 - Vice President Customer Experience,QNB Group,Onsite,"Doha, Qatar",linkedin,https://www.linkedin.com/jobs/view/4470586936
+score 0: no role or industry evidence,Head of Business Support,QatarEnergy LNG,Onsite,"Doha, Qatar",linkedin,https://www.linkedin.com/jobs/view/4488362609
+score 0: no role or industry evidence,Manager of Customer / Patient Experience & Administration (Healthcare) - QHC000,Qiddiya | القدية,Onsite,"Riyadh, Riyadh, Saudi Arabia",linkedin,https://www.linkedin.com/jobs/view/4487682553
+score 0: no role or industry evidence,"Senior Manager, Account Management - Questbank",Questrade Financial Group,Hybrid,"North York, Ontario, Canada",linkedin,https://www.linkedin.com/jobs/view/4485894819
+score 0: no role or industry evidence,"Director, New Accounts and Documentation",RBC,Onsite,"Toronto, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=7ba0ca9019216b95
+score 0: no role or industry evidence,"Director, Cash Management",RBC,Onsite,"Toronto, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=6e423579a29eba41
+score 0: no role or industry evidence,"Manager, Customer Care","RXO, Inc.",Onsite,"Marietta, GA, USA",linkedin,https://www.linkedin.com/jobs/view/4470722211
+score 0: no role or industry evidence,Head Butler,Raffles Hotels & Resorts,Onsite,"Dubai, Dubai, United Arab Emirates",linkedin,https://www.linkedin.com/jobs/view/4488141527
+score 0: no role or industry evidence,Manager Navigation Services,Riyadh Air,Onsite,"الرياض, S01, Saudi Arabia",indeed,https://sa.indeed.com/viewjob?jk=395728fc53d1d964
+score 0: no role or industry evidence,Airport Manager – North America,Riyadh Air | طيران الرياض,Onsite,Riyadh Region,linkedin,https://www.linkedin.com/jobs/view/4442619341
+score 0: no role or industry evidence,Manager Electronic Flight Bag,Riyadh Air | طيران الرياض,Onsite,Riyadh Region,linkedin,https://www.linkedin.com/jobs/view/4486782359
+score 0: no role or industry evidence,Airport Manager (East/South East Asia),Riyadh Air | طيران الرياض,Onsite,Riyadh Region,linkedin,https://www.linkedin.com/jobs/view/4396391835
+score 0: no role or industry evidence,Director of Front Services,Rosewood Hotel Group,Onsite,"Doha, DAW, Qatar",indeed,https://qa.indeed.com/viewjob?jk=634eceeabe359ab7
+score 0: no role or industry evidence,Senior Ops Manager II,Ryder System,Onsite,"Fenton, MO, USA",indeed,https://www.indeed.com/viewjob?jk=7e3119881237822f
+score 0: no role or industry evidence,Senior Technical Support Account Manager,SAS,Hybrid,"الرياض, S01, Saudi Arabia",indeed,https://sa.indeed.com/viewjob?jk=a8147595062a9706
+score 0: no role or industry evidence,Senior Technical Support Account Manager,SAS,Hybrid,"Riyadh, Riyadh, Saudi Arabia",linkedin,https://www.linkedin.com/jobs/view/4488188392
+score 0: no role or industry evidence,Manager Software Development,SITA,Onsite,"Riyadh, Riyadh, Saudi Arabia",linkedin,https://www.linkedin.com/jobs/view/4476678553
+score 0: no role or industry evidence,Quality Compliance Manager,SLB,Onsite,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=a386476d4efe4a8c
+score 0: no role or industry evidence,Lead - UKG Advanced Scheduler Solutions and Workforce Management,Scarborough Health Network,Onsite,"Scarborough, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=c24ac7e7af51632a
+score 0: no role or industry evidence,C&SP Regional Strategic Account Growth and Experience Lead,Schneider Electric,Onsite,Riyadh Region,linkedin,https://www.linkedin.com/jobs/view/4486091096
+score 0: no role or industry evidence,"Scotia Wealth Insurance Services Regional Director, Central Canada",Scotiabank,Onsite,"Toronto, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=8de4483a12d0fef4
+score 0: no role or industry evidence,Shop Manager,Sephora,Onsite,"الرياض, S01, Saudi Arabia",indeed,https://sa.indeed.com/viewjob?jk=5493ad63ca92fa11
+score 0: no role or industry evidence,Alert Team Lead I,SiriusXM,Remote,"TX, USA",indeed,https://www.indeed.com/viewjob?jk=a2d97a240b4e3846
+score 0: no role or industry evidence,International Markets Performance Manager,Snoonu,Onsite,"Lusail, Qatar",linkedin,https://www.linkedin.com/jobs/view/4478442775
+score 0: no role or industry evidence,"Senior Manager, Banquets- SL",Sodexo,Onsite,"Las Vegas, NV, USA",indeed,https://www.indeed.com/viewjob?jk=92fca6248985d9f2
+score 0: no role or industry evidence,Director of Housekeeping,Sonesta,Onsite,"Chicago, IL, USA",indeed,https://www.indeed.com/viewjob?jk=a0039744eaca972b
+score 0: no role or industry evidence,Product Manager - FX,Standard Chartered Bank,Onsite,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=94fa2d1ce0ec8a8d
+score 0: no role or industry evidence,Senior Manager of Customer Care,Stuller Inc,Onsite,"Lafayette, LA, USA",indeed,https://www.indeed.com/viewjob?jk=494ae62dd3fcb96a
+score 0: no role or industry evidence,Corporate Branch Manager,Sunlife,Hybrid,"Toronto, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=1a0a8d49d85d2693
+score 0: no role or industry evidence,Head Chef,TGP International,Onsite,"Doha, DAW, Qatar",indeed,https://qa.indeed.com/viewjob?jk=50ec3bb469bfe673
+score 0: no role or industry evidence,"Manager, Community and Councillor Relations",TTC (Toronto Transit Commission),Hybrid,"Toronto, ON, Canada",indeed,https://ca.indeed.com/viewjob?jk=430f40cfce17025b
+score 0: no role or industry evidence,"Team Leader, Customer Care",Tamara,Onsite,"Riyadh, Riyadh, Saudi Arabia",linkedin,https://www.linkedin.com/jobs/view/4487502303
+score 0: no role or industry evidence,"Parts Manager, Middle East",Tesla,Onsite,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=48736c0072b19bbf
+score 0: no role or industry evidence,Office Manager,Thales Academy,Onsite,"Wake Forest, NC, USA",indeed,https://www.indeed.com/viewjob?jk=4c69021ffd6587f1
+score 0: no role or industry evidence,E-Key Account Executive,The Estée Lauder Companies,Onsite,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=c4a5855d7902d397
+score 0: no role or industry evidence,Director Technology Support,The Freeman Company (TFC) Brands,Hybrid,"Las Vegas, NV, USA",linkedin,https://www.linkedin.com/jobs/view/4487046736
+score 0: no role or industry evidence,Director Technology Support,The Freeman Company (TFC) Brands,Hybrid,"Dallas, TX, USA",linkedin,https://www.linkedin.com/jobs/view/4487058219
+score 0: no role or industry evidence,Manager – AI Transformation,Thomson Reuters,Hybrid,"Toronto, Ontario, Canada",linkedin,https://www.linkedin.com/jobs/view/4486770637
+score 0: no role or industry evidence,Premium Services Manager,Thunes,Onsite,"Riyadh, Riyadh, Saudi Arabia",linkedin,https://www.linkedin.com/jobs/view/4478110065
+score 0: no role or industry evidence,"Manager, Support Services",Tyler Technologies,Hybrid,"Overland Park, KS, USA",linkedin,https://www.linkedin.com/jobs/view/4480277906
+score 0: no role or industry evidence,Business Support Director,UCC Holding,Onsite,"Lusail, Qatar",linkedin,https://www.linkedin.com/jobs/view/4488860916
+score 0: no role or industry evidence,"Gestionnaire, Solutions clients I+S/I+S Customer Solutions Manager",Univar Solutions,Hybrid,"North York, Ontario, Canada",linkedin,https://www.linkedin.com/jobs/view/4487558607
+score 0: no role or industry evidence,"Head, Library Technologies And Archives",University of Doha for Science & Technology,Onsite,"Doha, Qatar",linkedin,https://www.linkedin.com/jobs/view/4485586616
+score 0: no role or industry evidence,"Head, Accessibility Services",University of Doha for Science and Technology,Onsite,"Doha, DAW, Qatar",indeed,https://qa.indeed.com/viewjob?jk=a9e0e0d3104ad175
+score 0: no role or industry evidence,Account Executive,Unlimited Content,Remote,"Remote, USA",indeed,https://www.indeed.com/viewjob?jk=95282a66097dfbb8
+score 0: no role or industry evidence,"Head of Talent Acquisition, CEMEA",Visa,Onsite,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=6aafc5868cbdc4ce
+score 0: no role or industry evidence,Director - Client Success and Business Planning,Visa,Onsite,Riyadh Region,linkedin,https://www.linkedin.com/jobs/view/4479569225
+score 0: no role or industry evidence,Head of Development,WSP,Onsite,"Dubai, DU, United Arab Emirates",indeed,https://ae.indeed.com/viewjob?jk=34bc3c7a5ef910f0
+score 0: no role or industry evidence,"(USA) Senior Manager, Material Handling Equipment Service",Walmart,Onsite,"Bentonville, AR, USA",indeed,https://www.indeed.com/viewjob?jk=4f81c85cfcd77069
+score 0: no role or industry evidence,Head of Customer Experience – Luxury Aftercare,Washmen,Onsite,"Dubai, United Arab Emirates",linkedin,https://www.linkedin.com/jobs/view/4485064441
+score 0: no role or industry evidence,Data Products and Services Director,"Zakat, Tax and Customs Authority",Onsite,"Riyadh, Riyadh, Saudi Arabia",linkedin,https://www.linkedin.com/jobs/view/4487477749
+score 0: no role or industry evidence,Alert Team Lead I,adswizz,Remote,"TX, USA",indeed,https://www.indeed.com/viewjob?jk=225a4127203d5685
+score 0: no role or industry evidence,"Manager Wholesale Voice, Roaming & Messaging",du,Onsite,"Dubai, Dubai, United Arab Emirates",linkedin,https://www.linkedin.com/jobs/view/4487572687
+score 0: no role or industry evidence,مدير العمليات | Chief Operating Officer (COO),شركة سمر تاون العقارية | SummerTown Real Estate,Onsite,"Riyadh, Riyadh, Saudi Arabia",linkedin,https://www.linkedin.com/jobs/view/4487142768

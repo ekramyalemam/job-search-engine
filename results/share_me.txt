@@ -1,90 +1,98 @@
 RUN SUMMARY 2026-11-10
 
 SITES
-linkedin: 711 jobs from 39/40 searches (used)
-indeed: 492 jobs from 34/40 searches (used)
+linkedin: 718 jobs from 38/40 searches (used)
+indeed: 452 jobs from 35/40 searches (used)
 bayt: 0 jobs from 0/4 searches (skipped)
 google: 0 jobs from 0/4 searches (skipped)
 glassdoor: 0 jobs from 0/4 searches (skipped)
 zip_recruiter: 0 jobs from 0/4 searches (skipped)
 
 FILTERS
-Total after removing duplicates: 913
-Dropped for seniority: 166
-Dropped for employment type: 32
-Dropped for exclude words: 67
-Rescued to MAYBE (exclude word but tech title): 6
-Dropped, score 0 (no evidence): 164
-Moved to MAYBE list (score 1-2): 192
-Strong matches before merging repeats: 292
-Merged repeated jobs: 27
-Final strong matches: 265
-Final maybe list: 188
-  Priority companies: 10
-  Industry verified: 233
-  Score 5 or more: 157
+Total after removing duplicates: 856
+Dropped for missing role keyword: 137
+Dropped for seniority: 31
+Dropped for employment type: 31
+Dropped for exclude words: 66
+Rescued to MAYBE (exclude word but tech title): 4
+Dropped, score 0 (no evidence): 158
+Moved to MAYBE list (score 1-2): 195
+Strong matches before merging repeats: 238
+Merged repeated jobs: 19
+Final strong matches: 219
+Final maybe list: 192
+  Priority companies: 21
+  Industry verified: 205
+  Score 5 or more: 115
 
-REGIONS (strong matches): US/Other 110, Canada 70, UAE 54, KSA 23, Qatar 8
-SCORES: 8:2, 7:3, 6:77, 5:75, 4:17, 3:91
+REGIONS (strong matches): USA 119, Canada 52, UAE 28, KSA 15, Qatar 4, Other 1
+SCORES: 9:8, 8:2, 7:18, 6:58, 5:29, 4:64, 3:40
 
-TOP 15 (score | title | company | location)
-8 | Senior Director, Delivery (Telecom) | TELUS Digital | Charlottesville, VA, USA | …
-8 | Principal Network Project/Program Manager (Gove… | AT&T | Atlanta, GA, USA
-7 | Gestionnaire principal de la stratégie, Réseau … | Bell | Toronto, Ontario, Canada | …
-7 | Directeur(trice) de programme, Réseau d'IA tiss… | Bell | Regina, Saskatchewan, Canada
-7 | Leader, Systems Engineering | Cisco | Abu Dhabi, Abu Dhabi Emirat…
-6 | Director, IT Operations | Ascent Developer Solutions | Los Angeles, CA, USA
-6 | Operations Director - Managed Services | Swooped | USA
-6 | Service Delivery Director (Healthcare) | Harbor IT | USA
-6 | Technical Product Delivery Manager, Vice Presid… | JPMorganChase | Plano, TX, USA
-6 | Technical Program Manager | Stimulus Technologies | M… | Las Vegas, NV, USA
-6 | Technical Program Integration Lead | Telesat | Ottawa, Ontario, Canada
-6 | Manager –  IT Project Management | eMinds | Dubai, United Arab Emirates
-6 | Assistant Service Delivery Manager, Aspire Life… | International SOS | Dubai, Dubai, United Arab E…
-6 | Assistant Service Delivery Manager, Aspire Life… | Aspire Lifestyles | Dubai, DU, United Arab Emir…
-6 | Telecom Network Engineer/Telecommunications Pro… | Association des Jeunes Av… | Abu Dhabi Emirate, United A…
+TOP 15 (score | title | workplace | company | location)
+9 | Data Center IT Operations Manager | Onsite | Microsoft | Cartersville, GA, U…
+9 | Senior Cloud Infra and IP Engineer | Onsite | Ericsson | Riyadh, Riyadh, Sau…
+9 | Gestionnaire principal de la stratégie,… | Onsite | Bell | Toronto, Ontario, C…
+9 | Data Center Technicians Manager | Onsite | Microsoft | Dubai, Dubai, Unite…
+9 | Data Center Inventory & Asset Technicia… | Onsite | Microsoft | Dubai, DU, United A…
+9 | Infrastructure Technical Program Manage… | Onsite | Amazon Web Services… | Austin, TX, USA
+9 | Principal Network Project/Program Manag… | Onsite | AT&T | Atlanta, GA, USA
+9 | Technical Infrastructure Program Manage… | Onsite | Amazon Web Services… | Seattle, WA, USA
+8 | Network Development Manager, Amazon Ded… | Onsite | Amazon Web Services… | Denver, CO, USA
+8 | Escalation Manager | Onsite | Salesforce | Indianapolis, IN, U…
+7 | Team Leader - Managed Services | Remote | Convergint | Dubai, Dubai, Unite…
+7 | Senior Engagement Manager, Professional… | Onsite | Amazon Web Services… | Riyadh, Riyadh, Sau…
+7 | Telecommunications Project Manager | Onsite | Zodiac Solutions, I… | Toronto, Ontario, C…
+7 | Senior Manager ICT Delivery & Technical… | Remote | DNV | Toronto, Ontario, C…
+7 | Incident & Problem Manager, Cloud Opera… | Hybrid | Sectra | Mississauga, Ontari…
 
 LOWEST 8 STRONG MATCHES
-3 | Senior Manager, Clinic IT Services | 123Dentist | No match in text
-3 | Manager,  DevOps | Michael Page | Verified
-3 | Gestionnaire senior de l'engagement | Sr Engage… | Amazon Web Services (AWS) | Verified
-3 | Senior Engineering Delivery Lead | Telesat | Verified
-3 | Project Manager | EI-TECHNOLOGIES MENA | Verified
-3 | Manager of Platform Integrity | TOD by beIN | Verified
-3 | Associate Director of Global IT & Security | Huda Beauty | Unverified
-3 | Senior DevOps & Back-End Engineer | Autonomous Investment In … | Verified
+3 | Manager - Technology Operations Enginee… | Onsite | American Express | Verified
+3 | Project Manager | Onsite | Telcom Construction… | Verified
+3 | Senior Facilities Project/Program Manag… | Onsite | PotomacWave | Verified
+3 | Senior Manager, Project Management - AC… | Remote | Raytheon | Verified
+3 | Army Spectrum Operations Manager | Onsite | CACI International | Verified
+3 | Manager, Operations & Delivery - Plano,… | Onsite | TKO StaffPros | Verified
+3 | Program Manager | Onsite | Amphenol Communicat… | Verified
+3 | Program Manager - Electric Utilities | Hybrid | ENTRUST Solutions G… | Verified
 
-TOP 10 MAYBE (score | title | company | why)
-7 | Safety Manager Technology | Rogers Communications | exclude word 'safety' but title has a tech word
-6 | Senior Sales Ops Manager - Scale, AWS Strategy … | Amazon Web Services | exclude word 'sales' but title has a tech word
-5 | Senior Manager Technical Accounting | OLG | exclude word 'accounting' but title has a tech word
-5 | Director, Operational Accounting Technology Sys… | Scotiabank | exclude word 'accounting' but title has a tech word
-4 | IT Infra Manager – Retail Operations | Hire Rightt - Executive S… | exclude word 'retail' but title has a tech word
-4 | Sr Manager Value Management | Rogers Communications | score 2 below 3
-4 | Customer Support Manager | Motorola Solutions | score 2 below 3
-4 | Director, Retail Customer Operations | Kinder's Premium Quality … | exclude word 'retail' but title has a tech word
-4 | Directeur, gestion de projets clients - TELUS S… | TELUS | score 2 below 3
-4 | Directeur(trice), Mise en service - Cx | Bell | score 2 below 3
+TOP 10 MAYBE (score | title | workplace | company | why)
+7 | Assistant Service Delivery Manager, Asp… | Onsite | International SOS | exclude word 'assistant' but title has a tech word
+7 | Assistant Service Delivery Manager, Asp… | Onsite | Aspire Lifestyles | exclude word 'assistant' but title has a tech word
+6 | Inside Account Executive | Hybrid | Cisco | score 2 below 3
+6 | Manager Statflo Strategy | Onsite | Rogers Communicatio… | score 2 below 3
+6 | Customer Support Manager | Onsite | Motorola Solutions | score 2 below 3
+6 | Leader, Systems Engineering | Onsite | Cisco | score 2 below 3
+6 | Sr Manager Value Management | Onsite | Rogers Communicatio… | score 2 below 3
+6 | Directeur, gestion de projets clients -… | Onsite | TELUS | score 2 below 3
+6 | Core Technical Lead | Onsite | Ericsson | score 2 below 3
+6 | Manager II, Retail Wireless Network Ope… | Onsite | EchoStar Corporation | exclude word 'retail' but title has a tech word
 
 DROPPED SAMPLES (to check nothing good is lost)
-- seniority: 166 total; examples:
-    Planning Engineer | Consertus | no seniority word in ti…
-    Warehouse Operator | Coop Embrun | no seniority word in ti…
-    Data Engineering Developer II | Trojan Technologies | no seniority word in ti…
-    People & Culture Associate - KSA Nationals ONLY | Four Principles | no seniority word in ti…
-    Communications Specialist | University of British C… | no seniority word in ti…
-    Registered Nurse | Alberta Health Services | no seniority word in ti…
-- exclude word: 67 total; examples:
-    Sales Manager, Foreign Circulation | Royal Canadian Mint | exclude word: sales
-    VP, Human Resources, Market Area North and Centra… | Metso | exclude word: human res…
-    Director - Health, Safety and Worker Welfare Oper… | Qiddiya Investment Comp… | exclude word: safety
-    Country Manager - Food Services | Delivery Hero | exclude word: food
-    Head of People & Culture (Human Resources) - Saud… | Accor | exclude word: human res…
-    Regional Marketing Manager (ME) | Fragomen | exclude word: marketing
-- score 0: 164 total; examples:
-    Associate Director-Advisory & Risk Consulting | R… | Control Risks | score 0: no role or ind…
-    Senior Customer Manager | DOW | score 0: no role or ind…
-    Manager/Devices as a Service (DaaS) Product | etisalat UAE | score 0: no role or ind…
-    Laboratory Quality Manager | Grand River Hospital | score 0: no role or ind…
-    Site Manager | Whistle Express Car Wash | score 0: no role or ind…
-    Director - Arts and Culture - Aldar Education (Ce… | Aldar Academies | score 0: no role or ind…
+- missing role: 137 total; examples:
+    Workforce Planning & Labor Specialist | Onsite | OSL Retail Services… | missing role keyword
+    Principal Design Engineer - Structures | Onsite | AECOM | missing role keyword
+    HR ASSISTANT | Onsite | DP World | missing role keyword
+    Principal, Security, Cyber & Resilience… | Onsite | Control Risks | missing role keyword
+    CDL A Driver Merchandiser | Onsite | Coca-Cola Beverages… | missing role keyword
+    Functional Specialist , SAP - MM & SCS | Onsite | Hitachi Energy | missing role keyword
+- seniority: 31 total; examples:
+    Delivery Management | Hybrid | Synechron | no seniority word i…
+    Network Engineer - Rugby School Dubai | Onsite | Aldar Academies | no seniority word i…
+    Security Projects and Operations Engine… | Onsite | LifeLabs | no seniority word i…
+    Principal Network Developer | Onsite | Oracle | no seniority word i…
+    Site Supervisor, Child Care Centre | Onsite | Network Childcare S… | no seniority word i…
+    Human Resources Business Partner (HRBP)… | Hybrid | Merrithew | no seniority word i…
+- exclude word: 66 total; examples:
+    Back Office Manager (Retail Operations) | Onsite | Bulgari | exclude word: retail
+    SALES MANAGER (Events & Exhibitions) | Onsite | Holding | exclude word: sales
+    IT Infra Manager – Retail Operations | Onsite | Hire Rightt - Execu… | exclude word: retail
+    People & Culture Assistant Manager (Sau… | Onsite | Accor | exclude word: assis…
+    Senior Business Development & Marketing… | Onsite | Maples Group - Lega… | exclude word: marke…
+    Head of Mortgage Sales - UAE | Onsite | HSBC | exclude word: sales
+- score 0: 158 total; examples:
+    Plant Manager | Onsite | CBRE | score 0: no role or…
+    Senior Manager, Account Management - Qu… | Hybrid | Questrade Financial… | score 0: no role or…
+    Head of Channel Relations | Onsite | Artha Realty | score 0: no role or…
+    Sector Manager | Onsite | Maharah Human Resou… | score 0: no role or…
+    Scotia Wealth Insurance Services Region… | Onsite | Scotiabank | score 0: no role or…
+    Senior Design Manager | Onsite | BMO Financial Group | score 0: no role or…
