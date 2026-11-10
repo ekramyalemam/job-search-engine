@@ -1,4 +1,4 @@
-# JOB SEARCH SETTINGS (v7) - edit anytime
+# JOB SEARCH SETTINGS (v9) - edit anytime
 # Works with the find_jobs.py you already have. Replace the whole file.
 
 # Boards that work (tested)
@@ -14,50 +14,29 @@ optional_sites:
   - glassdoor
   - zip_recruiter
 
-# Aimed at managed services / service delivery / customer operations leaders
-# in telecom, with a path into cloud and IT networking.
+# Aimed at manager, senior manager and director roles in managed services,
+# service delivery and customer operations (telecom), with a path into cloud and IT networking.
 search_terms:
-  - "managed services director"
-  - "service delivery director telecom"
-  - "head of service delivery"
-  - "customer operations director"
   - "senior service delivery manager"
-  - "network operations director"
+  - "managed services director"
+  - "head of service delivery"
+  - "customer operations manager telecom"
+  - "network operations manager"
+  - "major incident manager"
   - "cloud service delivery manager"
   - "telecom program manager"
 
-# Country-wide searches, in this order.
 locations:
+  - name: "Dubai, UAE"
+    country: "United Arab Emirates"
+  - name: "Doha, Qatar"
+    country: "Qatar"
+  - name: "Riyadh, Saudi Arabia"
+    country: "Saudi Arabia"
+  - name: "Toronto, Canada"
+    country: "Canada"
   - name: "United States"
     country: "USA"
-  - name: "Canada"
-    country: "Canada"
-  - name: "Saudi Arabia"
-    country: "Saudi Arabia"
-  - name: "Qatar"
-    country: "Qatar"
-  - name: "United Arab Emirates"
-    country: "United Arab Emirates"
-  # Optional big cities. More searches also means more risk of LinkedIn blocking.
-  # Remove the # in front of a city to switch it on (keep both lines together):
-  # - name: "Toronto, Canada"
-  #   country: "Canada"
-  # - name: "Vancouver, Canada"
-  #   country: "Canada"
-  # - name: "Calgary, Canada"
-  #   country: "Canada"
-  # - name: "Ottawa, Canada"
-  #   country: "Canada"
-  # - name: "Montreal, Canada"
-  #   country: "Canada"
-  # - name: "Jeddah, Saudi Arabia"
-  #   country: "Saudi Arabia"
-  # - name: "Dammam, Saudi Arabia"
-  #   country: "Saudi Arabia"
-  # - name: "Dubai, UAE"
-  #   country: "United Arab Emirates"
-  # - name: "Abu Dhabi, UAE"
-  #   country: "United Arab Emirates"
 
 employment_types:
   - fulltime
@@ -77,6 +56,7 @@ seniority_keywords:
   - general manager
   - gestionnaire
   - directeur
+  - directrice
   - مدير
 
 # INDUSTRY: words that show a job is telecom / IT networking / cloud.
@@ -195,6 +175,9 @@ exclude_title_words:
   - marketing
   - recruiter
   - recruitment
+  - assistant
+  - intern
+  - junior
   - human resources
   - HR
   - customer service
@@ -239,3 +222,49 @@ priority_companies:
   - Cox Communications
   - Motorola Solutions
   - Palo Alto Networks
+  - Arista Networks
+  - Fortinet
+  - Altice USA
+  - Ciena
+  - CommScope
+  - Ericsson
+  - Nokia
+  # Optional ideas close to your background. Remove the # to switch one on:
+  # - Samsung
+  # - Mavenir
+  # - Amdocs
+  # - Juniper
+  # - Kyndryl
+  # - IBM
+  # - CGI
+  # - Equinix
+  # - Amazon Web Services
+  # - Microsoft
+
+# Companies whose name starts like a priority company but are a different
+# business. They are never marked as priority.
+not_priority_companies:
+  - Bell Techlogix
+  - Bell Textron
+  - Bell Flight
+  - Bell Bank
+  - Bell Helicopter
+
+# Ranking bonus for priority companies (needs the 2-line edit; ignored otherwise).
+# 2 = moderate, 3 = strong.
+priority_bonus: 2
+
+# Optional: jobs in these places get +1 in ranking (never to get in).
+# Example for Canada first:  preferred_locations: [Toronto, Ontario, Canada]
+# Example for the Gulf:      preferred_locations: [Dubai, UAE, Doha, Qatar, Riyadh, Saudi]
+preferred_locations: []
+
+days_back: 7
+results_per_search: 20
+min_match_percent: 75
+
+# Fetch full job text from LinkedIn (slower). Set to false if LinkedIn starts failing.
+linkedin_fetch_description: true
+
+# Skip a site that finds nothing after this many searches.
+skip_site_after_failures: 4
