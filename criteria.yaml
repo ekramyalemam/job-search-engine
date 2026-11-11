@@ -1,5 +1,5 @@
-# JOB SEARCH SETTINGS (v11) - edit anytime
-# Works only with find_jobs.py v11 (first line says v11). Replace the whole file.
+# JOB SEARCH SETTINGS (v12) - edit anytime
+# Works only with find_jobs.py v12 (the top of the file says v12). Replace the whole file.
 
 sites:
   - linkedin
@@ -90,6 +90,44 @@ seniority_keywords:
   - directrice
   - مدير
 
+# 2b. NOT A MANAGER: a title with one of these words is dropped
+# unless it ALSO has a word from management_words below.
+# (This removes jobs like "Senior Cloud Engineer".)
+individual_contributor_words:
+  - engineer
+  - technician
+  - developer
+  - architect
+  - analyst
+  - specialist
+  - administrator
+  - consultant
+  - designer
+  - programmer
+  - scientist
+  - ingenieur
+  - technicien
+  - analyste
+  - developpeur
+  - specialiste
+  - مهندس
+  - فني
+
+management_words:
+  - manager
+  - director
+  - head
+  - leader
+  - vice president
+  - vp
+  - president
+  - chief
+  - general manager
+  - gestionnaire
+  - directeur
+  - directrice
+  - مدير
+
 # 3. EXCLUDE: Hard drop (Junior roles, non-tech)
 exclude_title_words:
   - store
@@ -170,7 +208,7 @@ job_functions:
   - engagement
 
 # SCORING SYSTEM
-min_relevance_score: 3
+min_relevance_score: 4
 
 # High-value title keywords (+3 points) - Generic words safely removed
 title_keywords:
@@ -253,6 +291,13 @@ priority_companies:
   - Google
   - Kyndryl
   - Amdocs
+  - Etisalat
+  - Emirates Telecommunications
+  - Emirates Integrated Telecommunications
+  - stc
+  - Zain
+  - Ooredoo
+  - Mobily
 
 # Big general companies: they rank higher but do NOT count as telecom/cloud evidence.
 bonus_only_companies:
