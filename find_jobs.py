@@ -339,6 +339,9 @@ def main():
     main_df.to_csv("results/latest.csv", index=False, encoding="utf-8-sig")
     maybe_df.to_csv("results/maybe_latest.csv", index=False, encoding="utf-8-sig")
     rej_df.to_csv("results/rejected_latest.csv", index=False, encoding="utf-8-sig")
+    # NEW (for Phase 2): save the job text, matched to each job by its link. Nothing else changes.
+    pd.DataFrame({"Job link": col(jobs, "job_url"), "Description": desc.str.slice(0, 8000)}).to_csv(
+        "results/descriptions_latest.csv", index=False, encoding="utf-8-sig")
     with open("results/run_log.txt", "w", encoding="utf-8") as f:
         f.write("\n".join(log))
 
