@@ -1,5 +1,5 @@
-# JOB SEARCH SETTINGS (v12) - edit anytime
-# Works only with find_jobs.py v12 (the top of the file says v12). Replace the whole file.
+# JOB SEARCH SETTINGS (v13) - edit anytime
+# Works only with find_jobs.py v13 (the top of the file says v13). Replace the whole file.
 
 sites:
   - linkedin
@@ -325,3 +325,29 @@ min_match_percent: 75
 
 linkedin_fetch_description: true
 skip_site_after_failures: 4
+
+# --- NEW in v13: searches aimed at named companies, so the big players are not missed.
+# Each company is searched with each company_terms word, in every location above
+# (or only the countries listed in 'where'). Only jobs from THAT company are kept.
+company_terms:
+  - "service delivery manager"
+  - "operations manager"
+company_results_per_search: 25
+company_searches:
+  - {name: Nokia}
+  - {name: Ericsson}
+  - {name: Cisco}
+  - {name: Verizon, where: [USA]}
+  - {name: "AT&T", where: [USA]}
+  - {name: "T-Mobile", where: [USA]}
+  - {name: Comcast, where: [USA]}
+  - {name: Charter Communications, where: [USA]}
+  - {name: Lumen, where: [USA]}
+  - {name: Rogers, where: [Canada]}
+  - {name: Bell Canada, where: [Canada]}
+  - {name: TELUS, where: [Canada]}
+  - {name: Etisalat, where: [United Arab Emirates]}
+  - {name: Ooredoo, where: [Qatar]}
+  - {name: Zain, where: [Saudi Arabia]}
+  - {name: Mobily, where: [Saudi Arabia]}
+  - {name: stc, where: [Saudi Arabia]}

@@ -1,7 +1,7 @@
 """
 =========================================================
-find_jobs.py - v12 (Hybrid + bonus-only companies + no-engineer filter)
-Features: Remote/Hybrid detection, Executive Gates, +3 Priority Boost
+find_jobs.py - v13 (v12 + searches aimed at named companies)
+Features: Remote/Hybrid detection, Executive Gates, +3 Priority Boost, company_searches
 =========================================================
 """
 import os
@@ -156,6 +156,49 @@ def main():
                     skipped.add(site)
                     log.append(f"SKIPPED {site}: no jobs after {tries[site]} tries")
                 time.sleep(random.uniform(3, 7))
+
+    # NEW in v13: searches aimed at named companies (Nokia, Verizon, ...), so big players are not missed.
+    # Settings: company_searches + company_terms in criteria.yaml. Only jobs whose company name matches are kept;
+    # they then go through exactly the same gates and scoring as every other job.
+    for comp in c.get("company_searches", []) or []:
+        name = comp["name"] if isinstance(comp, dict) else str(comp)
+        where = (comp.get("where") if isinstance(comp, dict) else None) or []
+        name_rx = rf"\b{re.escape(clean(name))}\b"
+        for loc in c["locations"]:
+            if where and loc["country"] not in where:
+                continue
+            for term in c.get("company_terms", ["manager"]):
+                for site in c.get("sites", []):
+                    if site in skipped:
+                        continue
+                    label = f"COMPANY {name} | {term} | {site} | {loc['name']}"
+                    try:
+                        kwargs = dict(
+                            site_name=[site],
+                            search_term=f"{name} {term}",
+                            location=loc["name"],
+                            results_wanted=c.get("company_results_per_search", 25),
+                            hours_old=c.get("days_back", 7) * 24,
+                            country_indeed=loc["country"],
+                        )
+                        if site == "linkedin" and fetch_desc:
+                            kwargs["linkedin_fetch_description"] = True
+                        df = scrape_jobs(**kwargs)
+                        if df is None or df.empty:
+                            log.append(f"EMPTY  {label}")
+                        else:
+                            keep = col(df, "company").apply(lambda v: re.search(name_rx, clean(v)) is not None)
+                            df = df[keep]
+                            if df.empty:
+                                log.append(f"EMPTY  {label} (no job from that company)")
+                            else:
+                                df = df.copy()
+                                df["searched_location"] = loc["name"]
+                                frames.append(df)
+                                log.append(f"OK     {label} -> {len(df)} jobs")
+                    except Exception as err:
+                        log.append(f"FAILED {label} -> {str(err)[:120]}")
+                    time.sleep(random.uniform(3, 7))
 
     os.makedirs("results", exist_ok=True)
     today = date.today().isoformat()
