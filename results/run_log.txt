@@ -4,7 +4,7 @@ EMPTY  bayt | senior service delivery manager | Dubai, UAE
 EMPTY  google | senior service delivery manager | Dubai, UAE
 EMPTY  glassdoor | senior service delivery manager | Dubai, UAE
 OK     linkedin | managed services director | Dubai, UAE -> 20 jobs
-OK     indeed | managed services director | Dubai, UAE -> 8 jobs
+OK     indeed | managed services director | Dubai, UAE -> 9 jobs
 EMPTY  bayt | managed services director | Dubai, UAE
 EMPTY  google | managed services director | Dubai, UAE
 EMPTY  glassdoor | managed services director | Dubai, UAE
@@ -26,41 +26,41 @@ OK     indeed | network operations manager | Dubai, UAE -> 20 jobs
 OK     linkedin | major incident manager | Dubai, UAE -> 20 jobs
 OK     indeed | major incident manager | Dubai, UAE -> 5 jobs
 OK     linkedin | cloud service delivery manager | Dubai, UAE -> 20 jobs
-OK     indeed | cloud service delivery manager | Dubai, UAE -> 11 jobs
+OK     indeed | cloud service delivery manager | Dubai, UAE -> 13 jobs
 OK     linkedin | telecom program manager | Dubai, UAE -> 20 jobs
 OK     indeed | telecom program manager | Dubai, UAE -> 5 jobs
 OK     linkedin | senior service delivery manager | Doha, Qatar -> 20 jobs
-OK     indeed | senior service delivery manager | Doha, Qatar -> 15 jobs
+OK     indeed | senior service delivery manager | Doha, Qatar -> 18 jobs
 OK     linkedin | managed services director | Doha, Qatar -> 20 jobs
 OK     indeed | managed services director | Doha, Qatar -> 1 jobs
 OK     linkedin | head of service delivery | Doha, Qatar -> 20 jobs
-OK     indeed | head of service delivery | Doha, Qatar -> 12 jobs
+OK     indeed | head of service delivery | Doha, Qatar -> 13 jobs
 OK     linkedin | customer operations manager telecom | Doha, Qatar -> 20 jobs
-EMPTY  indeed | customer operations manager telecom | Doha, Qatar
+OK     indeed | customer operations manager telecom | Doha, Qatar -> 1 jobs
 OK     linkedin | network operations manager | Doha, Qatar -> 20 jobs
-OK     indeed | network operations manager | Doha, Qatar -> 11 jobs
-OK     linkedin | major incident manager | Doha, Qatar -> 14 jobs
+OK     indeed | network operations manager | Doha, Qatar -> 16 jobs
+OK     linkedin | major incident manager | Doha, Qatar -> 13 jobs
 OK     indeed | major incident manager | Doha, Qatar -> 1 jobs
 OK     linkedin | cloud service delivery manager | Doha, Qatar -> 20 jobs
 EMPTY  indeed | cloud service delivery manager | Doha, Qatar
 OK     linkedin | telecom program manager | Doha, Qatar -> 20 jobs
-EMPTY  indeed | telecom program manager | Doha, Qatar
+OK     indeed | telecom program manager | Doha, Qatar -> 1 jobs
 OK     linkedin | senior service delivery manager | Riyadh, Saudi Arabia -> 20 jobs
 OK     indeed | senior service delivery manager | Riyadh, Saudi Arabia -> 20 jobs
 OK     linkedin | managed services director | Riyadh, Saudi Arabia -> 20 jobs
-OK     indeed | managed services director | Riyadh, Saudi Arabia -> 1 jobs
+OK     indeed | managed services director | Riyadh, Saudi Arabia -> 3 jobs
 OK     linkedin | head of service delivery | Riyadh, Saudi Arabia -> 20 jobs
-OK     indeed | head of service delivery | Riyadh, Saudi Arabia -> 10 jobs
+OK     indeed | head of service delivery | Riyadh, Saudi Arabia -> 8 jobs
 OK     linkedin | customer operations manager telecom | Riyadh, Saudi Arabia -> 20 jobs
-OK     indeed | customer operations manager telecom | Riyadh, Saudi Arabia -> 2 jobs
+OK     indeed | customer operations manager telecom | Riyadh, Saudi Arabia -> 1 jobs
 OK     linkedin | network operations manager | Riyadh, Saudi Arabia -> 20 jobs
 OK     indeed | network operations manager | Riyadh, Saudi Arabia -> 20 jobs
 OK     linkedin | major incident manager | Riyadh, Saudi Arabia -> 20 jobs
-OK     indeed | major incident manager | Riyadh, Saudi Arabia -> 3 jobs
+OK     indeed | major incident manager | Riyadh, Saudi Arabia -> 5 jobs
 OK     linkedin | cloud service delivery manager | Riyadh, Saudi Arabia -> 20 jobs
-OK     indeed | cloud service delivery manager | Riyadh, Saudi Arabia -> 8 jobs
+OK     indeed | cloud service delivery manager | Riyadh, Saudi Arabia -> 10 jobs
 OK     linkedin | telecom program manager | Riyadh, Saudi Arabia -> 20 jobs
-OK     indeed | telecom program manager | Riyadh, Saudi Arabia -> 2 jobs
+OK     indeed | telecom program manager | Riyadh, Saudi Arabia -> 1 jobs
 OK     linkedin | senior service delivery manager | Toronto, Canada -> 20 jobs
 OK     indeed | senior service delivery manager | Toronto, Canada -> 20 jobs
 EMPTY  zip_recruiter | senior service delivery manager | Toronto, Canada
@@ -89,15 +89,15 @@ OK     indeed | managed services director | United States -> 20 jobs
 OK     linkedin | head of service delivery | United States -> 20 jobs
 OK     indeed | head of service delivery | United States -> 20 jobs
 OK     linkedin | customer operations manager telecom | United States -> 20 jobs
-OK     indeed | customer operations manager telecom | United States -> 8 jobs
+OK     indeed | customer operations manager telecom | United States -> 7 jobs
 OK     linkedin | network operations manager | United States -> 20 jobs
 EMPTY  indeed | network operations manager | United States
 OK     linkedin | major incident manager | United States -> 20 jobs
 OK     indeed | major incident manager | United States -> 20 jobs
 OK     linkedin | cloud service delivery manager | United States -> 20 jobs
 OK     indeed | cloud service delivery manager | United States -> 20 jobs
-EMPTY  linkedin | telecom program manager | United States
-OK     indeed | telecom program manager | United States -> 9 jobs
+OK     linkedin | telecom program manager | United States -> 20 jobs
+OK     indeed | telecom program manager | United States -> 10 jobs
 EMPTY  COMPANY Nokia | service delivery manager | linkedin | Dubai, UAE (no job from that company)
 EMPTY  COMPANY Nokia | service delivery manager | indeed | Dubai, UAE
 EMPTY  COMPANY Nokia | operations manager | linkedin | Dubai, UAE (no job from that company)
@@ -156,14 +156,14 @@ EMPTY  COMPANY Cisco | operations manager | linkedin | Toronto, Canada (no job f
 EMPTY  COMPANY Cisco | operations manager | indeed | Toronto, Canada
 EMPTY  COMPANY Cisco | service delivery manager | linkedin | United States (no job from that company)
 OK     COMPANY Cisco | service delivery manager | indeed | United States -> 1 jobs
-OK     COMPANY Cisco | operations manager | linkedin | United States -> 12 jobs
-OK     COMPANY Cisco | operations manager | indeed | United States -> 3 jobs
+OK     COMPANY Cisco | operations manager | linkedin | United States -> 11 jobs
+OK     COMPANY Cisco | operations manager | indeed | United States -> 1 jobs
 EMPTY  COMPANY Verizon | service delivery manager | linkedin | United States (no job from that company)
 OK     COMPANY Verizon | service delivery manager | indeed | United States -> 3 jobs
 OK     COMPANY Verizon | operations manager | linkedin | United States -> 2 jobs
 EMPTY  COMPANY Verizon | operations manager | indeed | United States
 EMPTY  COMPANY AT&T | service delivery manager | linkedin | United States (no job from that company)
-OK     COMPANY AT&T | service delivery manager | indeed | United States -> 4 jobs
+OK     COMPANY AT&T | service delivery manager | indeed | United States -> 3 jobs
 OK     COMPANY AT&T | operations manager | linkedin | United States -> 1 jobs
 EMPTY  COMPANY AT&T | operations manager | indeed | United States
 EMPTY  COMPANY T-Mobile | service delivery manager | linkedin | United States (no job from that company)
@@ -184,8 +184,8 @@ EMPTY  COMPANY Lumen | operations manager | linkedin | United States (no job fro
 EMPTY  COMPANY Lumen | operations manager | indeed | United States
 OK     COMPANY Rogers | service delivery manager | linkedin | Toronto, Canada -> 9 jobs
 OK     COMPANY Rogers | service delivery manager | indeed | Toronto, Canada -> 7 jobs
-OK     COMPANY Rogers | operations manager | linkedin | Toronto, Canada -> 6 jobs
-OK     COMPANY Rogers | operations manager | indeed | Toronto, Canada -> 10 jobs
+OK     COMPANY Rogers | operations manager | linkedin | Toronto, Canada -> 5 jobs
+OK     COMPANY Rogers | operations manager | indeed | Toronto, Canada -> 9 jobs
 EMPTY  COMPANY Bell Canada | service delivery manager | linkedin | Toronto, Canada (no job from that company)
 EMPTY  COMPANY Bell Canada | service delivery manager | indeed | Toronto, Canada (no job from that company)
 EMPTY  COMPANY Bell Canada | operations manager | linkedin | Toronto, Canada (no job from that company)
@@ -199,9 +199,9 @@ EMPTY  COMPANY Etisalat | service delivery manager | indeed | Dubai, UAE (no job
 OK     COMPANY Etisalat | operations manager | linkedin | Dubai, UAE -> 1 jobs
 EMPTY  COMPANY Etisalat | operations manager | indeed | Dubai, UAE
 EMPTY  COMPANY Ooredoo | service delivery manager | linkedin | Doha, Qatar (no job from that company)
-EMPTY  COMPANY Ooredoo | service delivery manager | indeed | Doha, Qatar
+EMPTY  COMPANY Ooredoo | service delivery manager | indeed | Doha, Qatar (no job from that company)
 EMPTY  COMPANY Ooredoo | operations manager | linkedin | Doha, Qatar (no job from that company)
-EMPTY  COMPANY Ooredoo | operations manager | indeed | Doha, Qatar
+EMPTY  COMPANY Ooredoo | operations manager | indeed | Doha, Qatar (no job from that company)
 EMPTY  COMPANY Zain | service delivery manager | linkedin | Riyadh, Saudi Arabia (no job from that company)
 EMPTY  COMPANY Zain | service delivery manager | indeed | Riyadh, Saudi Arabia
 EMPTY  COMPANY Zain | operations manager | linkedin | Riyadh, Saudi Arabia (no job from that company)
@@ -211,32 +211,32 @@ EMPTY  COMPANY Mobily | service delivery manager | indeed | Riyadh, Saudi Arabia
 EMPTY  COMPANY Mobily | operations manager | linkedin | Riyadh, Saudi Arabia (no job from that company)
 EMPTY  COMPANY Mobily | operations manager | indeed | Riyadh, Saudi Arabia
 EMPTY  COMPANY stc | service delivery manager | linkedin | Riyadh, Saudi Arabia (no job from that company)
-EMPTY  COMPANY stc | service delivery manager | indeed | Riyadh, Saudi Arabia (no job from that company)
+EMPTY  COMPANY stc | service delivery manager | indeed | Riyadh, Saudi Arabia
 EMPTY  COMPANY stc | operations manager | linkedin | Riyadh, Saudi Arabia (no job from that company)
-EMPTY  COMPANY stc | operations manager | indeed | Riyadh, Saudi Arabia (no job from that company)
+EMPTY  COMPANY stc | operations manager | indeed | Riyadh, Saudi Arabia
 
 === SITE SUMMARY ===
-linkedin: 774 jobs from 39/40 searches (used)
-indeed: 445 jobs from 36/40 searches (used)
+linkedin: 793 jobs from 40/40 searches (used)
+indeed: 461 jobs from 38/40 searches (used)
 bayt: 0 jobs from 0/4 searches (skipped)
 google: 0 jobs from 0/4 searches (skipped)
 glassdoor: 0 jobs from 0/4 searches (skipped)
 zip_recruiter: 0 jobs from 0/4 searches (skipped)
 
 === FILTERS ===
-Total after removing duplicates: 967
-Dropped for missing role keyword: 160
+Total after removing duplicates: 992
+Dropped for missing role keyword: 161
 Dropped for seniority: 36
-Dropped for employment type: 33
-Dropped as engineer/specialist (not a manager): 13
-Dropped for exclude words: 106
+Dropped for employment type: 32
+Dropped as engineer/specialist (not a manager): 15
+Dropped for exclude words: 114
 Rescued to MAYBE (exclude word but tech title): 7
-Dropped, score 0 (no evidence): 146
-Moved to MAYBE list (score 1-3): 345
-Strong matches before merging repeats: 128
-Merged repeated jobs: 12
-Final strong matches: 116
-Final maybe list: 331
-  Priority companies: 10
-  Industry verified: 104
-  Score 5 or more: 110
+Dropped, score 0 (no evidence): 139
+Moved to MAYBE list (score 1-3): 361
+Strong matches before merging repeats: 134
+Merged repeated jobs: 13
+Final strong matches: 121
+Final maybe list: 345
+  Priority companies: 9
+  Industry verified: 111
+  Score 5 or more: 116

@@ -1,44 +1,44 @@
-RUN SUMMARY 2026-11-14
+RUN SUMMARY 2026-11-15
 
 SITES
-linkedin: 774 jobs from 39/40 searches (used)
-indeed: 445 jobs from 36/40 searches (used)
+linkedin: 793 jobs from 40/40 searches (used)
+indeed: 461 jobs from 38/40 searches (used)
 bayt: 0 jobs from 0/4 searches (skipped)
 google: 0 jobs from 0/4 searches (skipped)
 glassdoor: 0 jobs from 0/4 searches (skipped)
 zip_recruiter: 0 jobs from 0/4 searches (skipped)
 
 FILTERS
-Total after removing duplicates: 967
-Dropped for missing role keyword: 160
+Total after removing duplicates: 992
+Dropped for missing role keyword: 161
 Dropped for seniority: 36
-Dropped for employment type: 33
-Dropped as engineer/specialist (not a manager): 13
-Dropped for exclude words: 106
+Dropped for employment type: 32
+Dropped as engineer/specialist (not a manager): 15
+Dropped for exclude words: 114
 Rescued to MAYBE (exclude word but tech title): 7
-Dropped, score 0 (no evidence): 146
-Moved to MAYBE list (score 1-3): 345
-Strong matches before merging repeats: 128
-Merged repeated jobs: 12
-Final strong matches: 116
-Final maybe list: 331
-  Priority companies: 10
-  Industry verified: 104
-  Score 5 or more: 110
+Dropped, score 0 (no evidence): 139
+Moved to MAYBE list (score 1-3): 361
+Strong matches before merging repeats: 134
+Merged repeated jobs: 13
+Final strong matches: 121
+Final maybe list: 345
+  Priority companies: 9
+  Industry verified: 111
+  Score 5 or more: 116
 
-REGIONS (strong matches): USA 79, Canada 23, UAE 6, KSA 5, Qatar 2, Other 1
-SCORES: 10:1, 9:6, 8:2, 7:10, 6:64, 5:27, 4:6
+REGIONS (strong matches): USA 82, Canada 23, UAE 6, KSA 5, Qatar 4, Other 1
+SCORES: 10:1, 9:6, 8:1, 7:12, 6:71, 5:25, 4:5
 
 TOP 15 (score | title | workplace | company | location)
 10 | Senior Technical Delivery Manager - Web… | Onsite | Rogers Communicatio… | Toronto, Ontario, C…
+9 | Technical Infrastructure Program Manage… | Onsite | Amazon Web Services… | Seattle, WA, USA | …
 9 | Data Center Program Manager | Onsite | Microsoft | Sterling, VA, USA
 9 | Senior Telemetry Service Operations Man… | Onsite | Microsoft | USA
 9 | Tech Infra Program Manager II, Network … | Onsite | Amazon Web Services | Culpeper, VA, USA
 9 | Engineering Manager- Cloud Operations- … | Hybrid | Cisco | Boxborough, MA, USA…
 9 | Gestionnaire principal de la stratégie,… | Onsite | Bell | Toronto, Ontario, C…
-9 | Business Operations Manager, Hyperscale… | Hybrid | Cisco | San Jose, CA, USA
-8 | Data Center Technician Manager - CTJ - … | Onsite | Microsoft | Cheyenne, WY, USA
 8 | Network Development Manager, Amazon Ded… | Onsite | Amazon Web Services… | Denver, CO, USA
+7 | Service Assurance Manager | Onsite | Vodafone | Doha, DAW, Qatar
 7 | Sr. Manager, Editorial Platform Operati… | Onsite | Comcast | Irvine, CA, USA | P…
 7 | IT-Telecoms Project Manager -oil and Ga… | Onsite | Arab Solutions | Doha, Qatar
 7 | Senior Director, Managed Services | Onsite | EPAM Systems | Toronto, ON, Canada
@@ -47,60 +47,60 @@ TOP 15 (score | title | workplace | company | location)
 7 | Technical Program Manager - Multi-Hybri… | Hybrid | Confidential Company | Doha, Qatar
 
 LOWEST 8 STRONG MATCHES
-5 | Data Center Capacity & Network Manager | Onsite | Meta | Verified
-5 | Service Manager - Cloud & Infrastructure | Onsite | Church Mutual Insur… | Verified
+5 | Network and Systems Services Manager | Remote | School of Governmen… | Verified
+5 | Technical Support Escalations Manager (… | Onsite | Symbotic | Verified
+5 | Manager, Cloud Ops | Remote | CareMetx, LLC | Verified
+4 | Director Field Service Operations – Sou… | Hybrid | Sunbelt Solomon | No match in text
 4 | Sr Service Delivery Manager | Onsite | Unisys | No match in text
 4 | Director, IT Service Delivery | Onsite | Dexian | No match in text
 4 | Senior Service Delivery Manager | Onsite | Unisys | No match in text
-4 | Director Field Service Operations – Sou… | Hybrid | Sunbelt Solomon | No match in text
 4 | Head of Service Delivery | Remote | Scan.com | No match in text
-4 | Incident and Problem Manager | Onsite | Arrow Search Partne… | No match in text
 
 TOP 10 MAYBE (score | title | workplace | company | why)
 9 | Manager, HR Service Delivery | Onsite | Comcast | exclude word 'hr' but title has a tech word
-7 | Senior Program Manager - End to End | Hybrid | Bell | score 3 below 4
+7 | Gestionnaire de Mandats | Engagement Ma… | Onsite | Amazon Web Services… | score 3 below 4
 7 | Lead Management Operations | Onsite | Rogers Communicatio… | score 3 below 4
+7 | Senior Program Manager - End to End | Hybrid | Bell | score 3 below 4
 7 | Senior Project Manager – Software Imple… | Onsite | TELUS Health | score 3 below 4
 7 | Delivery Manager | Onsite | Rogers Communicatio… | score 3 below 4
 7 | Senior Project Manager - Media Technolo… | Hybrid | Rogers Communicatio… | score 3 below 4
 7 | Senior Project Manager - Media Technolo… | Hybrid | Rogers Sports & Med… | score 3 below 4
 7 | Principal Technical Program Manager - F… | Onsite | Microsoft | score 3 below 4
 7 | Solution Delivery Manager | Hybrid | Rogers Communicatio… | score 3 below 4
-7 | Assistant Service Delivery Manager, Asp… | Onsite | International SOS | exclude word 'assistant' but title has a tech word
 
 DROPPED SAMPLES (to check nothing good is lost)
-- missing role: 160 total; examples:
-    CO-ORDINATOR, Digital Originals & CBC F… | Onsite | CBC/Radio-Canada | missing role keyword
-    Engineer - Managed Services | Remote | Convergint | missing role keyword
-    Senior Advisor - Technology | Onsite | Al Jazeera Media Ne… | missing role keyword
-    Regional Technology Specialist – Missio… | Hybrid | Nokia | missing role keyword
-    HR Automation Engineer | Onsite | Lumen | missing role keyword
-    Principal Consultant - Procurement & Su… | Onsite | AtkinsRéalis | missing role keyword
+- missing role: 161 total; examples:
+    Onboarding Specialist, Global Integrate… | Onsite | Corpay | missing role keyword
+    PRO Clerk | Onsite | DHL | missing role keyword
+    Administrative Coordinator | Onsite | Pinchin | missing role keyword
+    Senior PMO Analyst - Venue Technology | Onsite | Intaleq Technology … | missing role keyword
+    Scheduler - Staffing Services | Onsite | William Osler Healt… | missing role keyword
+    Accounting Coordinator | Onsite | Abilities Centre | missing role keyword
 - seniority: 36 total; examples:
-    Delivery Management | Hybrid | Synechron | no seniority word i…
-    Network Administrator II - Secret Clear… | Onsite | V2X Inc | no seniority word i…
-    Operations Specialist | Onsite | San Diego Workforce… | no seniority word i…
+    Dir-Operations-A | Onsite | St. Regis Hotels & … | no seniority word i…
+    Cloud Email Services Administrator (Ter… | Onsite | University of Toron… | no seniority word i…
+    Principal Network Architect | Onsite | Rogers Communicatio… | no seniority word i…
     Delivery /Service Tech | Onsite | Advocate Aurora Hea… | no seniority word i…
-    Supervisor - Service Operations | Onsite | Lumos Fiber | no seniority word i…
-    Coordinator, Region Office Operations (… | Onsite | IG Wealth Management | no seniority word i…
-- engineer/specialist: 13 total; examples:
-    Senior Sales Operations Analyst | Onsite | Canonical | engineer/specialist…
+    Service Operations Administrator (GTA) | Onsite | Konica Minolta Busi… | no seniority word i…
+    Project Coordinator | Onsite | Global Maritime | no seniority word i…
+- engineer/specialist: 15 total; examples:
     Senior Solution Architect - Core Networ… | Onsite | Capgemini Engineeri… | engineer/specialist…
-    Partner Portfolio Lead Architect | Onsite | Echelon | engineer/specialist…
-    Lead Software Engineer | Onsite | Virtusa | engineer/specialist…
-    Senior Sales Operations Analyst | Onsite | Canonical | engineer/specialist…
     Senior Site Reliability / Gitops Engine… | Onsite | Canonical | engineer/specialist…
-- exclude word: 106 total; examples:
-    Safety Manager Technology | Onsite | Rogers Communicatio… | exclude word: safety
-    Procurement Executive - Materials - Int… | Onsite | IHG Hotels & Resorts | exclude word: procu…
-    Senior Product Manager - Retail Operati… | Remote | TRADER Corporation | exclude word: retail
-    Vice President, TV & Radio Sales | Onsite | Rogers Communicatio… | exclude word: sales
-    Property Manager | Onsite | AO Realty Corp | exclude word: prope…
+    Senior Digital Project Engineer | Onsite | Anotech | engineer/specialist…
+    Senior Sales Operations Analyst | Onsite | Canonical | engineer/specialist…
+    Senior Engineer - Cloud & Infra Managem… | Onsite | LTM | engineer/specialist…
+    Senior Consultant, Program Management -… | Onsite | Dell Technologies | engineer/specialist…
+- exclude word: 114 total; examples:
+    Assistant Front Store Manager, Hourly F… | Onsite | Shoppers Drug Mart | exclude word: store
+    Manager, Real Estate Services-Toronto | Onsite | Rogers Communicatio… | exclude word: real …
     Retail Associate Manager | Onsite | T-Mobile | exclude word: retail
-- score 0: 146 total; examples:
-    Plant Manager | Onsite | Parklane Mechanical… | score 0: no role or…
-    Transformation Manager- Financial Insti… | Onsite | HireAlpha | score 0: no role or…
-    Senior Quality Engineer / Manager | Remote | Geosyntec Consultan… | score 0: no role or…
-    Director of Field Services and Technica… | Onsite | Knobelsdorff | score 0: no role or…
-    Director of Front Services | Onsite | Rosewood Hotel Group | score 0: no role or…
-    Commercial Manager | Hybrid | KEO International C… | score 0: no role or…
+    Territory Sales Manager – Qatar & Kuwait | Onsite | Tech First Gulf | exclude word: sales
+    Sales Executive | Onsite | Adams Care Technica… | exclude word: sales
+    Airports - Assistant Store Manager | Onsite | Wireless DNA - Fido… | exclude word: store
+- score 0: 139 total; examples:
+    Customer Care Team Leader | Onsite | HungerStation | هنق… | score 0: no role or…
+    Senior Service Center Manager | Onsite | HMH | score 0: no role or…
+    VP, Head of Consulting | Onsite | Dow Jones | score 0: no role or…
+    Manager - Roads Maintenance - AG6 | Onsite | Qiddiya Investment … | score 0: no role or…
+    Area Manager, Inventory Control and Qua… | Onsite | Amazon.com | score 0: no role or…
+    Senior Manager, Audit Services | Hybrid | Manulife | score 0: no role or…
