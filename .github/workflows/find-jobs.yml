@@ -3,7 +3,7 @@ name: Find jobs
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 11 * * *"      # every day, 11:00 UTC = 6:00 am Toronto (Phase 2 runs at 7:30 am)
+    - cron: "23 10 * * *"      # every day, 10:23 UTC = about 5:23 am Toronto
 
 permissions:
   contents: write
