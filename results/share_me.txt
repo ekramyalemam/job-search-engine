@@ -1,33 +1,33 @@
 RUN SUMMARY 2026-11-17
 
 SITES
-linkedin: 2388 jobs from 108/108 searches (used)
-indeed: 1723 jobs from 101/108 searches (used)
-bayt: 625 jobs from 76/108 searches (used)
+linkedin: 2627 jobs from 108/108 searches (used)
+indeed: 1700 jobs from 100/108 searches (used)
+bayt: 743 jobs from 87/108 searches (used)
 google: 0 jobs from 0/4 searches (skipped)
 glassdoor: 0 jobs from 0/4 searches (skipped)
 zip_recruiter: 0 jobs from 0/4 searches (skipped)
 
 FILTERS
-Total after removing duplicates: 2874
-Dropped for missing role keyword: 430
-Dropped for seniority: 159
-Dropped for employment type: 51
+Total after removing duplicates: 2996
+Dropped for missing role keyword: 449
+Dropped for seniority: 167
+Dropped for employment type: 54
 Dropped as engineer/specialist (not a manager): 41
-Dropped for exclude words: 357
-Rescued to MAYBE (exclude word but tech title): 19
-Dropped, score 0 (no evidence): 598
-Moved to MAYBE list (score 1-3): 885
-Strong matches before merging repeats: 332
-Merged repeated jobs: 38
-Final strong matches: 294
-Final maybe list: 826
-  Priority companies: 29
-  Industry verified: 222
-  Score 5 or more: 247
+Dropped for exclude words: 354
+Rescued to MAYBE (exclude word but tech title): 23
+Dropped, score 0 (no evidence): 636
+Moved to MAYBE list (score 1-3): 919
+Strong matches before merging repeats: 355
+Merged repeated jobs: 42
+Final strong matches: 313
+Final maybe list: 856
+  Priority companies: 31
+  Industry verified: 242
+  Score 5 or more: 270
 
-REGIONS (strong matches): USA 188, Canada 50, UAE 31, KSA 11, Qatar 10, Other 4
-SCORES: 10:6, 9:10, 8:11, 7:31, 6:122, 5:67, 4:47
+REGIONS (strong matches): USA 191, Canada 63, UAE 31, Qatar 11, KSA 11, Other 6
+SCORES: 10:6, 9:12, 8:11, 7:38, 6:126, 5:77, 4:43
 
 TOP 15 (score | title | workplace | company | location)
 10 | Crisis and Resilience Regional Technica… | Onsite | Google | Dubai, Dubai, Unite…
@@ -36,28 +36,29 @@ TOP 15 (score | title | workplace | company | location)
 10 | Service Assurance Manager | Onsite | Vodafone | Doha, DAW, Qatar
 10 | Customer Success Acct Manager - Tomoh A… | Onsite | Microsoft | Dubai, Dubai, Unite…
 10 | Site Lead, Data Center Operations | Onsite | Oracle | Toronto, Ontario, C…
+9 | Delivery Manager-Managed Services | Hybrid | IBM | Dallas, TX, USA
 9 | Data Center Operations Program Manager-… | Onsite | Microsoft | Chicago, IL, USA
 9 | Senior Cloud Technical Account Manager,… | Onsite | Amazon Web Services… | Toronto, Ontario, C…
 9 | Data Center Operations Manager - Night … | Onsite | Amazon Web Services… | Hampton, GA, USA
 9 | Technical Infrastructure Program Manage… | Onsite | Amazon Web Services… | Seattle, WA, USA | …
 9 | 5G Wireless Delivery Project Manager | Hybrid | Verizon | Salt Lake City, UT,…
-9 | Data Center Program Manager | Onsite | Microsoft | Sterling, VA, USA
 9 | Sr. Cloud Technical Account Manager, ES… | Onsite | Amazon Web Services… | Toronto, Ontario, C…
 9 | Sr. Cloud Technical Account Manager, ES… | Onsite | Amazon Web Services | Toronto, ON, Canada
-9 | Tech Infra Program Manager II, Network … | Onsite | Amazon Web Services | Culpeper, VA, USA
+9 | Data Center Program Manager | Onsite | Microsoft | Phoenix, AZ, USA
 
 LOWEST 8 STRONG MATCHES
+4 | Service Delivery Manager | Onsite | HCLTech | No match in text
+4 | Director, Global Service Operations Pow… | Remote | Nextpower | No match in text
+4 | Security Operations (SOC) Manager (100%… | Onsite | Crest Security Assu… | Verified
 4 | Customer Success Manager | Onsite | Tech Ladies® | No match in text
 4 | Service Delivery Director - Aquatics | Onsite | YMCA of Greater Ric… | No match in text
 4 | Manager of HVAC Service Operations | Onsite | Blue Mountain Const… | No match in text
-4 | Customer Success Manager | Onsite | Sparta | No match in text
-4 | Customer Success Manager, Strategic - N… | Remote | KNIME | No match in text
 4 | Customer Success Manager | Onsite | Guardz | No match in text
 4 | Manager of Customer Success | Remote | DealerOn, Inc. | No match in text
-4 | Service Delivery Director - Americas | Remote | ITG Brands | No match in text
 
 TOP 10 MAYBE (score | title | workplace | company | why)
-9 | Manager, HR Service Delivery | Onsite | Comcast | exclude word 'hr' but title has a tech word
+10 | Sr. Manager/Mega Projects & Specialized… | Hybrid | etisalat UAE | exclude word 'sales' but title has a tech word
+9 | Data Center Logistics Operations Manage… | Onsite | Google | exclude word 'logistics' but title has a tech word
 7 | Senior Technical Project Manager | Onsite | TELUS Health | score 3 below 4
 7 | Lead Management Operations | Onsite | Rogers Communicatio… | score 3 below 4
 7 | Project Manager | Hybrid | IBM | score 3 below 4
@@ -66,7 +67,6 @@ TOP 10 MAYBE (score | title | workplace | company | why)
 7 | Senior Program Manager - End to End | Hybrid | Bell | score 3 below 4
 7 | Senior Project Manager – Software Imple… | Onsite | TELUS Health | score 3 below 4
 7 | Delivery Manager | Onsite | Rogers Communicatio… | score 3 below 4
-7 | Senior Project Manager - Media Technolo… | Hybrid | Rogers Sports & Med… | score 3 below 4
 
 FOCUS COMPANIES (Red Hat): 50 jobs found, every one is listed in results/focus_latest.csv
 MAYBE list | Account Manager - Public Sector (Saudi natio… | Red Hat | Riyadh, Riyadh, Saudi… | FOCUS Red Hat: score 2 below 4
@@ -111,38 +111,38 @@ dropped | Senior Manager, Corporate Sales | Red Hat | Pennsylvania, USA | focus 
 dropped | Sales Account Manager | Red Hat | California, USA | focus company, but dropped on purpose: …
 
 DROPPED SAMPLES (to check nothing good is lost)
-- missing role: 430 total; examples:
-    Technical Advisor | Onsite | MSI Qatar | missing role keyword
-    FIELD TECHNICIAN I | Onsite | Lumen | missing role keyword
-    ECM Registered Nurse | Onsite | Gracelight Communit… | missing role keyword
-    Party Shop Sales Associate - 3170 Burli… | Onsite | OSL Retail Services… | missing role keyword
-    Senior Smart Cities Engineer | Onsite | AtkinsRéalis | missing role keyword
-    Process Coordinator | Onsite | Harshad Group | missing role keyword
-- seniority: 159 total; examples:
-    Technical Product Owner, Cloud & Applic… | Remote | Deloitte | no seniority word i…
-    24-Hour Services Relief Worker, Women’s… | Onsite | Fred Victor | no seniority word i…
-    Customer Success Specialist | Onsite | Aramex | no seniority word i…
-    Professional Services Consultant | Hybrid | NetApp | no seniority word i…
-    Experienced Associate, Client Accountin… | Hybrid | McGovern Hurley LLP | no seniority word i…
-    Service Sales Engineer | Onsite | BÜHLER GROUP | no seniority word i…
+- missing role: 449 total; examples:
+    LVN | Onsite | Palomar Heights Pos… | missing role keyword
+    Field Engineer I (Tri-Cities) | Remote | Northwest Open Acce… | missing role keyword
+    Senior Specialist - Power BI Developer … | Onsite | Halian | missing role keyword
+    SR. SYSTEM ENGINEER (CORPORATE SOLUTION) | Onsite | Airswift | missing role keyword
+    Procurement Officer – Advertising, Prin… | Onsite | MMG Group | missing role keyword
+    Inside Sales – CIS Region | Onsite | MSI Qatar | missing role keyword
+- seniority: 167 total; examples:
+    NOC LPN | Onsite | Elkhorn Healthcare … | no seniority word i…
+    MS Back Office Cloud Infra Engineer | Onsite | Ericsson | no seniority word i…
+    Project Coordinator | Hybrid | State of North Dako… | no seniority word i…
+    Cloud Solutions Administrator | Hybrid | JANA Corporation | no seniority word i…
+    Contact Centre Representative – TD Auto… | Hybrid | TD | no seniority word i…
+    Operations Specialist - Chicago | Onsite | Agoda | no seniority word i…
 - engineer/specialist: 41 total; examples:
-    Senior Sales Operations Analyst | Onsite | Canonical | engineer/specialist…
-    Senior Sales Operations Analyst | Onsite | Canonical | engineer/specialist…
+    Business Analysis Specialist - Lead Bus… | Onsite | TD | engineer/specialist…
+    Finance Audit Lead Analyst - Cigna Heal… | Onsite | Cigna | engineer/specialist…
     Lead Project Engineer | Onsite | EHIF | engineer/specialist…
-    Lead Procurement and Category Specialist | Hybrid | TTC (Toronto Transi… | engineer/specialist…
-    Senior Principal Site Reliability Engin… | Hybrid | Bybit | engineer/specialist…
-    Project Engineering Management, Princip… | Onsite | Synopsys Inc | engineer/specialist…
-- exclude word: 357 total; examples:
-    Sales Manager | Onsite | MSI Qatar | exclude word: sales
-    Sales and Delivery Architect, Director | Remote | Dentsu Inc | exclude word: sales
-    store manager, Grimsby, ON | Onsite | Starbucks | exclude word: store
-    Managing Director - Real Estate | Onsite | 3M Car Rental LLC | exclude word: real …
-    Retail Store Manager | Onsite | AT&T | exclude word: store
-    Territory Sales Leader, SP Qatar | Onsite | Schneider Electric | exclude word: sales
-- score 0: 598 total; examples:
-    Onsite Tech Support - Manager | Onsite | Publicis Re:Sources | score 0: no role or…
-    Document Controller Manager | Hybrid | KEO International C… | score 0: no role or…
-    Senior Account Manager | Onsite | Midis Group | score 0: no role or…
-    Area Service Manager | Remote | Smart Start Inc. | score 0: no role or…
-    Technical Director IS Business Enableme… | Remote | Fidelity Canada | score 0: no role or…
-    Director of Engineering | Onsite | Accor | score 0: no role or…
+    Lead Sales Operations Specialist | Onsite | Honeywell | engineer/specialist…
+    Lead SOC Engineer (SIEM) (CPX) | Onsite | CPX | engineer/specialist…
+    Principal Cloud Operations Engineer (GC… | Onsite | Halian | Managed Se… | engineer/specialist…
+- exclude word: 354 total; examples:
+    Senior Technical Director – Property & … | Onsite | WSP in the Middle E… | exclude word: prope…
+    Director - Retail Development | Onsite | Dubai Holding Asset… | exclude word: retail
+    Technical Director – Roads & Highways | Onsite | WSP in the Middle E… | exclude word: highw…
+    Sales Executive | Onsite | The Jewellery Desig… | exclude word: sales
+    Territory Sales Manager – Qatar & Kuwait | Onsite | Tech First Gulf | exclude word: sales
+    Director Dulux Stores - Ontario & Weste… | Hybrid | Canadian Industries… | exclude word: store
+- score 0: 636 total; examples:
+    Field Service Manager | Remote | Burt Process Equipm… | score 0: no role or…
+    Account Manager - Arabic Speaker / Mala… | Onsite | Talabat | score 0: no role or…
+    Nurse Manager – OPD | Onsite | NMC Health plc | score 0: no role or…
+    Senior MEP Manager | Onsite | Parsons | score 0: no role or…
+    Product Manager RBSS&ID | Onsite | Roche | score 0: no role or…
+    Area Manager for Dine-In and Kiosks | Onsite | RTC1 Recruitment Se… | score 0: no role or…
