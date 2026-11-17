@@ -1,5 +1,14 @@
-# JOB SEARCH SETTINGS (v13) - edit anytime
-# Works only with find_jobs.py v13 (the top of the file says v13). Replace the whole file.
+# =====================================================================
+# JOB SEARCH SETTINGS (v14) - Phase 1 (public repo ekramyalemam/job-search-engine)
+# Works only with find_jobs.py v14 (its top line says v14). REPLACE THE WHOLE FILE with this one.
+#
+# What is new in v14:
+#   1. 18 search words (was 8), including the plain "service delivery manager".
+#   2. 25 results per search (was 20), Abu Dhabi added.
+#   3. RED HAT is a FOCUS company: its own searches (9 words, 14 days back, also Canada-wide) and
+#      its jobs skip the title gates, so an unusual title is never thrown away.
+#      Every Red Hat job found is listed in results/focus_latest.csv - nothing is hidden.
+# =====================================================================
 
 sites:
   - linkedin
@@ -11,20 +20,33 @@ optional_sites:
   - glassdoor
   - zip_recruiter
 
-# Aimed at manager, senior manager and director roles in managed services,
-# service delivery and customer operations (telecom), with a path into cloud and IT networking.
+# ---------------------------------------------------------------------
+# SEARCH WORDS - each word is searched in every location, on every site.
+# ---------------------------------------------------------------------
 search_terms:
+  - "service delivery manager"
   - "senior service delivery manager"
-  - "managed services director"
+  - "service delivery director"
   - "head of service delivery"
+  - "managed services director"
+  - "managed services manager"
   - "customer operations manager telecom"
   - "network operations manager"
+  - "NOC manager"
   - "major incident manager"
   - "cloud service delivery manager"
   - "telecom program manager"
+  - "technical account manager"
+  - "customer success manager"
+  - "delivery director"
+  - "service operations manager"
+  - "service assurance manager"
+  - "engagement manager managed services"
 
 locations:
   - name: "Dubai, UAE"
+    country: "United Arab Emirates"
+  - name: "Abu Dhabi, UAE"
     country: "United Arab Emirates"
   - name: "Doha, Qatar"
     country: "Qatar"
@@ -40,7 +62,9 @@ employment_types:
 
 remote_only: false
 
-# 1. HARD GATE: Title MUST contain at least one role/title word
+# ---------------------------------------------------------------------
+# 1. HARD GATE: the title MUST contain one role word
+# ---------------------------------------------------------------------
 role_keywords:
   - network
   - noc
@@ -70,8 +94,14 @@ role_keywords:
   - شبكات
   - شبكة
   - الاتصالات
+  - service
+  - customer
+  - account
+  - engagement
+  - client
+  - success
 
-# 2. HARD GATE: Title MUST contain a seniority level
+# 2. HARD GATE: the title MUST contain one seniority word
 seniority_keywords:
   - senior
   - manager
@@ -80,19 +110,21 @@ seniority_keywords:
   - leader
   - director
   - executive
-  - vice president
+  - "vice president"
   - vp
   - president
   - chief
-  - general manager
+  - "general manager"
   - gestionnaire
   - directeur
   - directrice
   - مدير
+  - principal
+  - svp
+  - evp
 
 # 2b. NOT A MANAGER: a title with one of these words is dropped
-# unless it ALSO has a word from management_words below.
-# (This removes jobs like "Senior Cloud Engineer".)
+#     unless it ALSO has a word from management_words below.
 individual_contributor_words:
   - engineer
   - technician
@@ -118,17 +150,17 @@ management_words:
   - director
   - head
   - leader
-  - vice president
+  - "vice president"
   - vp
   - president
   - chief
-  - general manager
+  - "general manager"
   - gestionnaire
   - directeur
   - directrice
   - مدير
 
-# 3. EXCLUDE: Hard drop (Junior roles, non-tech)
+# 3. EXCLUDE: hard drop (junior roles, other fields)
 exclude_title_words:
   - store
   - retail
@@ -139,9 +171,9 @@ exclude_title_words:
   - assistant
   - intern
   - junior
-  - human resources
+  - "human resources"
   - hr
-  - customer service
+  - "customer service"
   - finance
   - accounting
   - legal
@@ -153,36 +185,38 @@ exclude_title_words:
   - construction
   - civil
   - highways
-  - QA/QC
+  - "QA/QC"
   - safety
   - HSE
   - clinical
   - pharmacy
   - driver
   - logistics
-  - supply chain
+  - "supply chain"
   - food
   - property
-  - real estate
+  - "real estate"
 
-# INDUSTRY MATCHING
+# ---------------------------------------------------------------------
+# INDUSTRY and FUNCTION matching
+# ---------------------------------------------------------------------
 industries:
   - telecom
   - telecommunications
   - telco
   - networking
-  - network operations
-  - network infrastructure
-  - network services
-  - mobile network
-  - core network
-  - radio access
-  - service provider
-  - IT infrastructure
+  - "network operations"
+  - "network infrastructure"
+  - "network services"
+  - "mobile network"
+  - "core network"
+  - "radio access"
+  - "service provider"
+  - "IT infrastructure"
   - cloud
   - AWS
   - Azure
-  - data center
+  - "data center"
   - wireless
   - 4G
   - 5G
@@ -190,9 +224,17 @@ industries:
   - SDN
   - fiber
   - broadband
-  - managed services
+  - "managed services"
+  - "open source"
+  - openshift
+  - kubernetes
+  - linux
+  - "hybrid cloud"
+  - SD-WAN
+  - "OSS/BSS"
+  - "IT services"
+  - "technical account management"
 
-# JOB FUNCTION MATCHING (+1 point)
 job_functions:
   - operations
   - delivery
@@ -200,17 +242,20 @@ job_functions:
   - project
   - program
   - portfolio
-  - managed services
-  - customer operations
-  - service assurance
-  - customer success
-  - professional services
+  - "managed services"
+  - "customer operations"
+  - "service assurance"
+  - "customer success"
+  - "professional services"
   - engagement
+  - "technical account management"
+  - "service management"
+  - "customer delivery"
 
-# SCORING SYSTEM
+# SCORING: a job needs this many points to go to the STRONG list (lower = MAYBE list)
 min_relevance_score: 4
 
-# High-value title keywords (+3 points) - Generic words safely removed
+# High-value title words (+3 points)
 title_keywords:
   - network
   - NOC
@@ -225,16 +270,16 @@ title_keywords:
   - fiber
   - 5G
   - 4G
-  - core network
-  - data center
-  - service delivery
-  - service management
-  - service operations
-  - service assurance
-  - customer delivery
-  - customer operations
-  - managed service
-  - managed services
+  - "core network"
+  - "data center"
+  - "service delivery"
+  - "service management"
+  - "service operations"
+  - "service assurance"
+  - "customer delivery"
+  - "customer operations"
+  - "managed service"
+  - "managed services"
   - transmission
   - OSS
   - BSS
@@ -243,13 +288,20 @@ title_keywords:
   - AWS
   - ICT
   - OSP
-  - outside plant
+  - "outside plant"
   - réseau
   - شبكات
   - شبكة
   - الاتصالات
+  - "technical account manager"
+  - "customer success"
+  - "client delivery"
+  - "managed network"
+  - "hybrid cloud"
+  - openshift
+  - kubernetes
 
-# Related fields (+1 point, routes lower matches to MAYBE list)
+# Related fields (+1 point, routes lower matches to the MAYBE list)
 adjacent_title_keywords:
   - cyber
   - cybersecurity
@@ -259,7 +311,9 @@ adjacent_title_keywords:
   - platform
   - application
 
-# PRIORITY BONUS (+3 points in final ranking score)
+# ---------------------------------------------------------------------
+# PRIORITY COMPANIES (+3 in the ranking)
+# ---------------------------------------------------------------------
 priority_companies:
   - Nokia
   - Ericsson
@@ -270,70 +324,138 @@ priority_companies:
   - Rogers
   - TELUS
   - Verizon
-  - AT&T
+  - "AT&T"
   - T-Mobile
   - Comcast
   - Salesforce
-  - Charter Communications
-  - America Movil
+  - "Charter Communications"
+  - "America Movil"
   - Lumen
-  - Cox Communications
-  - Motorola Solutions
+  - "Cox Communications"
+  - "Motorola Solutions"
   - Ciena
-  - Palo Alto Networks
-  - Arista Networks
+  - "Palo Alto Networks"
+  - "Arista Networks"
   - Fortinet
-  - Altice USA
+  - "Altice USA"
   - CommScope
-  - Amazon Web Services
+  - "Amazon Web Services"
   - AWS
   - Microsoft
   - Google
   - Kyndryl
   - Amdocs
   - Etisalat
-  - Emirates Telecommunications
-  - Emirates Integrated Telecommunications
+  - "Emirates Telecommunications"
+  - "Emirates Integrated Telecommunications"
   - stc
   - Zain
   - Ooredoo
   - Mobily
+  - "Red Hat"
+  - "Juniper Networks"
+  - Mavenir
+  - "Ribbon Communications"
+  - "Rakuten Symphony"
+  - Huawei
+  - ZTE
+  - IBM
+  - Oracle
+  - "Dell Technologies"
+  - ServiceNow
+  - Vodafone
+  - Orange
+  - Telefonica
+  - "Tata Communications"
 
 # Big general companies: they rank higher but do NOT count as telecom/cloud evidence.
 bonus_only_companies:
   - Google
   - Microsoft
-  - Amazon Web Services
+  - "Amazon Web Services"
   - AWS
   - Salesforce
   - HP
+  - IBM
+  - Oracle
+  - "Dell Technologies"
+  - ServiceNow
 
-# False-positive companies (never marked as priority)
+# False-positive names (never marked as priority)
 not_priority_companies:
-  - Bell Techlogix
-  - Bell Textron
-  - Bell Flight
-  - Bell Bank
-  - Bell Helicopter
+  - "Bell Techlogix"
+  - "Bell Textron"
+  - "Bell Flight"
+  - "Bell Bank"
+  - "Bell Helicopter"
 
-# Preferred location ranking bonus (+1 in final score)
-preferred_locations: [Dubai, UAE, Doha, Qatar, Riyadh, Saudi, Toronto, Ontario]
+# Preferred locations (+1 in the ranking)
+preferred_locations: [Dubai, Abu Dhabi, UAE, Doha, Qatar, Riyadh, Saudi, Toronto, Ontario]
 
 days_back: 7
-results_per_search: 20
+results_per_search: 25
 min_match_percent: 75
 
 linkedin_fetch_description: true
 skip_site_after_failures: 4
 
-# --- NEW in v13: searches aimed at named companies, so the big players are not missed.
-# Each company is searched with each company_terms word, in every location above
+# ---------------------------------------------------------------------
+# FOCUS COMPANIES (new in v14)
+# Jobs from these companies skip the title gates (role / seniority / "engineer" / exclude words).
+# They go to the STRONG list when the score is good, otherwise to the MAYBE list with the reason "FOCUS ...".
+# Only the words in focus_drop_words below remove a focus job.
+# EVERY focus job that was found is written to results/focus_latest.csv, whatever happened to it.
+# ---------------------------------------------------------------------
+focus_companies:
+  - Red Hat
+
+focus_drop_words:
+  - intern
+  - internship
+  - co-op
+  - recruiter
+  - recruiting
+  - recruitment
+  - human resources
+  - payroll
+  - legal
+  - paralegal
+  - sales
+  - account executive
+  - software engineer
+  - software developer
+  - developer
+  - quality engineer
+  - site reliability engineer
+  - technical writer
+  - data scientist
+
+# ---------------------------------------------------------------------
+# COMPANY SEARCHES: searches aimed at one named company, so big players are never missed.
+# Each company is searched with company_terms (or its own 'terms') in every location
 # (or only the countries listed in 'where'). Only jobs from THAT company are kept.
+# Optional per company: terms, extra_locations, results, days_back.
+# An empty term "" means "any job of that company".
+# ---------------------------------------------------------------------
 company_terms:
   - "service delivery manager"
   - "operations manager"
 company_results_per_search: 25
 company_searches:
+  - name: Red Hat
+    results: 40
+    days_back: 14
+    terms:
+      - ""
+      - "technical account manager"
+      - "customer success manager"
+      - "delivery manager"
+      - "program manager"
+      - "service delivery"
+      - "operations manager"
+      - "managed services"
+    extra_locations:
+      - {name: "Canada", country: "Canada"}
   - {name: Nokia}
   - {name: Ericsson}
   - {name: Cisco}
@@ -343,6 +465,9 @@ company_searches:
   - {name: Comcast, where: [USA]}
   - {name: Charter Communications, where: [USA]}
   - {name: Lumen, where: [USA]}
+  - {name: Kyndryl, where: [USA, Canada]}
+  - {name: Amdocs, where: [USA, Canada]}
+  - {name: Juniper Networks, where: [USA]}
   - {name: Rogers, where: [Canada]}
   - {name: Bell Canada, where: [Canada]}
   - {name: TELUS, where: [Canada]}

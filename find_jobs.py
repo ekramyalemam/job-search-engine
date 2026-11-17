@@ -1,7 +1,7 @@
 """
 =========================================================
-find_jobs.py - v13 (v12 + searches aimed at named companies)
-Features: Remote/Hybrid detection, Executive Gates, +3 Priority Boost, company_searches
+find_jobs.py - v14 (v13 + FOCUS companies such as Red Hat, per-company search words)
+Features: Remote/Hybrid detection, Executive Gates, +3 Priority Boost, company_searches, FOCUS companies (v14)
 =========================================================
 """
 import os
@@ -161,24 +161,29 @@ def main():
     # Settings: company_searches + company_terms in criteria.yaml. Only jobs whose company name matches are kept;
     # they then go through exactly the same gates and scoring as every other job.
     for comp in c.get("company_searches", []) or []:
-        name = comp["name"] if isinstance(comp, dict) else str(comp)
-        where = (comp.get("where") if isinstance(comp, dict) else None) or []
+        cd = comp if isinstance(comp, dict) else {"name": str(comp)}
+        name = cd["name"]
+        where = cd.get("where") or []
         name_rx = rf"\b{re.escape(clean(name))}\b"
-        for loc in c["locations"]:
+        terms = cd.get("terms") or c.get("company_terms", ["manager"])      # v14: each company can have its own terms
+        locs = list(c["locations"]) + list(cd.get("extra_locations") or [])  # v14: extra places just for this company
+        days = cd.get("days_back", c.get("company_days_back", c.get("days_back", 7)))
+        for loc in locs:
             if where and loc["country"] not in where:
                 continue
-            for term in c.get("company_terms", ["manager"]):
+            for term in terms:
                 for site in c.get("sites", []):
                     if site in skipped:
                         continue
-                    label = f"COMPANY {name} | {term} | {site} | {loc['name']}"
+                    shown = term if term else "(any job)"
+                    label = f"COMPANY {name} | {shown} | {site} | {loc['name']}"
                     try:
                         kwargs = dict(
                             site_name=[site],
-                            search_term=f"{name} {term}",
+                            search_term=f"{name} {term}".strip(),
                             location=loc["name"],
-                            results_wanted=c.get("company_results_per_search", 25),
-                            hours_old=c.get("days_back", 7) * 24,
+                            results_wanted=cd.get("results", c.get("company_results_per_search", 25)),
+                            hours_old=days * 24,
                             country_indeed=loc["country"],
                         )
                         if site == "linkedin" and fetch_desc:
@@ -300,6 +305,23 @@ def main():
     reason[tier == "main"] = ""
     reason[passed & (tier == "rejected")] = "score 0: no role or industry evidence"
 
+    # NEW in v14: FOCUS companies (for example Red Hat). Their jobs skip the title gates, so an unusual title
+    # (Technical Account Manager, Customer Success ...) is never thrown away. They land in MAIN when the score is good,
+    # otherwise in MAYBE with the reason "FOCUS: ...". Only the words in focus_drop_words (intern, recruiter ...) still remove a job.
+    focus_names = c.get("focus_companies", []) or []
+    is_focus = company.apply(lambda v: is_priority(v, focus_names, not_pri)) if focus_names else pd.Series(False, index=idx)
+    focus_drop = title.apply(lambda t: whole_word(t, c.get("focus_drop_words", []) or []))
+    focus_keep = is_focus & (focus_drop == "")
+    old_reason = reason.copy()
+    f_main = focus_keep & (score >= min_score) & (type_keep | (type_col == ""))
+    tier[focus_keep & (tier == "rejected")] = "maybe"
+    tier[focus_keep & (tier == "maybe")] = "maybe"
+    tier[f_main] = "main"
+    reason[focus_keep & (tier == "maybe")] = "FOCUS " + company + ": " + old_reason.where(old_reason != "", "score " + score.astype(str) + " below " + str(min_score))
+    reason[f_main] = ""
+    tier[is_focus & (focus_drop != "")] = "rejected"
+    reason[is_focus & (focus_drop != "")] = "focus company, but dropped on purpose: " + focus_drop
+
     industry_status = pd.Series("Unverified", index=idx)
     industry_status[ind_found != ""] = "Verified"
     industry_status[(ind_found == "") & is_pri] = "Priority company"
@@ -382,6 +404,12 @@ def main():
     main_df.to_csv("results/latest.csv", index=False, encoding="utf-8-sig")
     maybe_df.to_csv("results/maybe_latest.csv", index=False, encoding="utf-8-sig")
     rej_df.to_csv("results/rejected_latest.csv", index=False, encoding="utf-8-sig")
+    # NEW in v14: one file with EVERY focus-company job that was found, whatever happened to it (so nothing is hidden)
+    focus_all = full[is_focus].copy()
+    focus_all["Result"] = focus_all["_tier"].map({"main": "STRONG MATCH list", "maybe": "MAYBE list", "rejected": "dropped"})
+    focus_all = focus_all[["Result", "Reason", "Score", "Title", "Company", "Location", "Workplace", "Site", "Date posted", "Job link"]]
+    focus_all = focus_all.sort_values(["Result", "Score"], ascending=[True, False]).drop_duplicates("Job link")
+    focus_all.to_csv("results/focus_latest.csv", index=False, encoding="utf-8-sig")
     # NEW (for Phase 2): save the job text, matched to each job by its link. Nothing else changes.
     pd.DataFrame({"Job link": col(jobs, "job_url"), "Description": desc.str.slice(0, 8000)}).to_csv(
         "results/descriptions_latest.csv", index=False, encoding="utf-8-sig")
@@ -404,6 +432,10 @@ def main():
     lines += ["", "TOP 10 MAYBE (score | title | workplace | company | why)"]
     for _, row in maybe_df.head(10).iterrows():
         lines.append(f"{row['Score']} | {short(row['Title'], 40)} | {row['Workplace']} | {short(row['Company'], 20)} | {row['Reason']}")
+    if focus_names:
+        lines += ["", f"FOCUS COMPANIES ({', '.join(focus_names)}): {len(focus_all)} jobs found, every one is listed in results/focus_latest.csv"]
+        for _, row in focus_all.head(40).iterrows():
+            lines.append(f"{row['Result']} | {short(row['Title'], 45)} | {short(row['Company'], 16)} | {short(row['Location'], 22)} | {short(row['Reason'], 40)}")
     lines += ["", "DROPPED SAMPLES (to check nothing good is lost)"]
     for label, key in [
         ("missing role", "missing role keyword"),
