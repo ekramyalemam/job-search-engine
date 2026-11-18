@@ -1,6 +1,8 @@
 # =====================================================================
-# JOB SEARCH SETTINGS (v14) - Phase 1 (public repo ekramyalemam/job-search-engine)
-# Works only with find_jobs.py v14 (its top line says v14). REPLACE THE WHOLE FILE with this one.
+# JOB SEARCH SETTINGS (v15) - Phase 1 (public repo ekramyalemam/job-search-engine)
+# Works with the find_jobs.py you already have (v14, unchanged). REPLACE THE WHOLE FILE with this one.
+# What is new in v15: 3 new search places - Jeddah, Dammam (Saudi Arabia) and all of Canada (remote jobs
+# listed for Canada are included). Everything else is exactly as in v14.
 #
 # What is new in v14:
 #   1. 18 search words (was 8), including the plain "service delivery manager".
@@ -54,6 +56,12 @@ locations:
     country: "Saudi Arabia"
   - name: "Toronto, Canada"
     country: "Canada"
+  - name: "Canada"
+    country: "Canada"
+  - name: "Jeddah, Saudi Arabia"
+    country: "Saudi Arabia"
+  - name: "Dammam, Saudi Arabia"
+    country: "Saudi Arabia"
   - name: "United States"
     country: "USA"
 
@@ -390,7 +398,7 @@ not_priority_companies:
   - "Bell Helicopter"
 
 # Preferred locations (+1 in the ranking)
-preferred_locations: [Dubai, Abu Dhabi, UAE, Doha, Qatar, Riyadh, Saudi, Toronto, Ontario]
+preferred_locations: [Dubai, Abu Dhabi, UAE, Doha, Qatar, Riyadh, Jeddah, Dammam, Saudi, Toronto, Ontario, Canada]
 
 days_back: 7
 results_per_search: 25
@@ -454,8 +462,7 @@ company_searches:
       - "service delivery"
       - "operations manager"
       - "managed services"
-    extra_locations:
-      - {name: "Canada", country: "Canada"}
+    # (Canada used to be listed here as an extra place; it is now a normal place above.)
   - {name: Nokia}
   - {name: Ericsson}
   - {name: Cisco}
