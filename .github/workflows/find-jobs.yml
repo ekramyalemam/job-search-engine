@@ -1,9 +1,9 @@
 name: Find jobs
 
+# Started every day at 5:00 am Toronto by the cron-job.org timer (it calls "workflow_dispatch").
+# GitHub's own schedule was removed because it starts hours late.
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "23 10 * * *"      # every day, 10:23 UTC = about 5:23 am Toronto
 
 permissions:
   contents: write
