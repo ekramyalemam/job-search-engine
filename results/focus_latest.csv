@@ -1,51 +1,50 @@
 ﻿Result,Reason,Score,Title,Company,Location,Workplace,Site,Date posted,Job link
-MAYBE list,FOCUS Red Hat: score 2 below 4,6,Account Manager - Public Sector (Saudi national),Red Hat,"Riyadh, Riyadh, Saudi Arabia",Remote,linkedin,2026-11-09,https://www.linkedin.com/jobs/view/4487677961
+MAYBE list,FOCUS Red Hat: score 2 below 4,6,Account Manager - Public Sector (Saudi national),Red Hat,"Riyadh, Riyadh, Saudi Arabia",Onsite,linkedin,2026-11-09,https://www.linkedin.com/jobs/view/4487677961
 MAYBE list,FOCUS Red Hat: missing role keyword,6,"Senior Consultant, Platform (RHEL/IdM), Top Secret Clearance Required",Red Hat,"Maryland, USA",Remote,linkedin,2026-11-11,https://www.linkedin.com/jobs/view/4488660101
 MAYBE list,FOCUS Red Hat: missing role keyword,6,"Senior Consultant, Platform (RHEL/IdM), Top Secret Clearance Required",Red Hat,"Virginia, USA",Remote,linkedin,2026-11-11,https://www.linkedin.com/jobs/view/4488649833
 MAYBE list,FOCUS Red Hat: missing role keyword,6,"Senior Consultant, Platform (RHEL/IdM), Top Secret Clearance Required",Red Hat,"VA, USA",Remote,indeed,2026-11-11,https://www.indeed.com/viewjob?jk=cdc1edc41e99ddc8
-MAYBE list,FOCUS Red Hat: engineer/specialist title: architect,5,Senior Account Solution Architect,Red Hat,"Indiana, USA",Onsite,linkedin,2026-11-18,https://www.linkedin.com/jobs/view/4491832155
+MAYBE list,FOCUS Red Hat: engineer/specialist title: architect,5,Senior Account Solution Architect,Red Hat,"Indiana, USA",Remote,linkedin,2026-11-18,https://www.linkedin.com/jobs/view/4491832155
 MAYBE list,FOCUS Red Hat: engineer/specialist title: architect,5,Senior Account Solution Architect,Red Hat,"Ohio, USA",Remote,linkedin,2026-11-18,https://www.linkedin.com/jobs/view/4491825479
 MAYBE list,FOCUS Red Hat: engineer/specialist title: architect,5,Senior Account Solution Architect,Red Hat,"Michigan, USA",Remote,linkedin,2026-11-18,https://www.linkedin.com/jobs/view/4491822643
 MAYBE list,FOCUS Red Hat: score 2 below 4,5,Principal Product Manager - Technical,Red Hat,"Raleigh, NC, USA",Remote,linkedin,2026-11-14,https://www.linkedin.com/jobs/view/4489882837
 MAYBE list,FOCUS Red Hat: score 2 below 4,5,Principal Product Manager - Technical,Red Hat,"Lowell, MA, USA",Remote,linkedin,2026-11-14,https://www.linkedin.com/jobs/view/4490200297
 MAYBE list,FOCUS Red Hat: score 2 below 4,5,Principal Product Manager - Technical,Red Hat,"Boston, MA, USA",Remote,linkedin,2026-11-14,https://www.linkedin.com/jobs/view/4489899334
 MAYBE list,FOCUS Red Hat: missing role keyword,5,"Architect, AI - Active Top Secret Clearance",Red Hat,"Virginia, USA",Remote,linkedin,2026-11-12,https://www.linkedin.com/jobs/view/4481172868
-MAYBE list,FOCUS Red Hat: missing role keyword,5,"Consultant, Ansible - Top Secret Clearance Required",Red Hat,"Florida, USA",Remote,linkedin,2026-11-09,https://www.linkedin.com/jobs/view/4487954727
 MAYBE list,FOCUS Red Hat: engineer/specialist title: architect,5,Senior Account Solution Architect,Red Hat,"OH, USA",Remote,indeed,2026-11-18,https://www.indeed.com/viewjob?jk=9cdadf85ffeeb114
 MAYBE list,FOCUS Red Hat: score 2 below 4,5,Principal Product Manager - Technical,Red Hat,"Boston, MA, USA",Remote,indeed,2026-11-15,https://www.indeed.com/viewjob?jk=7432e8e9b025b624
 MAYBE list,FOCUS Red Hat: missing role keyword,5,"Senior Consultant, Ansible, Top Secret Clearance Required",Red Hat,"TX, USA",Remote,indeed,2026-11-11,https://www.indeed.com/viewjob?jk=0dd2c74d0da6ee5e
-MAYBE list,FOCUS Red Hat: missing role keyword,5,AI Architect - Top Secret Clearance (TS/SCI CI Poly) required,Red Hat,"VA, USA",Remote,indeed,2026-11-05,https://www.indeed.com/viewjob?jk=2860823bbd9df64e
-STRONG MATCH list,,9,Cloud Consulting Architect,Red Hat,"Doha, Doha, Qatar",Remote,linkedin,2026-11-09,https://www.linkedin.com/jobs/view/4487695524
-STRONG MATCH list,,9,Cloud Consulting Architect,Red Hat,Qatar,Remote,linkedin,2026-11-09,https://www.linkedin.com/jobs/view/4487694668
+STRONG MATCH list,,9,Cloud Consulting Architect,Red Hat,"Doha, Doha, Qatar",Onsite,linkedin,2026-11-09,https://www.linkedin.com/jobs/view/4487695524
+STRONG MATCH list,,9,Cloud Consulting Architect,Red Hat,Qatar,Onsite,linkedin,2026-11-09,https://www.linkedin.com/jobs/view/4487694668
+STRONG MATCH list,,8,OpenShift Technical Account Manager,Red Hat,"North Carolina, USA",Remote,linkedin,2026-11-19,https://www.linkedin.com/jobs/view/4483890762
+STRONG MATCH list,,8,OpenShift Technical Account Manager,Red Hat,"Florida, USA",Remote,linkedin,2026-11-19,https://www.linkedin.com/jobs/view/4483899306
+STRONG MATCH list,,8,OpenShift Technical Account Manager,Red Hat,"South Carolina, USA",Remote,linkedin,2026-11-19,https://www.linkedin.com/jobs/view/4483897382
+STRONG MATCH list,,8,OpenShift Technical Account Manager,Red Hat,"Georgia, USA",Remote,linkedin,2026-11-19,https://www.linkedin.com/jobs/view/4484106135
 STRONG MATCH list,,8,OpenShift Senior Consultant - TS/SCI + Poly Required,Red Hat,"Maryland, USA",Remote,linkedin,2026-11-18,https://www.linkedin.com/jobs/view/4447989485
 STRONG MATCH list,,8,"Architect, OpenShift - Active Top Secret Clearance",Red Hat,"District of Columbia, USA",Remote,linkedin,2026-11-15,https://www.linkedin.com/jobs/view/4446080531
 STRONG MATCH list,,8,"Consultant, OpenShift AI - Top Secret Clearance Required",Red Hat,"Texas, USA",Remote,linkedin,2026-11-12,https://www.linkedin.com/jobs/view/4481190201
 STRONG MATCH list,,8,"Senior Consultant, OpenShift AI, Top Secret Clearance Required",Red Hat,"Maryland, USA",Remote,linkedin,2026-11-11,https://www.linkedin.com/jobs/view/4488650801
 STRONG MATCH list,,8,"Senior Consultant, OpenShift AI, Top Secret Clearance Required",Red Hat,"Virginia, USA",Remote,linkedin,2026-11-11,https://www.linkedin.com/jobs/view/4488667040
-STRONG MATCH list,,8,"Architect, OpenShift Virtualization - Active Top Secret SCI Required",Red Hat,"District of Columbia, USA",Remote,linkedin,2026-11-09,https://www.linkedin.com/jobs/view/4487928229
+STRONG MATCH list,,8,"Architect, OpenShift Virtualization - Active Top Secret SCI Required",Red Hat,"District of Columbia, USA",Onsite,linkedin,2026-11-09,https://www.linkedin.com/jobs/view/4487928229
 STRONG MATCH list,,8,"Senior Architect, OpenShift Infrastructure - Active TS/SCI Clearance",Red Hat,"Colorado, USA",Remote,linkedin,2026-11-06,https://www.linkedin.com/jobs/view/4487365216
 STRONG MATCH list,,8,"Senior Consultant, OpenShift AI, Top Secret Clearance Required",Red Hat,"VA, USA",Remote,indeed,2026-11-11,https://www.indeed.com/viewjob?jk=2b6afaa51c678fd8
 STRONG MATCH list,,8,"Architect, OpenShift Virtualization - Active Top Secret SCI Required",Red Hat,"Washington, DC, USA",Remote,indeed,2026-11-10,https://www.indeed.com/viewjob?jk=05e3e62f14018a8d
 STRONG MATCH list,,8,"Senior Architect, OpenShift Infrastructure - Active TS/SCI Clearance",Red Hat,"CO, USA",Remote,indeed,2026-11-07,https://www.indeed.com/viewjob?jk=82c00b83432cad09
 dropped,"focus company, but dropped on purpose: sales",8,OpenShift Sales Specialist - Cross Segment,Red Hat,"North Carolina, USA",Remote,linkedin,2026-11-18,https://www.linkedin.com/jobs/view/4491831161
-dropped,"focus company, but dropped on purpose: sales",8,OpenShift Sales Specialist – Carolinas Region,Red Hat,"Raleigh, NC, USA",Onsite,linkedin,2026-11-12,https://www.linkedin.com/jobs/view/4463829307
+dropped,"focus company, but dropped on purpose: sales",8,OpenShift Sales Specialist – Carolinas Region,Red Hat,"Raleigh, NC, USA",Remote,linkedin,2026-11-12,https://www.linkedin.com/jobs/view/4463829307
 dropped,"focus company, but dropped on purpose: sales",8,OpenShift Sales Specialist – Carolinas Region,Red Hat,"Charlotte, AR, USA",Remote,linkedin,2026-11-12,https://www.linkedin.com/jobs/view/4463814866
-dropped,"focus company, but dropped on purpose: sales",8,OpenShift Sales Specialist – Carolinas Region,Red Hat,"Florida, USA",Onsite,linkedin,2026-11-12,https://www.linkedin.com/jobs/view/4463808982
+dropped,"focus company, but dropped on purpose: sales",8,OpenShift Sales Specialist – Carolinas Region,Red Hat,"Florida, USA",Remote,linkedin,2026-11-12,https://www.linkedin.com/jobs/view/4463808982
 dropped,"focus company, but dropped on purpose: sales",8,OpenShift Sales Specialist - Cross Segment,Red Hat,"NC, USA",Remote,indeed,2026-11-18,https://www.indeed.com/viewjob?jk=82a2d91cc4092add
-dropped,"focus company, but dropped on purpose: sales",6,"Director, Enterprise Sales",Red Hat,"Ontario, Canada",Remote,linkedin,2026-11-13,https://www.linkedin.com/jobs/view/4481641310
-dropped,"focus company, but dropped on purpose: sales",6,Sales Specialist 4-Top Secret security clearance with SCI and a minimum of a CI polygraph,Red Hat,"Tysons Corner, VA, USA",Onsite,linkedin,2026-11-17,https://www.linkedin.com/jobs/view/4491179720
+dropped,"focus company, but dropped on purpose: sales",6,Sales Specialist 4-Top Secret security clearance with SCI and a minimum of a CI polygraph,Red Hat,"Tysons Corner, VA, USA",Remote,linkedin,2026-11-17,https://www.linkedin.com/jobs/view/4491179720
 dropped,"focus company, but dropped on purpose: sales",6,Sales Specialist 4-Top Secret security clearance with SCI and a minimum of a CI polygraph,Red Hat,"Tysons Corner, VA, USA",Remote,indeed,2026-11-18,https://www.indeed.com/viewjob?jk=9e869029d5f6cf38
-dropped,"focus company, but dropped on purpose: sales",5,"Senior Manager, Corporate Sales",Red Hat,"New Jersey, USA",Remote,linkedin,2026-11-17,https://www.linkedin.com/jobs/view/4491196213
-dropped,"focus company, but dropped on purpose: sales",5,"Senior Manager, Corporate Sales",Red Hat,"Maryland, USA",Onsite,linkedin,2026-11-17,https://www.linkedin.com/jobs/view/4491177915
-dropped,"focus company, but dropped on purpose: sales",5,"Senior Manager, Corporate Sales",Red Hat,"Virginia, USA",Remote,linkedin,2026-11-17,https://www.linkedin.com/jobs/view/4491179722
+dropped,"focus company, but dropped on purpose: sales",5,"Senior Manager, Corporate Sales",Red Hat,"New Jersey, USA",Onsite,linkedin,2026-11-17,https://www.linkedin.com/jobs/view/4491196213
+dropped,"focus company, but dropped on purpose: sales",5,"Senior Manager, Corporate Sales",Red Hat,"Maryland, USA",Remote,linkedin,2026-11-17,https://www.linkedin.com/jobs/view/4491177915
+dropped,"focus company, but dropped on purpose: sales",5,"Senior Manager, Corporate Sales",Red Hat,"Virginia, USA",Onsite,linkedin,2026-11-17,https://www.linkedin.com/jobs/view/4491179722
 dropped,"focus company, but dropped on purpose: sales",5,Territory Sales Executive Manager,Red Hat,"North Carolina, USA",Remote,linkedin,2026-11-17,https://www.linkedin.com/jobs/view/4491179719
 dropped,"focus company, but dropped on purpose: sales",5,"Senior Manager, Corporate Sales",Red Hat,"Pennsylvania, USA",Remote,linkedin,2026-11-17,https://www.linkedin.com/jobs/view/4491177916
 dropped,"focus company, but dropped on purpose: software engineer",5,Software Engineer,Red Hat,"Lowell, MA, USA",Remote,linkedin,2026-11-09,https://www.linkedin.com/jobs/view/4487928228
 dropped,"focus company, but dropped on purpose: software engineer",5,Senior Software Engineer,Red Hat,"Lowell, MA, USA",Remote,linkedin,2026-11-09,https://www.linkedin.com/jobs/view/4487938014
 dropped,"focus company, but dropped on purpose: software engineer",5,Senior Software Engineer,Red Hat,"Raleigh, NC, USA",Remote,linkedin,2026-11-09,https://www.linkedin.com/jobs/view/4487921840
-dropped,"focus company, but dropped on purpose: software engineer",5,Software Engineer,Red Hat,"Raleigh, NC, USA",Remote,linkedin,2026-11-09,https://www.linkedin.com/jobs/view/4487931169
-dropped,"focus company, but dropped on purpose: sales",5,Sales Specialist 3,Red Hat,"California, USA",Remote,linkedin,2026-11-08,https://www.linkedin.com/jobs/view/4487651205
-dropped,"focus company, but dropped on purpose: sales",5,"Senior Director, US Commercial Sales",Red Hat,"Virginia, USA",Onsite,linkedin,2026-11-05,https://www.linkedin.com/jobs/view/4486909458
+dropped,"focus company, but dropped on purpose: sales",5,"Senior Director, US Commercial Sales",Red Hat,"Virginia, USA",Remote,linkedin,2026-11-05,https://www.linkedin.com/jobs/view/4486909458
 dropped,"focus company, but dropped on purpose: sales",5,Territory Sales Executive Manager,Red Hat,"NC, USA",Remote,indeed,2026-11-18,https://www.indeed.com/viewjob?jk=dab10158134dae01
 dropped,"focus company, but dropped on purpose: sales",5,"Senior Manager, Corporate Sales",Red Hat,"PA, USA",Remote,indeed,2026-11-18,https://www.indeed.com/viewjob?jk=1b821e45ef0ced0b
 dropped,"focus company, but dropped on purpose: software engineer",5,Senior Software Engineer,Red Hat,"Raleigh, NC, USA",Remote,indeed,2026-11-09,https://www.indeed.com/viewjob?jk=11a744df6ebad765
