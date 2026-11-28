@@ -1,148 +1,129 @@
-RUN SUMMARY 2026-11-27
+RUN SUMMARY 2026-11-28
 
 SITES
-linkedin: 2405 jobs from 139/162 searches (used)
-indeed: 2030 jobs from 137/162 searches (used)
-bayt: 677 jobs from 118/162 searches (used)
+linkedin: 1815 jobs from 99/162 searches (used)
+indeed: 2028 jobs from 137/162 searches (used)
+bayt: 659 jobs from 119/162 searches (used)
 google: 0 jobs from 0/4 searches (skipped)
 glassdoor: 0 jobs from 0/4 searches (skipped)
 zip_recruiter: 0 jobs from 0/4 searches (skipped)
 
 FILTERS
-Total after removing duplicates: 3017
-Dropped for missing role keyword: 486
-Dropped for seniority: 154
-Dropped for employment type: 55
-Dropped as engineer/specialist (not a manager): 30
-Dropped for exclude words: 329
-Rescued to MAYBE (exclude word but tech title): 15
-Dropped, score 0 (no evidence): 693
-Moved to MAYBE list (score 1-3): 869
-Strong matches before merging repeats: 389
-Merged repeated jobs: 69
-Final strong matches: 320
-Final maybe list: 793
-  Priority companies: 36
-  Industry verified: 209
-  Score 5 or more: 264
+Total after removing duplicates: 2702
+Dropped for missing role keyword: 456
+Dropped for seniority: 148
+Dropped for employment type: 48
+Dropped as engineer/specialist (not a manager): 31
+Dropped for exclude words: 340
+Rescued to MAYBE (exclude word but tech title): 16
+Dropped, score 0 (no evidence): 632
+Moved to MAYBE list (score 1-3): 766
+Strong matches before merging repeats: 276
+Merged repeated jobs: 41
+Final strong matches: 235
+Final maybe list: 708
+  Priority companies: 31
+  Industry verified: 152
+  Score 5 or more: 203
 
-REGIONS (strong matches): USA 156, Canada 108, UAE 28, KSA 13, Qatar 10, Other 5
-SCORES: 10:10, 9:10, 8:14, 7:32, 6:107, 5:91, 4:56
+REGIONS (strong matches): USA 94, Canada 90, UAE 29, KSA 11, Qatar 10, Other 1
+SCORES: 10:7, 9:9, 8:14, 7:34, 6:76, 5:63, 4:32
 
 TOP 15 (score | title | workplace | company | location)
-10 | Incident Manager | Onsite | Bell | Toronto, Ontario, C…
+10 | Incident Manager | Hybrid | Bell | Toronto, Ontario, C…
 10 | Gestionnaire d'incidents | Onsite | Bell | Toronto, Ontario, C…
-10 | Senior Program Manager - AI Infrastruct… | Onsite | Dell Technologies | Dubai, Dubai, Unite…
 10 | Head of Service Delivery Qatar Palestin… | Onsite | Ericsson | Doha, DAW, Qatar | …
-10 | Head of Service Delivery STC-IT Mobily-… | Onsite | Ericsson | Riyadh, Riyadh, Sau…
+10 | Head of Service Delivery STC-IT Mobily-… | Onsite | Ericsson | الرياض, S01, Saudi …
 10 | Head of Service Delivery KSA | Onsite | Ericsson | Riyadh, Riyadh, Sau…
 10 | Director Customer Operations | Onsite | Ericsson | Toronto, Ontario, C…
-10 | Senior Customer Success Manager (Transf… | Onsite | Amazon Web Services | Toronto, ON, Canada
 10 | Senior Customer Success Manager (Transf… | Onsite | Amazon Web Services… | Toronto, Ontario, C…
-10 | Customer Success Manager | Onsite | Salesforce | Dubai, DU, United A…
-9 | Manager, Network Provisioning | Hybrid | Bell | Toronto, Ontario, C…
+9 | Manager, Network Provisioning | Onsite | Bell | Toronto, Ontario, C…
+9 | Directeur(trice) de programme, Réseau d… | Onsite | Bell | Calgary, Alberta, C…
+9 | Technical Infrastructure Program Manage… | Onsite | Amazon Web Services… | Seattle, WA, USA
 9 | Senior Technical Program Manager, Globa… | Onsite | Google | New York, NY, USA
 9 | Technical Program Manager II, Data Cent… | Onsite | Google | Atlanta, GA, USA
 9 | Data Center Operations Manager - Night … | Onsite | Amazon Web Services… | Lithia Springs, GA,…
 9 | Customer Success Program Manager | Onsite | Nokia | Richardson, TX, USA
+9 | Consulting AI Architect - OpenShift (Sa… | Onsite | Red Hat | Riyadh, Riyadh, Sau…
 
 LOWEST 8 STRONG MATCHES
-4 | Director, Service Delivery | Onsite | HAVI | Unverified
-4 | Director, NA Facilities Service Delivery | Onsite | Circle K | Unverified
-4 | Sr. Incident Response Manager-Service M… | Onsite | Target | Unverified
-4 | REGIONAL SERVICE DELIVERY MANAGER | Remote | Groupe SEB | No match in text
-4 | Director of Service Operations | Onsite | Comfort Systems USA… | No match in text
-4 | Executive Director, Service Delivery - … | Onsite | CAI | Unverified
-4 | Service Delivery Manager - Infrastructu… | Onsite | Unisys | Unverified
-4 | Customer Success Manager | Onsite | Epidemic Sound | Unverified
+4 | Director of Service Delivery | Remote | ITCON Services | No match in text
+4 | Director, Employee Benefits, Wellbeing,… | Onsite | New York University | No match in text
+4 | Director of Customer Success | Remote | Raptor Maps | No match in text
+4 | Manager, IT Service Delivery | Onsite | Venture Global LNG | Unverified
+4 | Manager Network Engineering & Operations | Onsite | Optimum | Unverified
+4 | Major Incident Manager | Onsite | Lorven Technologies… | Unverified
+4 | Service Delivery Manager | Onsite | Ladders | Unverified
+4 | Major Incident Manager, Incident Manage… | Onsite | TikTok USDS Joint V… | Unverified
 
 TOP 10 MAYBE (score | title | workplace | company | why)
-7 | Project Manager, Field Services | Hybrid | Bell | score 3 below 4
+9 | Technology Leader, AWS Global Sales | Onsite | Amazon Web Services… | exclude word 'sales' but title has a tech word
+9 | Technology Leader, AWS Global Sales | Onsite | Amazon Web Services | exclude word 'sales' but title has a tech word
+7 | Lead Management Operations | Onsite | Rogers Communicatio… | score 3 below 4
+7 | Director, Delivery CX AI | Onsite | TELUS Digital | score 3 below 4
+7 | Program Director, Bell AI Fabric | Hybrid | Bell | score 3 below 4
 7 | Bilingual Senior Program Manager - Nurs… | Onsite | TELUS | score 3 below 4
 7 | Sr Technical Project Manager (Unit 42 C… | Onsite | Palo Alto Networks | score 3 below 4
-7 | Director, Delivery CX AI | Onsite | TELUS Digital | score 3 below 4
-7 | Principal Technical Program Manager | Onsite | Microsoft | score 3 below 4
 7 | Critical Environment Program Manager | Onsite | Microsoft | score 3 below 4
+7 | Account Executive - Portfolio - Service… | Onsite | Cisco | score 3 below 4
 7 | Sr Engagement Manager | Gestionnaire se… | Remote | Amazon Web Services… | score 3 below 4
-7 | Head of Digital and Agency | Hybrid | Bell | score 3 below 4
-7 | Gestionnaire senior de l'engagement | S… | Remote | Amazon Web Services… | score 3 below 4
-7 | WaveLogic Modem Program Manager | Onsite | Ciena | score 3 below 4
 
-FOCUS COMPANIES (Red Hat): 47 jobs found, every one is listed in results/focus_latest.csv
-MAYBE list | Senior AI Platform Specialist Solution Archi… | Red Hat | Oregon, USA | FOCUS Red Hat: missing role keyword
-MAYBE list | Senior AI Platform Specialist Solution Archi… | Red Hat | California, USA | FOCUS Red Hat: missing role keyword
-MAYBE list | Principal Specialist Solution Architect, App… | Red Hat | Illinois, USA | FOCUS Red Hat: missing role keyword
-MAYBE list | Principal Specialist Solution Architect - Ap… | Red Hat | Texas, USA | FOCUS Red Hat: missing role keyword
+FOCUS COMPANIES (Red Hat): 21 jobs found, every one is listed in results/focus_latest.csv
 MAYBE list | Senior AI Platform Specialist Solution Archi… | Red Hat | CA, USA | FOCUS Red Hat: missing role keyword
 MAYBE list | Principal Specialist Solution Architect - Ap… | Red Hat | TX, USA | FOCUS Red Hat: missing role keyword
-MAYBE list | AI Architect - Top Secret Clearance (TS/SCI … | Red Hat | Virginia, USA | FOCUS Red Hat: missing role keyword
-MAYBE list | Director, Sales_AT&T | Red Hat | Atlanta, GA, USA | FOCUS Red Hat: score 2 below 4
-MAYBE list | Director, Sales_AT&T | Red Hat | Texas, USA | FOCUS Red Hat: score 2 below 4
-MAYBE list | Consulting Services Specialist 2 | Red Hat | Tysons Corner, VA, USA | FOCUS Red Hat: no seniority word in tit…
-MAYBE list | Principal Product Manager - Technical | Red Hat | Raleigh, NC, USA | FOCUS Red Hat: score 2 below 4
-MAYBE list | Principal Product Manager - Technical | Red Hat | Lowell, MA, USA | FOCUS Red Hat: score 2 below 4
-MAYBE list | Principal Product Manager - Technical | Red Hat | Boston, MA, USA | FOCUS Red Hat: score 2 below 4
 MAYBE list | Director, Sales_AT&T | Red Hat | TX, USA | FOCUS Red Hat: score 2 below 4
 MAYBE list | Consulting Services Specialist 2 | Red Hat | Tysons Corner, VA, USA | FOCUS Red Hat: no seniority word in tit…
 MAYBE list | Principal Product Manager - Technical | Red Hat | Boston, MA, USA | FOCUS Red Hat: score 2 below 4
-STRONG MATCH list | Technical Account Manager - Openshift (Remot… | Red Hat | Doha, Doha, Qatar | 
 STRONG MATCH list | Technical Account Manager - Openshift (Remot… | Red Hat | Doha, DAW, Qatar | 
+STRONG MATCH list | Technical Account Manager - Openshift (Remot… | Red Hat | Doha, Doha, Qatar | 
 STRONG MATCH list | Consulting AI Architect - OpenShift (Saudi N… | Red Hat | Riyadh, Riyadh, Saudi… | 
-STRONG MATCH list | Senior Specialist Solution Architect - OpenS… | Red Hat | Texas, USA | 
-STRONG MATCH list | Telco Infrastructure Architect - Cloud/Autom… | Red Hat | Washington, USA | 
-STRONG MATCH list | Telco Infrastructure Architect - Cloud/Autom… | Red Hat | California, USA | 
-STRONG MATCH list | Telco Infrastructure Architect - Cloud/Autom… | Red Hat | Texas, USA | 
-STRONG MATCH list | Technical Account Manager - OpenShift | Red Hat | Minnesota, USA | 
-STRONG MATCH list | Technical Account Manager - OpenShift | Red Hat | Missouri, USA | 
-STRONG MATCH list | Technical Account Manager - OpenShift | Red Hat | Nebraska, USA | 
-STRONG MATCH list | Technical Account Manager | Red Hat | Georgia, USA | 
-STRONG MATCH list | Technical Account Manager - OpenShift | Red Hat | Kansas, USA | 
-STRONG MATCH list | Technical Account Manager - OpenShift | Red Hat | Texas, USA | 
-STRONG MATCH list | Senior Consultant, OpenShift Infrastructure,… | Red Hat | Massachusetts, USA | 
-STRONG MATCH list | Senior Consultant, OpenShift Infrastructure,… | Red Hat | Virginia, USA | 
 STRONG MATCH list | Senior Specialist Solution Architect - OpenS… | Red Hat | TX, USA | 
 STRONG MATCH list | Technical Account Manager | Red Hat | GA, USA | 
 STRONG MATCH list | Technical Account Manager - OpenShift | Red Hat | MN, USA | 
 STRONG MATCH list | Senior Consultant, OpenShift Infrastructure,… | Red Hat | VA, USA | 
-dropped | OpenShift Sales Specialist - Cross Segment | Red Hat | North Carolina, USA | focus company, but dropped on purpose: …
+STRONG MATCH list | Technical Account Manager - OpenShift | Red Hat | Nebraska, USA | 
+STRONG MATCH list | Technical Account Manager | Red Hat | Georgia, USA | 
+STRONG MATCH list | Technical Account Manager - OpenShift | Red Hat | Minnesota, USA | 
+STRONG MATCH list | Technical Account Manager - OpenShift | Red Hat | Missouri, USA | 
 dropped | OpenShift Sales Specialist - Cross Segment | Red Hat | NC, USA | focus company, but dropped on purpose: …
 dropped | Sales Specialist 4-Top Secret security clear… | Red Hat | Tysons Corner, VA, USA | focus company, but dropped on purpose: …
-dropped | Senior Director, US Commercial Sales | Red Hat | Virginia, USA | focus company, but dropped on purpose: …
-dropped | Senior Software Engineer in Crypto (Smart Ca… | Red Hat | Boston, MA, USA | focus company, but dropped on purpose: …
+dropped | Partner Sales Account Manager 5 | Red Hat | MO, USA | focus company, but dropped on purpose: …
+dropped | Senior Manager, Corporate Sales | Red Hat | PA, USA | focus company, but dropped on purpose: …
+dropped | Territory Sales Executive Manager | Red Hat | NC, USA | focus company, but dropped on purpose: …
 
 DROPPED SAMPLES (to check nothing good is lost)
-- missing role: 486 total; examples:
-    Team Supervisor - Tempe, AZ | Onsite | Consumer Cellular, … | missing role keyword
-    TEMP Overnight Awake Support Worker | Onsite | Community Living Fo… | missing role keyword
-    أمين سر التنفيذ* | Onsite | Dubai Courts Depart… | missing role keyword
-    Sales Specialist II - Commercial Busine… | Onsite | Telus | missing role keyword
-    Spare Part Engineer | Onsite | Fives | missing role keyword
-    School Counsellor | Onsite | International Schoo… | missing role keyword
-- seniority: 154 total; examples:
-    Customer Care - Telesales - خدمة عملاء … | Onsite | Fast Fit | no seniority word i…
-    Delivery Driver | Onsite | Boston Pizza | no seniority word i…
-    Administrator (Support & Operations) | Onsite | HCLTech | no seniority word i…
-    CX & Enablement Operations Consultant | Hybrid | Verizon | no seniority word i…
-    Responsable, Analyste des opérations co… | Onsite | Beanfield | no seniority word i…
-    Gas Service Representative | Onsite | Pacific Gas and Ele… | no seniority word i…
-- engineer/specialist: 30 total; examples:
-    Senior Service Sales Engineer | Onsite | KONE | engineer/specialist…
-    Lead ICT Engineer - Data Centers | Onsite | UCC Holding | engineer/specialist…
-    Consultant/ Senior Consultant – Enginee… | Onsite | Grant Thornton | engineer/specialist…
+- missing role: 456 total; examples:
+    Sr. HR Officer - Automotive | Onsite | Alghanim Industries | missing role keyword
+    Senior Telco OSS Support Engineer (Kube… | Onsite | Comarch | missing role keyword
+    Expert - Energy Components (Hybrid Work… | Onsite | Quorum Software | missing role keyword
+    Social Impact Consultant | Onsite | Kainos | missing role keyword
+    Field Technician II | Remote | HARBOR IT | missing role keyword
+    Automotive Claims Management | Onsite | Stylo | missing role keyword
+- seniority: 148 total; examples:
+    CNA - Night Shift (NOC), Now Hiring in … | Onsite | North Shore Health … | no seniority word i…
+    Administrator - Operations & Maintenanc… | Onsite | SD (Middle East) LLC | no seniority word i…
+    Solutions Architect – Customer Applicat… | Onsite | Emirates Group | no seniority word i…
+    Account Cloud Engineer | Onsite | Oracle | no seniority word i…
+    Security Operations Center (SOC) Analyst | Remote | Nexus IT | no seniority word i…
+    Technical Operations Engineer, Systems … | Onsite | IREN | no seniority word i…
+- engineer/specialist: 31 total; examples:
+    Key Distribution Account Senior Special… | Onsite | Schneider Electric | engineer/specialist…
+    Technology Support Analyst (Shift Lead ) | Onsite | IC | engineer/specialist…
+    Senior Engineer - Cloud Operations | Remote | Hypori | engineer/specialist…
     Senior Software Engineer, Backend (Cont… | Remote | Returnly Technologi… | engineer/specialist…
-    Lead IT Systems Engineer | Onsite | Faze 3 Consulting | engineer/specialist…
-    Generator Site Lead Engineer | Onsite | Siemens Energy | engineer/specialist…
-- exclude word: 329 total; examples:
-    Construction Lead (LQ4N Piping) | Onsite | Brunel | exclude word: const…
-    Business Development & Sales Manager | Onsite | Mystic Advertising | exclude word: sales
-    Technical Sales Manager Process Packages | Onsite | Progressive GE | exclude word: sales
-    Manager Sales Performance | Onsite | Talabat | exclude word: sales
-    Senior Officer- Support Services and Lo… | Onsite | Roads and Transport… | exclude word: logis…
-    Sales Manager(Hospitality background ) | Onsite | Mövenpick Hotels & … | exclude word: sales
-- score 0: 693 total; examples:
-    Regional Account Manager, West | Remote | Tempus | score 0: no role or…
-    Commercial Manager | Onsite | Air Products | score 0: no role or…
-    Associate National Accounts Manager, Me… | Remote | Face Reality | score 0: no role or…
-    We're Hiring: Customer Experience Manag… | Onsite | Zad Holding | score 0: no role or…
-    Head of Airlines | Hybrid | Amadeus | score 0: no role or…
-    Head Watch Clerk - (Internal/External- … | Onsite | City Of Prince Geor… | score 0: no role or…
+    Senior Cloud Security Engineer | Onsite | Property Finder | engineer/specialist…
+    Lead Engineer Customer Solutions | Onsite | Kuehne+Nagel | engineer/specialist…
+- exclude word: 340 total; examples:
+    Head, Finance | Onsite | Government Of Alber… | exclude word: finan…
+    Director, Revenue Management, Managed H… | Remote | Choice Hotels | exclude word: hotel
+    Assistant Director of Food & Beverage | Onsite | Accor | exclude word: assis…
+    Sales Executive | Onsite | Delivery Hero SE | exclude word: sales
+    Sales Manager - Kuwait | Onsite | Brunel | exclude word: sales
+    Supply Chain - Group Director | Onsite | Fakeeh Care Group | exclude word: suppl…
+- score 0: 632 total; examples:
+    Manager of Clinic Services | Onsite | CBI HEALTH | score 0: no role or…
+    Regional Key Account Manager | Onsite | TrinaTracker | score 0: no role or…
+    Outsource Lead Restricted Markets | Remote | Pfizer | score 0: no role or…
+    Bilingual Account Manager | Onsite | Rent-A-Center | score 0: no role or…
+    Vaccine Account Manager - Riyadh / Qass… | Remote | GSK | score 0: no role or…
+    Key Account Manager - Abu Dhabi | Onsite | Suite Life Resident… | score 0: no role or…
